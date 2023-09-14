@@ -1,0 +1,14 @@
+    recipes.remove(null);
+    recipes.addShaped(null * 1, [
+        [null, null, null],
+        [null, null, null],
+        [null, null, null]
+    ]);
+        //Holystone ores  
+    var holystone = MaterialBuilder(32004, "holystone")
+    .dust(1)
+    .build();
+    val Holystone = "aether:holystone";
+    StoneType.create(16, "holystone", "oreHolystone", holystone, Holystone);
+    
+
