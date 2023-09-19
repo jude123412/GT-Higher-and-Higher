@@ -1,5 +1,5 @@
-//block
-tile.contenttweaker.iron_enriched_stone.name=Iron Enriched Stone
-//item
-item.contenttweaker.basic_ingot_mold.name=Basic Ingot Mold
-item.contenttweaker.basic_empty_shape_plate.name=Basic Empty Shape Mold
+item.contenttweaker.nether_key.name=Nether Key
+item.contenttweaker.twilight_key.name=Twilight Key
+item.contenttweaker.aether_key.name=Aether Key
+item.contenttweaker.end_key.name=End Key
+block.contenttweaker.bundle_of_wood=Bundle of Wood
