@@ -9,14 +9,20 @@ import mods.contenttweaker.AxisAlignedBB;
 import mods.contenttweaker.IItemFoodEaten;
 import crafttweaker.potions.IPotion;
 
-//Blocks
-var iron_enriched_stone = VanillaFactory.createBlock("iron_enriched_stone", <blockmaterial:rock>);
-iron_enriched_stone.register();
+//Items
+var nether_key = VanillaFactory.createItem("nether_key");
+nether_key.maxStackSize = 1;
+nether_key.register();
 
-var basic_ingot_mold = VanillaFactory.createItem("basic_ingot_mold");
-basic_ingot_mold.maxStackSize = 1;
-basic_ingot_mold.register();
+var twilight_key = VanillaFactory.createItem("twilight_key");
+twilight_key.maxStackSize = 1;
+twilight_key.register();
 
-var basic_empty_shape_plate = VanillaFactory.createItem("basic_empty_shape_plate");
-basic_empty_shape_plate.maxStackSize = 16;
-basic_empty_shape_plate.register();
+var aether_key = VanillaFactory.createItem("aether_key");
+aether_key.maxStackSize = 1;
+aether_key.register();
+
+
+var end_key = VanillaFactory.createItem("end_key");
+end_key.maxStackSize = 1;
+end_key.register();
