@@ -1,0 +1,38 @@
+{
+    "weight": 40,
+    "density": 0.25,
+    "max_height": 40,
+    "min_height": 10,
+    "dimension_filter": [
+      "dimension_id:0"
+    ],
+    "vein_populator": {
+      "type": "surface_rock",
+      "material": "slimond"
+    },
+    "generator": {
+      "type": "layered",
+      "radius": [
+        20,
+        28
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+          "primary": "ore:slimond"
+        },
+        {
+          "secondary": "ore:slimond"
+        },
+        {
+          "between": "ore:coal"
+        },
+        {
+          "sporadic": "ore:lead"
+        }
+      ]
+    }
+  }
+  

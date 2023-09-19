@@ -3,13 +3,13 @@
   "density": 0.2,
   "min_height": 5,
   "max_height": 40,
+  "dimension_filter": [
+    "dimension_id:-1"
+  ],
   "vein_populator": {
     "type": "surface_rock",
     "material": "redstone"
   },
-  "dimension_filter": [
-    "is_nether"
-  ],
   "generator": {
     "type": "layered",
     "radius": [

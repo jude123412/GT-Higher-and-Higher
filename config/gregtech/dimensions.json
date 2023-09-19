@@ -1,6 +1,10 @@
 {
   "dims": [
     {
+      "dimID": -1,
+      "dimName": "Nether"
+    },
+    {
       "dimID": 0,
       "dimName": "Overworld"
     },
@@ -9,11 +13,11 @@
       "dimName": "End"
     },
     {
-      "dimID": -1,
-      "dimName": "Nether"
+      "dimID": 2,
+      "dimName": "Twilight"
     },
     {
-      "dimID": 4,
+      "dimID": 3,
       "dimName": "Aether"
     }
   ]

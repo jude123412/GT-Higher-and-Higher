@@ -1,0 +1,75 @@
+# Configuration file
+
+crystals {
+
+    "minecraft:prismarine_crystals" {
+        # Metadata of the crystal item [range: 0 ~ 32767, default: 0]
+        I:metadata=0
+    }
+
+    "minecraft:emerald" {
+        # Metadata of the crystal item [range: 0 ~ 32767, default: 0]
+        I:metadata=0
+    }
+
+    "minecraft:quartz" {
+        # Metadata of the crystal item [range: 0 ~ 32767, default: 0]
+        I:metadata=0
+    }
+
+    "minecraft:diamond" {
+        # Metadata of the crystal item [range: 0 ~ 32767, default: 0]
+        I:metadata=0
+    }
+
+}
+
+fuelvalues {
+
+    oil 
+    {
+        I:burnTime=1000
+        I:powerPreTick=1
+    }
+
+    creosote 
+    {
+        I:burnTime=1000
+        I:powerPreTick=5
+    }
+    
+    biodiesel 
+    {
+        I:burnTime=1000
+        I:powerPreTick=10
+    }
+
+    diesel 
+    {
+        I:burnTime=1000
+        I:powerPreTick=15
+    }
+
+    cetaneboosteddiesel 
+    {
+        I:burnTime=1000
+        I:powerPreTick=25
+    }
+
+    gasoline{
+        I:burnTime=1000
+        I:powerPreTick=30
+    }
+
+    highoctanegasoline{
+        I:burnTime=1000
+        I:powerPreTick=60
+    }
+}
+
+general {
+    # Regenerate Default Fuel Values
+    B:generateDefaults=false
+}
+
+

@@ -1,0 +1,38 @@
+{
+    "weight": 40,
+    "density": 0.25,
+    "max_height": 40,
+    "min_height": 10,
+    "dimension_filter": [
+      "dimension_id:2"
+    ],
+    "vein_populator": {
+      "type": "surface_rock",
+      "material": "cryolite"
+    },
+    "generator": {
+      "type": "layered",
+      "radius": [
+        24,
+        24
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+          "primary": "ore:aluminium"
+        },
+        {
+          "secondary": "ore:cryolite"
+        },
+        {
+          "between": "ore:sodium_difluoride"
+        },
+        {
+          "sporadic": "ore:cryolite"
+        }
+      ]
+    }
+  }
+  
