@@ -19,6 +19,10 @@
     {
       "dimID": 3,
       "dimName": "Aether"
+    },
+    {
+      "dimID": -28,
+      "dimName": "Earth Moon"
     }
   ]
 }

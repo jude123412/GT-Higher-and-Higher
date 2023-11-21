@@ -113,6 +113,15 @@ import mods.gregtech.recipe.RecipeMap;
     .duration(800)
     .EUt(32)
     .buildAndRegister();
+//Freezer
+    assembler.recipeBuilder()
+    .inputs(<aether_legacy:holystone> * 8, <aether_legacy:skyroot_plank> * 4, <ore:screwGold> * 4, <ore:gemEnchantedGravitite> * 1, <ore:circuitMv> * 1)
+    .outputs(<aether_legacy:freezer> * 1)
+    .fluidInputs(<liquid:glowstone> * 1152)
+    .duration(800)
+    .EUt(128)
+    .buildAndRegister();
+
 //Mana Pool
     assembler.recipeBuilder()
     .inputs(<ore:plateZanite> * 4, <ore:plateEnchantedGravitite> * 4, <ore:plateManasteel> * 4, <ore:livingrock> * 8, <botania:pool:2> * 1)
@@ -120,22 +129,6 @@ import mods.gregtech.recipe.RecipeMap;
     .fluidInputs(<liquid:mana> * 1000)
     .duration(800)
     .EUt(32)
-    .buildAndRegister();
-//Gallium Arsenide
-    blast_furnace.recipeBuilder()
-    .inputs(<ore:dustGallium> * 1, <ore:dustArsenic> * 1)
-    .outputs(<gregtech:meta_dust:351> * 2)
-    .duration(1200)
-    .property("temperature", 1200)
-    .EUt(120)
-    .buildAndRegister();
-//Aluminium Ingot
-    blast_furnace.recipeBuilder()
-    .inputs(<ore:dustCryolite> * 9, <ore:dustAluminium> * 4)
-    .outputs(<gregtech:meta_ingot:2> * 5, <gregtech:meta_dust:32012> * 3)
-    .duration(900)
-    .property("temperature", 1800)
-    .EUt(120)
     .buildAndRegister();
 //Phenolic Circuit Board
     assembler.recipeBuilder()

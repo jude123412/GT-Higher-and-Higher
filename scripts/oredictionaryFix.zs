@@ -13,6 +13,25 @@ import crafttweaker.item.IItemStack;
     val oreRedstone = <ore:oreRedstone>;
     val oreLapis = <ore:oreLapis>;
 
+//Custom Circuit Tiers UHV+
+    val circuitZpm = <ore:circuitZpm>;
+    val circuitUv = <ore:circuitUv>;
+    val circuitUhv = <ore:circuitUhv>;
+    val circuitUev = <ore:circuitUev>;
+    val circuitUiv = <ore:circuitUiv>;
+    val circuitUxv = <ore:circuitUxv>;
+    val circuitOpv = <ore:circuitOpv>;
+    val circuitMax = <ore:circuitMax>;
+
+    circuitZpm.add(<contenttweaker:slimeware_processor>);
+    circuitUv.addItems([<contenttweaker:slimeware_assembly>, <contenttweaker:lasertronic_processor>]);
+    circuitUhv.addItems([<contenttweaker:slimeware_supercomputer>, <contenttweaker:lasertronic_assembly>, <contenttweaker:bohemian_processor>]);
+    circuitUev.addItems([<contenttweaker:slimeware_mainframe>, <contenttweaker:lasertronic_supercomputer>, <contenttweaker:bohemian_assembly>, <contenttweaker:anti_processor>]);
+    circuitUiv.addItems([<contenttweaker:lasertronic_mainframe>, <contenttweaker:bohemian_supercomputer>, <contenttweaker:anti_assembly>, <contenttweaker:multiversally_evolved_technolically_advanced_processor>]);
+    circuitUxv.addItems([<contenttweaker:bohemian_mainframe>, <contenttweaker:anti_supercomputer>, <contenttweaker:multiversally_evolved_technolically_advanced_assembly>]);
+    circuitOpv.addItems([<contenttweaker:anti_mainframe>, <contenttweaker:multiversally_evolved_technolically_advanced_supercomputer>]);
+    circuitMax.addItems([<contenttweaker:multiversally_evolved_technolically_advanced_mainframe>]);
+
 //Ore Dictionary Remove
     oreGold.remove(<minecraft:gold_ore>);
     oreIron.remove(<minecraft:iron_ore>);

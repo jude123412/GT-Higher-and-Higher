@@ -30,8 +30,19 @@
     var vanadium_magnetite = <material:vanadium_magnetite>;
     var gypsum = <material:gypsum>;
     var fullers_earth = <material:fullers_earth>;
+    var cobalt = <material:cobalt>;
+    var ruby = <material:ruby>;
+    var scandium = <material:scandium>;
+    var armalcolite = <material:armalcolite>;
+    var pyroxene = <material:pyroxene>;
+    var tantalum = <material:tantalum>;
+    var iron_iii_chloride = <material:iron_iii_chloride>;
+    var mica = <material:mica>;
+
     realgar.addFlags(["disable_decomposition"]);
-    cobaltite.addFlags(["disable_decomposition"]);
+    cobaltite.addFlags(["disable_decomposition", "no_smelt"]);
+    ruby.addFlags(["disable_decomposition"]);
+    ruby.setFormula("Al₂O₃");
     tricalcium_phosphate.addGem();
     pyrochlore.addGem();
     graphite.addGem();
@@ -48,4 +59,11 @@
     vanadium_magnetite.addGem();
     gypsum.addGem();
     fullers_earth.addGem();
-        
+    scandium.addIngot();
+    armalcolite.setFormula("(Mg,Fe²⁺)Ti₂O₅");    
+    pyroxene.setFormula("Zn₁Sc₁(Si,Al)₂O₆");
+    tantalum.addBlastTemp(3290);
+    cobalt.addBlastTemp(1768);
+    iron_iii_chloride.addFluid("fluid", true);
+    mica.addIngot();
+    mica.addFlags(["generate_plate", "generate_foil"]);

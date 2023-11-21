@@ -15,3 +15,22 @@ gregtech.material.formaldehyde=Formaldehyde
 gregtech.material.phenol_formaldehyde_resin=Phenol-Formaldehyde Resin
 gregtech.material.cryolite=Cryolite
 gregtech.material.sodium_difluoride=Sodium Difluoride
+gregtech.material.brezinaite=Brezinaite
+gregtech.material.pyroxene=Pyroxene
+gregtech.material.armalcolite=Armalcolite
+gregtech.material.spinel=Spinel
+gregtech.material.cosmic_neutronium=Cosmic Neutronium
+gregtech.material.draconium=Draconium
+gregtech.material.draconium_awakened=Awakened Draconium
+gregtech.material.cosmic_neutronium=Cosmic Neutronium
+gregtech.material.raw_infinity=Raw Infinity
+gregtech.material.infinity=Infinity
+gregtech.material.gold_gallium=Gold Gallium
+gregtech.material.gold_titanium=Gold Titanium
+gregtech.material.tgt_alloy=TGT Alloy
+gregtech.material.infernorite=Infernorite
+gregtech.material.crynorium=Crynorium
+gregtech.material.galasium=Galasium
+
+//Coil Rename
+tile.wire_coil.cupronickel.name=LCR Heating Coil Block

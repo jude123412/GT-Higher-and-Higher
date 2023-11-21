@@ -12,3 +12,4 @@
     StoneType.create(16, "holystone", "oreHolystone", holystone, Holystone);
     
 
+	.property("cleanroom", "sterile_cleanroom")

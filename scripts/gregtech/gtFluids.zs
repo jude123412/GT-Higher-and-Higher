@@ -25,40 +25,12 @@ import mods.gregtech.recipe.RecipeMap;
     .duration(800)
     .EUt(32)
     .buildAndRegister();
-//Cobaltite->Arsenic,Cobalt,Sulfur Dioxide
-    blast_furnace.recipeBuilder()
-    .inputs(<ore:dustCobaltite> * 3)
-    .outputs(<gregtech:meta_dust:32008> * 2)
-    .fluidInputs(<liquid:oxygen> * 2000)
-    .fluidOutputs(<liquid:sulfur_dioxide> * 1000)
-    .duration(400)
-    .property("temperature", 1200)
-    .EUt(120)
-    .buildAndRegister();
-//Realgar->Arsenic,Sulfur Dioxide
-    blast_furnace.recipeBuilder()
-    .inputs(<ore:dustRealgar> * 8)
-    .outputs(<gregtech:meta_dust:6> * 4)
-    .fluidInputs(<liquid:oxygen> * 8000)
-    .fluidOutputs(<liquid:sulfur_dioxide> * 4000)
-    .duration(1600)
-    .property("temperature", 1200)
-    .EUt(120)
-    .buildAndRegister();
-//Formaldehyde EBF
-    blast_furnace.recipeBuilder()
-    .inputs(<ore:logWood> * 1)
-    .chancedOutput(<gregtech:meta_dust:254> * 1, 2500, 500)
-    .fluidOutputs(<liquid:formaldehyde> * 100)
-    .duration(80)
-    .property("temperature", 1200)
-    .EUt(64)
-    .buildAndRegister();
 //Sodium Hydroxide
     chemical_reactor.recipeBuilder()
     .inputs(<ore:dustSodium> * 1)
-    .outputs(<gregtech:meta_dust:377> * 1)
-    .fluidInputs(<liquid:oxygen> * 1000, <liquid:hydrogen> * 1000)
+    .fluidInputs(<liquid:water> * 1000)
+    .outputs(<gregtech:meta_dust:377> * 3)
+    .fluidOutputs(<liquid:hydrogen> * 1000)
     .duration(200)
     .EUt(24)
     .buildAndRegister();

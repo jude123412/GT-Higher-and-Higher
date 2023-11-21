@@ -103,7 +103,73 @@ import mods.aether_legacy.Enchanter;
         <forestry:habitat_former>,
         <forestry:database>,
         <forestry:rainmaker>,
-        <forestry:alveary.plain>
+        <forestry:alveary.plain>,
+        <minecraft:wooden_sword>,
+        <minecraft:wooden_shovel>,
+        <minecraft:wooden_pickaxe>,
+        <minecraft:wooden_axe>,
+        <minecraft:wooden_hoe>,
+        <minecraft:stone_sword>,
+        <minecraft:stone_shovel>,
+        <minecraft:stone_pickaxe>,
+        <minecraft:stone_axe>,
+        <minecraft:stone_hoe>,
+        <forestry:ffarm>.withTag({FarmBlock: 0}),
+        <forestry:ffarm>.withTag({FarmBlock: 1}),
+        <forestry:ffarm>.withTag({FarmBlock: 2}),
+        <forestry:ffarm>.withTag({FarmBlock: 3}),
+        <forestry:ffarm>.withTag({FarmBlock: 4}),
+        <forestry:ffarm>.withTag({FarmBlock: 5}),
+        <forestry:ffarm>.withTag({FarmBlock: 6}),
+        <forestry:ffarm>.withTag({FarmBlock: 7}),
+        <forestry:ffarm>.withTag({FarmBlock: 8}),
+        <forestry:ffarm>.withTag({FarmBlock: 9}),
+        <forestry:ffarm>.withTag({FarmBlock: 10}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 0}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 1}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 2}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 3}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 4}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 5}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 6}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 7}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 8}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 9}),
+        <forestry:ffarm:2>.withTag({FarmBlock: 10}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 0}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 1}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 2}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 3}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 4}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 5}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 6}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 7}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 8}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 9}),
+        <forestry:ffarm:3>.withTag({FarmBlock: 10}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 0}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 1}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 2}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 3}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 4}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 5}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 6}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 7}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 8}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 9}),
+        <forestry:ffarm:4>.withTag({FarmBlock: 10}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 0}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 1}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 2}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 3}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 4}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 5}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 6}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 7}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 8}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 9}),
+        <forestry:ffarm:5>.withTag({FarmBlock: 10}),
+        <aether_legacy:freezer>,
     ]as IItemStack[];
 
     for items in CraftingTableArray{
@@ -122,7 +188,7 @@ import mods.aether_legacy.Enchanter;
 //Furnace Recipe Removal
     val FurnaceArray = [
         <minecraft:coal:1>,
-        <gregtech:meta_item_1:353>
+        <gregtech:meta_item_1:353>,
     ]as IItemStack[];
 
     for items in FurnaceArray {
@@ -195,12 +261,3 @@ import mods.aether_legacy.Enchanter;
     for items in alterArray{
         Enchanter.removeEnchantment(items);
     }
-//EBF Recipe Removal
-<recipemap:electric_blast_furnace>.findRecipe(120, [<gregtech:meta_dust:272>], [<liquid:oxygen> * 3000]).remove();
-<recipemap:electric_blast_furnace>.findRecipe(120, [<gregtech:meta_dust:2> * 1, <gregtech:meta_item_1:461>.withTag({Configuration: 1}) * 1], null).remove();
-<recipemap:electric_blast_furnace>.findRecipe(120, [<gregtech:meta_dust:2> * 1, <gregtech:meta_item_1:461>.withTag({Configuration: 2}) * 1], [<liquid:nitrogen> * 1000]).remove();
-//Mixer Recipe Removal
-<recipemap:mixer>.findRecipe(7, [<gregtech:meta_dust:6> * 1, <gregtech:meta_dust:39> * 1, <gregtech:meta_item_1:461>.withTag({Configuration: 1}) * 1], null).remove();
-//Assembler Recipe Removal
-<recipemap:assembler>.findRecipe(7, [<gregtech:meta_foil:25> * 4, <gregtech:meta_plate:1617> * 1], [<liquid:glue> * 100]).remove();
-<recipemap:assembler>.findRecipe(30, [<gregtech:meta_dust:1617> * 1, <gregtech:meta_item_1:461>.withTag({Configuration: 1}) * 1], [<liquid:glue> * 50]).remove();
