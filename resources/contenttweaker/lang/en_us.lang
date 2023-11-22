@@ -1,5 +1,5 @@
 item.contenttweaker.nether_key.name=Nether Key
-item.contenttweaker.twilight_key.name=Twilight Keylasertronic
+item.contenttweaker.twilight_key.name=Twilight Key
 item.contenttweaker.aether_key.name=Aether Key
 item.contenttweaker.end_key.name=End Key
 item.contenttweaker.slimeware_processor.name=Slimeware Processor
@@ -72,6 +72,7 @@ item.contenttweaker.technologically_advanced_smd_resistor.name=Technologically A
 item.contenttweaker.technologically_advanced_smd_capacitor.name=Technologically Advanced SMD Capacitor
 item.contenttweaker.technologically_advanced_smd_diode.name=Technologically Advanced SMD Diode
 item.contenttweaker.technologically_advanced_smd_inductor.name=Technologically Advanced SMD Inductor
+item.contenttweaker.emitter_ulv.name=ULV Emitter
 tile.contenttweaker.gt_coil_1.name=Cupronickel Coil Block
 tile.contenttweaker.gt_coil_2.name=Kanthal Coil Block
 tile.contenttweaker.gt_coil_3.name=Nichrome Coil Block

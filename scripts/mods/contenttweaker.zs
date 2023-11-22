@@ -311,8 +311,12 @@ var technologically_advanced_smd_inductor = VanillaFactory.createItem("technolog
 technologically_advanced_smd_inductor.maxStackSize = 64;
 technologically_advanced_smd_inductor.register();
 
-//GT Coils
+//Components
+var emitter_ulv = VanillaFactory.createItem("emitter_ulv");
+emitter_ulv.maxStackSize = 64;
+emitter_ulv.register();
 
+//GT Coils
 var gt_coil_1 = VanillaFactory.createBlock("gt_coil_1", <blockmaterial:iron>);
 gt_coil_1.setToolClass("wrench");
 gt_coil_1.setToolLevel(2);

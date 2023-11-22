@@ -65,6 +65,7 @@ global thermal_sep                  as RecipeMap = RecipeMap.getByName("thermal_
 global unpackager                   as RecipeMap = RecipeMap.getByName("unpacker");
 global vacuum_freezer               as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wiremill                     as RecipeMap = RecipeMap.getByName("wiremill");
+global steam_turbine	 			as RecipeMap = RecipeMap.getByName("steam_turbine");
 
 
 

@@ -24,110 +24,110 @@ val integratedCircuit = <gregtech:meta_item_1:593>;
 val ram = <gregtech:meta_item_1:592>;
 
 //Circuit Assembler removal
-    val circuitAssemblerEUt = [
-        16,
-        16,
-        16,
-        16,
-        24,
-        24,
-        30,
-        30,
-    ]as int[];
+val circuitAssemblerEUt = [
+    16,
+    16,
+    16,
+    16,
+    24,
+    24,
+    30,
+    30,
+]as int[];
 
-    val circuitAssemblerItemInputs = [
-        [circuitBoard * 1, smdResistor * 2, redAlloyWire1x * 2, vacuumTube * 2],
-        [circuitBoard * 1, smdResistor * 2, redAlloyWire1x * 2, vacuumTube * 2],
-        [circuitBoard * 1, integratedCircuit * 1, smdResistor * 2, smdDiode * 2, fineCopperWire * 2, tinBolt * 2],
-        [circuitBoard * 1, integratedCircuit * 1, smdResistor * 2, smdDiode * 2, fineCopperWire * 2, tinBolt * 2],
-        [goodCircuitBoard * 1, integratedLogicCircuit * 2, smdResistor * 2, smdDiode * 2, fineGoldWire * 4, silverBolt * 4],
-        [goodCircuitBoard * 1, integratedLogicCircuit * 2, smdResistor * 2, smdDiode * 2, fineGoldWire * 4, silverBolt * 4],
-        [goodIntegratedCircuit * 2, integratedCircuit * 2, ram * 2, smdTransistor * 4, fineElectrumWire * 8, annealedCopperBolt * 8],
-        [goodIntegratedCircuit * 2, integratedCircuit * 2, ram * 2, smdTransistor * 4, fineElectrumWire * 8, annealedCopperBolt * 8],
-    ]as IIngredient[][];
+val circuitAssemblerItemInputs = [
+    [circuitBoard * 1, smdResistor * 2, redAlloyWire1x * 2, vacuumTube * 2],
+    [circuitBoard * 1, smdResistor * 2, redAlloyWire1x * 2, vacuumTube * 2],
+    [circuitBoard * 1, integratedCircuit * 1, smdResistor * 2, smdDiode * 2, fineCopperWire * 2, tinBolt * 2],
+    [circuitBoard * 1, integratedCircuit * 1, smdResistor * 2, smdDiode * 2, fineCopperWire * 2, tinBolt * 2],
+    [goodCircuitBoard * 1, integratedLogicCircuit * 2, smdResistor * 2, smdDiode * 2, fineGoldWire * 4, silverBolt * 4],
+    [goodCircuitBoard * 1, integratedLogicCircuit * 2, smdResistor * 2, smdDiode * 2, fineGoldWire * 4, silverBolt * 4],
+    [goodIntegratedCircuit * 2, integratedCircuit * 2, ram * 2, smdTransistor * 4, fineElectrumWire * 8, annealedCopperBolt * 8],
+    [goodIntegratedCircuit * 2, integratedCircuit * 2, ram * 2, smdTransistor * 4, fineElectrumWire * 8, annealedCopperBolt * 8],
+]as IIngredient[][];
 
-    val CircuitAssemblerFluidInputs = [
-        [<liquid:soldering_alloy> * 72],
-        [<liquid:tin> * 144],
-        [<liquid:soldering_alloy> * 72],
-        [<liquid:tin> * 144],
-        [<liquid:soldering_alloy> * 72],
-        [<liquid:tin> * 144],
-        [<liquid:soldering_alloy> * 72],
-        [<liquid:tin> * 144],
-        [<liquid:soldering_alloy> * 72],
-        [<liquid:tin> * 144],
-    ]as ILiquidStack[][];
+val CircuitAssemblerFluidInputs = [
+    [<liquid:soldering_alloy> * 72],
+    [<liquid:tin> * 144],
+    [<liquid:soldering_alloy> * 72],
+    [<liquid:tin> * 144],
+    [<liquid:soldering_alloy> * 72],
+    [<liquid:tin> * 144],
+    [<liquid:soldering_alloy> * 72],
+    [<liquid:tin> * 144],
+    [<liquid:soldering_alloy> * 72],
+    [<liquid:tin> * 144],
+]as ILiquidStack[][];
 
-        for index, recipeEUt in circuitAssemblerEUt {
-            val recipeInputs = circuitAssemblerItemInputs[index];
-            val recipeFluidInputs = CircuitAssemblerFluidInputs[index];
+    for index, recipeEUt in circuitAssemblerEUt {
+        val recipeInputs = circuitAssemblerItemInputs[index];
+        val recipeFluidInputs = CircuitAssemblerFluidInputs[index];
 
-            <recipemap:circuit_assembler>.findRecipe(recipeEUt, recipeInputs, recipeFluidInputs).remove();
-        }
+        <recipemap:circuit_assembler>.findRecipe(recipeEUt, recipeInputs, recipeFluidInputs).remove();
+    }
 
 //Primative Circuits LV->MV
-    circuit_assembler.recipeBuilder()
-    .inputs(circuitBoard * 1, <ore:componentResistor> * 2, redAlloyWire1x * 2, <ore:circuitUlv> * 2)
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs(<gregtech:meta_item_1:621> * 1)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(circuitBoard * 1, <ore:componentResistor> * 2, redAlloyWire1x * 2, <ore:circuitUlv> * 2)
+.fluidInputs(<liquid:soldering_alloy> * 72)
+.outputs(<gregtech:meta_item_1:621> * 1)
+.duration(200)
+.EUt(16)
+.buildAndRegister();
 
-    circuit_assembler.recipeBuilder()
-    .inputs(circuitBoard * 1, <ore:componentResistor> * 2, redAlloyWire1x * 2, <ore:circuitUlv> * 2)
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs(<gregtech:meta_item_1:621> * 1)
-    .duration(200)
-    .EUt(16)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(circuitBoard * 1, <ore:componentResistor> * 2, redAlloyWire1x * 2, <ore:circuitUlv> * 2)
+.fluidInputs(<liquid:tin> * 144)
+.outputs(<gregtech:meta_item_1:621> * 1)
+.duration(200)
+.EUt(16)
+.buildAndRegister();
 
 //Primative Circuits LV->HV
-    circuit_assembler.recipeBuilder()
-    .inputs(circuitBoard * 1, integratedCircuit * 1, <ore:componentResistor> * 2, <ore:componentDiode> * 2, fineCopperWire * 2, tinBolt * 2)
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs(<gregtech:meta_item_1:623> * 1)
-    .duration(200)
-    .EUt(64)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(circuitBoard * 1, integratedCircuit * 1, <ore:componentResistor> * 2, <ore:componentDiode> * 2, fineCopperWire * 2, tinBolt * 2)
+.fluidInputs(<liquid:soldering_alloy> * 72)
+.outputs(<gregtech:meta_item_1:623> * 1)
+.duration(200)
+.EUt(64)
+.buildAndRegister();
 
-    circuit_assembler.recipeBuilder()
-    .inputs(circuitBoard * 1, integratedCircuit * 1, <ore:componentResistor> * 2, <ore:componentDiode> * 2, fineCopperWire * 2, tinBolt * 2)
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs(<gregtech:meta_item_1:623> * 1)
-    .duration(200)
-    .EUt(64)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(circuitBoard * 1, integratedCircuit * 1, <ore:componentResistor> * 2, <ore:componentDiode> * 2, fineCopperWire * 2, tinBolt * 2)
+.fluidInputs(<liquid:tin> * 144)
+.outputs(<gregtech:meta_item_1:623> * 1)
+.duration(200)
+.EUt(64)
+.buildAndRegister();
 
-    circuit_assembler.recipeBuilder()
-    .inputs(goodCircuitBoard * 1, integratedLogicCircuit * 2, <ore:componentResistor> * 1, <ore:componentDiode> * 2, fineGoldWire * 4, silverBolt * 4)
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs(<gregtech:meta_item_1:624> * 1)
-    .duration(400)
-    .EUt(96)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(goodCircuitBoard * 1, integratedLogicCircuit * 2, <ore:componentResistor> * 1, <ore:componentDiode> * 2, fineGoldWire * 4, silverBolt * 4)
+.fluidInputs(<liquid:soldering_alloy> * 72)
+.outputs(<gregtech:meta_item_1:624> * 1)
+.duration(400)
+.EUt(96)
+.buildAndRegister();
 
-    circuit_assembler.recipeBuilder()
-    .inputs(goodCircuitBoard * 1, integratedLogicCircuit * 2, <ore:componentResistor> * 1, <ore:componentDiode> * 2, fineGoldWire * 4, silverBolt * 4)
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs(<gregtech:meta_item_1:624> * 1)
-    .duration(400)
-    .EUt(96)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(goodCircuitBoard * 1, integratedLogicCircuit * 2, <ore:componentResistor> * 1, <ore:componentDiode> * 2, fineGoldWire * 4, silverBolt * 4)
+.fluidInputs(<liquid:tin> * 144)
+.outputs(<gregtech:meta_item_1:624> * 1)
+.duration(400)
+.EUt(96)
+.buildAndRegister();
 
-    circuit_assembler.recipeBuilder()
-    .inputs(goodIntegratedCircuit * 1, integratedCircuit * 2, ram * 2, <ore:componentTransistor> * 4, fineElectrumWire * 8, annealedCopperBolt * 8)
-    .fluidInputs(<liquid:soldering_alloy> * 72)
-    .outputs(<gregtech:meta_item_1:625> * 1)
-    .duration(800)
-    .EUt(128)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(goodIntegratedCircuit * 1, integratedCircuit * 2, ram * 2, <ore:componentTransistor> * 4, fineElectrumWire * 8, annealedCopperBolt * 8)
+.fluidInputs(<liquid:soldering_alloy> * 72)
+.outputs(<gregtech:meta_item_1:625> * 1)
+.duration(800)
+.EUt(128)
+.buildAndRegister();
 
-    circuit_assembler.recipeBuilder()
-    .inputs(goodIntegratedCircuit * 1, integratedCircuit * 2, ram * 2, <ore:componentTransistor> * 4, fineElectrumWire * 8, annealedCopperBolt * 8)
-    .fluidInputs(<liquid:tin> * 144)
-    .outputs(<gregtech:meta_item_1:625> * 1)
-    .duration(800)
-    .EUt(128)
-    .buildAndRegister();
+circuit_assembler.recipeBuilder()
+.inputs(goodIntegratedCircuit * 1, integratedCircuit * 2, ram * 2, <ore:componentTransistor> * 4, fineElectrumWire * 8, annealedCopperBolt * 8)
+.fluidInputs(<liquid:tin> * 144)
+.outputs(<gregtech:meta_item_1:625> * 1)
+.duration(800)
+.EUt(128)
+.buildAndRegister();
