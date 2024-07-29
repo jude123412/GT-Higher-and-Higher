@@ -1,0 +1,11 @@
+{
+  "axe_stats": {
+    "damage": 2.0,
+    "speed": -3.0,
+    "harvest_level": 3,
+    "food_given": 2,
+    "saturation_per_food": 0.5,
+    "chance_to_feed": 50,
+    "item_rarity": "common"
+  }
+}

@@ -1,10 +1,6 @@
 {
   "dims": [
     {
-      "dimID": -1,
-      "dimName": "Nether"
-    },
-    {
       "dimID": 0,
       "dimName": "Overworld"
     },
@@ -13,16 +9,16 @@
       "dimName": "End"
     },
     {
-      "dimID": 2,
-      "dimName": "Twilight"
+      "dimID": -1,
+      "dimName": "Nether"
     },
     {
-      "dimID": 3,
-      "dimName": "Aether"
+      "dimID": -1007,
+      "dimName": "Ceres"
     },
     {
-      "dimID": -28,
-      "dimName": "Earth Moon"
+      "dimID": -1008,
+      "dimName": "Pluto"
     }
   ]
 }

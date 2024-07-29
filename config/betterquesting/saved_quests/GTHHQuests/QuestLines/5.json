@@ -1,0 +1,79 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "for all your armor and equipment needs.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "aether_legacy:zanite_sword",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "Armor and Equipment",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 107,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -72,
+      "y:3": -72
+    },
+    "1:10": {
+      "id:3": 108,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -72,
+      "y:3": 0
+    },
+    "2:10": {
+      "id:3": 109,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -72,
+      "y:3": -36
+    },
+    "3:10": {
+      "id:3": 110,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -72,
+      "y:3": -108
+    },
+    "4:10": {
+      "id:3": 111,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -36,
+      "y:3": 0
+    },
+    "5:10": {
+      "id:3": 112,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -36,
+      "y:3": -72
+    },
+    "6:10": {
+      "id:3": 113,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 0,
+      "y:3": 0
+    },
+    "7:10": {
+      "id:3": 114,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": 0,
+      "y:3": -72
+    }
+  }
+}
