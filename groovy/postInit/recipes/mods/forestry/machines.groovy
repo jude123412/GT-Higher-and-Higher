@@ -1,0 +1,1 @@
+crafting.removeByOutput(item('forestry:carpenter'))

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "gregtech:items/metaitems/component.semi_stable_anti_matter_circuit_board"
+  }
+}

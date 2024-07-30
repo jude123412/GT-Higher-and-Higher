@@ -1,36 +1,40 @@
-gregtech.material.manasteel=Mana Steel
-gregtech.material.terrasteel=Terra Steel
-gregtech.material.elven_elementium=Elementium
-gregtech.material.gaia=Gaia
-gregtech.material.livingrock=Living Rock
-gregtech.material.livingwood=Living Wood
-gregtech.material.holystone=Holystone
-gregtech.material.wrought_iron_blend=Wrought Iron Blend
-gregtech.material.slimond=Slimond
-gregtech.material.zanite=Zanite
-gregtech.material.enchanted_gravitite=Enchanted Gravitite
-gregtech.material.mana=Mana
-gregtech.material.cobalt_arsenide=Cobalt Arsenide
-gregtech.material.formaldehyde=Formaldehyde
-gregtech.material.phenol_formaldehyde_resin=Phenol-Formaldehyde Resin
-gregtech.material.cryolite=Cryolite
-gregtech.material.sodium_difluoride=Sodium Difluoride
-gregtech.material.brezinaite=Brezinaite
-gregtech.material.pyroxene=Pyroxene
-gregtech.material.armalcolite=Armalcolite
-gregtech.material.spinel=Spinel
-gregtech.material.cosmic_neutronium=Cosmic Neutronium
-gregtech.material.draconium=Draconium
-gregtech.material.draconium_awakened=Awakened Draconium
-gregtech.material.cosmic_neutronium=Cosmic Neutronium
-gregtech.material.raw_infinity=Raw Infinity
-gregtech.material.infinity=Infinity
-gregtech.material.gold_gallium=Gold Gallium
-gregtech.material.gold_titanium=Gold Titanium
-gregtech.material.tgt_alloy=TGT Alloy
-gregtech.material.infernorite=Infernorite
-gregtech.material.crynorium=Crynorium
-gregtech.material.galasium=Galasium
+//Integrated/Wetware SMD Components
+metaitem.component.smd.diode.name=Integrated SMD Diode
+metaitem.component.smd.capacitor.name=Integrated SMD Capacitor
+metaitem.component.smd.transistor.name=Integrated SMD Transistor
+metaitem.component.smd.resistor.name=Integrated SMD Resistor
+metaitem.component.smd.inductor.name=Integrated SMD Inductor
+metaitem.component.advanced_smd.diode.name=Wetware SMD Diode
+metaitem.component.advanced_smd.capacitor.name=Wetware SMD Capacitor
+metaitem.component.advanced_smd.transistor.name=Wetware SMD Transistor
+metaitem.component.advanced_smd.resistor.name=Wetware SMD Resistor
+metaitem.component.advanced_smd.inductor.name=Wetware SMD Inductor
+metaitem.component.quick_and_dirty_portal_generator.name=Quick and Dirty Portal Generator
+metaitem.component.quick_and_dirty_portal_generator.tooltip=Use this to travel to the Twilight Forest!
+metaitem.unfired.juicer.name=Unfired Juicer
+metaitem.unfired.bakeware.name=Unfired Bakeware
 
-//Coil Rename
-tile.wire_coil.cupronickel.name=LCR Heating Coil Block
+//Crystal Components
+metaitem.engraved.crystal_chip.name=Engraved Crystal Chip
+metaitem.engraved.crystal_chip.tooltip=Future Of Crystal Computing
+metaitem.crystal.raw.name=Raw Green Crystal Chip
+metaitem.crystal.raw.tooltip=Raw Crystal Chips, Yummy
+metaitem.crystal.raw_chip.name=Raw Green Crystal Chip Parts
+metaitem.crystal.raw_chip.tooltip=Base Crystal For Growing Crystal Chips
+metaitem.crystal.central_processing_unit.name=Green Crystal CPU
+metaitem.crystal.central_processing_unit.tooltip=Where Crystal Computing Comes To Life
+metaitem.crystal.system_on_chip.name=Green Crystal SoC
+metaitem.crystal.system_on_chip.tooltip=A Full System Grown From A Crystal
+
+//Ores
+item.material.oreprefix.oreMoon=Moon %s Ore
+item.material.oreprefix.oreCeres=Ceres %s Ore
+item.material.oreprefix.orePluto=Pluto %s Ore
+
+//Ore Materials
+gregtech.material.aer_vis_crystal=Aer Vis Crystal
+gregtech.material.terra_vis_crystal=Terra Vis Crystal
+gregtech.material.ignis_vis_crystal=Ignis Vis Crystal
+gregtech.material.aqua_vis_crystal=Aqua Vis Crystal
+gregtech.material.ordo_vis_crystal=Ordo Vis Crystal
+gregtech.material.perditio_vis_crystal=Perditio Vis Crystal

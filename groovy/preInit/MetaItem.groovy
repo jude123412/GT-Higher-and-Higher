@@ -13,6 +13,13 @@ eventManager.listen {
                 gthhMetaItems.addItem(3, "component.mica_insulator_sheet")
                 gthhMetaItems.addItem(4, "component.mica_insulator_foil")
 
+                //Pam's Harvest Craft 
+                gthhMetaItems.addItem(5, "unfired.juicer")
+                gthhMetaItems.addItem(6, "unfired.bakeware")
+                
+                //Twilight Forest
+                gthhMetaItems.addItem(10, "component.quick_and_dirty_portal_generator")
+                
                 //Raw Elements
                 gthhMetaItems.addItem(100, "raw.aluminium")
 
