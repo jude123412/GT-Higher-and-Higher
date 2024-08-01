@@ -1077,121 +1077,6 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:book_forester, Forester's Manual
-forestry:habitat_former:0, Habitat Former
-forestry:habitat_screen, Habitat Screen
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
-forestry:genetic_filter:0, Genetic Filter
-forestry:crate, Crate
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, Greenhouse Energy Distributor
-forestry:greenhouse:4, Greenhouse Control
-forestry:greenhouse:5, Greenhouse Screen
-forestry:climatiser:0, Greenhouse Hygroregulator
-forestry:climatiser:1, Greenhouse Heater
-forestry:climatiser:2, Greenhouse Fan
-forestry:climatiser:3, Greenhouse Humidifier
-forestry:climatiser:4, Greenhouse Dehumidifier
-forestry:greenhouse.window:0, Greenhouse Window
-forestry:greenhouse.window_up:0, Greenhouse Roof Window
-forestry:apiarist_bag, Apiarist's Backpack
-forestry:lepidopterist_bag, Lepidopterist's Backpack
-forestry:miner_bag, Mining Backpack
-forestry:miner_bag_t2, Woven Mining Backpack
-forestry:digger_bag, Digging Backpack
-forestry:digger_bag_t2, Woven Digging Backpack
-forestry:forester_bag, Foresting Backpack
-forestry:forester_bag_t2, Woven Foresting Backpack
-forestry:hunter_bag, Hunting Backpack
-forestry:hunter_bag_t2, Woven Hunting Backpack
-forestry:adventurer_bag, Adventuring Backpack
-forestry:adventurer_bag_t2, Woven Adventuring Backpack
-forestry:builder_bag, Building Backpack
-forestry:builder_bag_t2, Woven Building Backpack
 forestry:fluid.bio.ethanol, Ethanol
 forestry:fluid.biomass, Biomass
 forestry:fluid.glass, Liquid Glass
@@ -1204,75 +1089,11 @@ forestry:fluid.short.mead, Short Mead
 forestry:can, item.for.can.name
 forestry:capsule, item.for.capsule.name
 forestry:refractory, item.for.refractory.name
-forestry:worktable:0, Worktable
-forestry:charcoal:0, Block of Charcoal
-forestry:wood_pile:0, Wood Pile
-forestry:wood_pile_decorative:0, Decorative Wood Pile
-forestry:ash_block_0:0, Ash Block
-forestry:ash_block_1:0, Ash Block
-forestry:ash_block_2:0, Ash Block
-forestry:ash_block_3:0, Ash Block
-forestry:loam:0, Loam
-forestry:habitat_locator, Habitat Locator
-forestry:imprinter, Imprinter
-forestry:cart.beehouse:0, Minecart with Bee House
-forestry:cart.beehouse:1, Minecart with Apiary
-forestry:frame_untreated, Untreated Frame
-forestry:frame_impregnated, Impregnated Frame
-forestry:frame_proven, Proven Frame
-forestry:honey_drop:0, Honey Drop
-forestry:pollen:0, Pollen Cluster
-forestry:pollen:1, Crystalline Pollen Cluster
-forestry:propolis:0, Propolis
-forestry:propolis:1, Sticky Propolis
-forestry:propolis:3, Silky Propolis
-forestry:honeydew, Honeydew
-forestry:royal_jelly, Royal Jelly
-forestry:wax_cast, Wax Cast
-forestry:bee_combs:0, Honey Comb
-forestry:bee_combs:2, Simmering Comb
-forestry:bee_combs:3, Stringy Comb
-forestry:bee_combs:4, Frozen Comb
-forestry:bee_combs:5, Dripping Comb
-forestry:bee_combs:6, Silky Comb
-forestry:bee_combs:7, Parched Comb
-forestry:bee_combs:15, Mossy Comb
-forestry:bee_combs:16, Mellow Comb
-forestry:apiarist_helmet, Apiarist's Hat
-forestry:apiarist_chest, Apiarist's Shirt
-forestry:apiarist_legs, Apiarist's Pants
-forestry:apiarist_boots, Apiarist's Shoes
-forestry:scoop, Scoop
-forestry:smoker, Bee Smoker
-forestry:apiary:0, Apiary
-forestry:bee_house:0, Bee House
-forestry:bee_chest:0, Apiarist's Chest
-forestry:beehives:0, Forest Hive
-forestry:beehives:1, Meadows Hive
-forestry:beehives:2, Modest Hive
-forestry:beehives:3, Tropical Hive
-forestry:beehives:4, Ender Hive
-forestry:beehives:5, Wintry Hive
-forestry:beehives:6, Marshy Hive
-forestry:candle:0, Unlit Candle
-forestry:stump:0, Candle Stump
-forestry:bee_combs_0:0, Honey Comb Block
-forestry:bee_combs_0:2, Simmering Comb Block
-forestry:bee_combs_0:3, Stringy Comb Block
-forestry:bee_combs_0:4, Frozen Comb Block
-forestry:bee_combs_0:5, Dripping Comb Block
-forestry:bee_combs_0:6, Silky Comb Block
-forestry:bee_combs_0:7, Parched Comb Block
-forestry:bee_combs_0:15, Mossy Comb Block
-forestry:bee_combs_1:0, Mellow Comb Block
-forestry:alveary.plain:0, Alveary
-forestry:alveary.swarmer:0, Alveary Swarmer
-forestry:alveary.fan:0, Alveary Fan
-forestry:alveary.heater:0, Alveary Heater
-forestry:alveary.hygro:0, Alveary Hygroregulator
-forestry:alveary.stabiliser:0, Alveary Stabiliser
-forestry:alveary.sieve:0, Alveary Sieve
-forestry:database:0, Database
+forestry:crate, Crate
+forestry:genetic_filter:0, Genetic Filter
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
 forestry:grafter, Grafter
 forestry:grafter_proven, Proven Grafter
 forestry:logs.0:0, Larch Wood
@@ -1725,9 +1546,112 @@ forestry:leaves.decorative.2:0, Papaya Leaves
 forestry:leaves.decorative.2:1, Date Palm Leaves
 forestry:leaves.decorative.2:2, White Poplar Leaves
 forestry:tree_chest:0, Arborist's Chest
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
+forestry:worktable:0, Worktable
+forestry:database:0, Database
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block_0:0, Ash Block
+forestry:ash_block_1:0, Ash Block
+forestry:ash_block_2:0, Ash Block
+forestry:ash_block_3:0, Ash Block
+forestry:loam:0, Loam
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, Greenhouse Energy Distributor
+forestry:greenhouse:4, Greenhouse Control
+forestry:greenhouse:5, Greenhouse Screen
+forestry:climatiser:0, Greenhouse Hygroregulator
+forestry:climatiser:1, Greenhouse Heater
+forestry:climatiser:2, Greenhouse Fan
+forestry:climatiser:3, Greenhouse Humidifier
+forestry:climatiser:4, Greenhouse Dehumidifier
+forestry:greenhouse.window:0, Greenhouse Window
+forestry:greenhouse.window_up:0, Greenhouse Roof Window
 forestry:butterfly_chest:0, Lepidopterist's Chest
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
 forestry:arboretum:0, Arboretum (Managed)
 forestry:arboretum:1, Arboretum (Manual)
 forestry:farm_crops:0, Farm (Managed)
@@ -1742,6 +1666,82 @@ forestry:farm_ender:0, Ender Farm (Managed)
 forestry:farm_ender:1, Ender Farm (Manual)
 forestry:peat_bog:0, Peat Bog (Managed)
 forestry:peat_bog:1, Peat Bog (Manual)
+forestry:habitat_former:0, Habitat Former
+forestry:habitat_screen, Habitat Screen
+forestry:book_forester, Forester's Manual
+forestry:habitat_locator, Habitat Locator
+forestry:imprinter, Imprinter
+forestry:cart.beehouse:0, Minecart with Bee House
+forestry:cart.beehouse:1, Minecart with Apiary
+forestry:frame_untreated, Untreated Frame
+forestry:frame_impregnated, Impregnated Frame
+forestry:frame_proven, Proven Frame
+forestry:honey_drop:0, Honey Drop
+forestry:pollen:0, Pollen Cluster
+forestry:pollen:1, Crystalline Pollen Cluster
+forestry:propolis:0, Propolis
+forestry:propolis:1, Sticky Propolis
+forestry:propolis:3, Silky Propolis
+forestry:honeydew, Honeydew
+forestry:royal_jelly, Royal Jelly
+forestry:wax_cast, Wax Cast
+forestry:bee_combs:0, Honey Comb
+forestry:bee_combs:2, Simmering Comb
+forestry:bee_combs:3, Stringy Comb
+forestry:bee_combs:4, Frozen Comb
+forestry:bee_combs:5, Dripping Comb
+forestry:bee_combs:6, Silky Comb
+forestry:bee_combs:7, Parched Comb
+forestry:bee_combs:15, Mossy Comb
+forestry:bee_combs:16, Mellow Comb
+forestry:apiarist_helmet, Apiarist's Hat
+forestry:apiarist_chest, Apiarist's Shirt
+forestry:apiarist_legs, Apiarist's Pants
+forestry:apiarist_boots, Apiarist's Shoes
+forestry:scoop, Scoop
+forestry:smoker, Bee Smoker
+forestry:apiary:0, Apiary
+forestry:bee_house:0, Bee House
+forestry:bee_chest:0, Apiarist's Chest
+forestry:beehives:0, Forest Hive
+forestry:beehives:1, Meadows Hive
+forestry:beehives:2, Modest Hive
+forestry:beehives:3, Tropical Hive
+forestry:beehives:4, Ender Hive
+forestry:beehives:5, Wintry Hive
+forestry:beehives:6, Marshy Hive
+forestry:candle:0, Unlit Candle
+forestry:stump:0, Candle Stump
+forestry:bee_combs_0:0, Honey Comb Block
+forestry:bee_combs_0:2, Simmering Comb Block
+forestry:bee_combs_0:3, Stringy Comb Block
+forestry:bee_combs_0:4, Frozen Comb Block
+forestry:bee_combs_0:5, Dripping Comb Block
+forestry:bee_combs_0:6, Silky Comb Block
+forestry:bee_combs_0:7, Parched Comb Block
+forestry:bee_combs_0:15, Mossy Comb Block
+forestry:bee_combs_1:0, Mellow Comb Block
+forestry:alveary.plain:0, Alveary
+forestry:alveary.swarmer:0, Alveary Swarmer
+forestry:alveary.fan:0, Alveary Fan
+forestry:alveary.heater:0, Alveary Heater
+forestry:alveary.hygro:0, Alveary Hygroregulator
+forestry:alveary.stabiliser:0, Alveary Stabiliser
+forestry:alveary.sieve:0, Alveary Sieve
+forestry:apiarist_bag, Apiarist's Backpack
+forestry:lepidopterist_bag, Lepidopterist's Backpack
+forestry:miner_bag, Mining Backpack
+forestry:miner_bag_t2, Woven Mining Backpack
+forestry:digger_bag, Digging Backpack
+forestry:digger_bag_t2, Woven Digging Backpack
+forestry:forester_bag, Foresting Backpack
+forestry:forester_bag_t2, Woven Foresting Backpack
+forestry:hunter_bag, Hunting Backpack
+forestry:hunter_bag_t2, Woven Hunting Backpack
+forestry:adventurer_bag, Adventuring Backpack
+forestry:adventurer_bag_t2, Woven Adventuring Backpack
+forestry:builder_bag, Building Backpack
+forestry:builder_bag_t2, Woven Building Backpack
 gendustry:mutagen, Mutagen
 gendustry:liquiddna, Liquid DNA
 gendustry:protein, Protein
@@ -2362,32 +2362,6 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Block
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Energy Distributor
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Control
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Screen
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Hygroregulator
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Heater
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Fan
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Humidifier
-appliedenergistics2:facade:0, Cable Facade - Greenhouse Dehumidifier
-appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
-appliedenergistics2:facade:0, Cable Facade - Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - Loam
-appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
-appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
-appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
-appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
-appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
-appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Larch Wood
 appliedenergistics2:facade:0, Cable Facade - Teak Wood
 appliedenergistics2:facade:0, Cable Facade - Desert Acacia Wood
@@ -2551,6 +2525,32 @@ appliedenergistics2:facade:0, Cable Facade - Sipiri Leaves
 appliedenergistics2:facade:0, Cable Facade - Papaya Leaves
 appliedenergistics2:facade:0, Cable Facade - Date Palm Leaves
 appliedenergistics2:facade:0, Cable Facade - White Poplar Leaves
+appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
+appliedenergistics2:facade:0, Cable Facade - Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Ash Block
+appliedenergistics2:facade:0, Cable Facade - Loam
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Block
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Energy Distributor
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Control
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Screen
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Hygroregulator
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Heater
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Fan
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Humidifier
+appliedenergistics2:facade:0, Cable Facade - Greenhouse Dehumidifier
+appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
+appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
+appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
+appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
+appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
+appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Certus Quartz Block
 appliedenergistics2:facade:0, Cable Facade - Certus Quartz Pillar
 appliedenergistics2:facade:0, Cable Facade - Chiseled Certus Quartz Block
@@ -3218,7 +3218,6 @@ appliedenergistics2:facade:0, Cable Facade - Iapetus Gravel
 appliedenergistics2:facade:0, Cable Facade - Fossil Block
 appliedenergistics2:facade:0, Cable Facade - Nuclear Bomb
 appliedenergistics2:facade:0, Cable Facade - Fire Bomb
-appliedenergistics2:facade:0, Cable Facade - Lead Ore
 appliedenergistics2:facade:0, Cable Facade - Potash
 appliedenergistics2:facade:0, Cable Facade - Marble
 appliedenergistics2:facade:0, Cable Facade - Marble Bricks
@@ -3968,11 +3967,12 @@ appliedenergistics2:facade:0, Cable Facade - Block of Red Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of HSS-E
 appliedenergistics2:facade:0, Cable Facade - Block of HSS-S
 appliedenergistics2:facade:0, Cable Facade - Block of Blue Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of gregtech.material.albite
-appliedenergistics2:facade:0, Cable Facade - Block of gregtech.material.anorthite
-appliedenergistics2:facade:0, Cable Facade - Block of gregtech.material.plagioclase
-appliedenergistics2:facade:0, Cable Facade - Block of gregtech.material.pyroxene
-appliedenergistics2:facade:0, Cable Facade - Block of gregtech.material.ammoniated_silicate
+appliedenergistics2:facade:0, Cable Facade - Block of Albite
+appliedenergistics2:facade:0, Cable Facade - Block of Anorthite
+appliedenergistics2:facade:0, Cable Facade - Block of Plagioclase
+appliedenergistics2:facade:0, Cable Facade - Block of Pyroxene
+appliedenergistics2:facade:0, Cable Facade - Block of Ammoniated Silicate
+appliedenergistics2:facade:0, Cable Facade - Block of Precious Metals
 appliedenergistics2:facade:0, Cable Facade - Aluminium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Europium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Iridium Frame Box
@@ -5675,96 +5675,111 @@ appliedenergistics2:facade:0, Cable Facade - Basalt Basaltic Mineral Sand Ore
 appliedenergistics2:facade:0, Cable Facade - Moon Basaltic Mineral Sand Ore
 appliedenergistics2:facade:0, Cable Facade - Ceres Basaltic Mineral Sand Ore
 appliedenergistics2:facade:0, Cable Facade - Pluto Basaltic Mineral Sand Ore
-appliedenergistics2:facade:0, Cable Facade - gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Nether gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - End gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Sand gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Red Sand gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Diorite gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Andesite gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Marble gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Basalt gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Moon gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Ceres gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - Pluto gregtech.material.albite Ore
-appliedenergistics2:facade:0, Cable Facade - gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Nether gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - End gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Sand gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Red Sand gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Diorite gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Andesite gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Marble gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Basalt gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Moon gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Ceres gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - Pluto gregtech.material.anorthite Ore
-appliedenergistics2:facade:0, Cable Facade - gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Nether gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - End gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Sand gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Red Sand gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Diorite gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Andesite gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Marble gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Basalt gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Moon gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Ceres gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - Pluto gregtech.material.plagioclase Ore
-appliedenergistics2:facade:0, Cable Facade - gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Nether gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - End gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Sand gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Red Sand gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Diorite gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Andesite gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Marble gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Basalt gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Moon gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Ceres gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - Pluto gregtech.material.pyroxene Ore
-appliedenergistics2:facade:0, Cable Facade - gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Nether gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - End gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Sand gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Red Sand gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Diorite gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Andesite gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Marble gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Basalt gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Moon gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Ceres gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - Pluto gregtech.material.carbonate Ore
-appliedenergistics2:facade:0, Cable Facade - gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Nether gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - End gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Sand gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Red Sand gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Diorite gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Andesite gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Granite gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Marble gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Basalt gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Moon gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Ceres gregtech.material.ammoniated_silicate Ore
-appliedenergistics2:facade:0, Cable Facade - Pluto gregtech.material.ammoniated_silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Albite Ore
+appliedenergistics2:facade:0, Cable Facade - End Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Albite Ore
+appliedenergistics2:facade:0, Cable Facade - Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - End Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Anorthite Ore
+appliedenergistics2:facade:0, Cable Facade - Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - End Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Plagioclase Ore
+appliedenergistics2:facade:0, Cable Facade - Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - End Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Pyroxene Ore
+appliedenergistics2:facade:0, Cable Facade - Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - End Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Carbonate Ore
+appliedenergistics2:facade:0, Cable Facade - Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - End Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Ammoniated Silicate Ore
+appliedenergistics2:facade:0, Cable Facade - Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - End Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Sand Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Red Sand Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Diorite Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Andesite Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Granite Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Marble Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Basalt Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Moon Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Ceres Precious Metals Ore
+appliedenergistics2:facade:0, Cable Facade - Pluto Precious Metals Ore
 appliedenergistics2:facade:0, Cable Facade - Logistics Block Frame
 appliedenergistics2:facade:0, Cable Facade - Logistics MJ Power Provider
 appliedenergistics2:facade:0, Cable Facade - Andesite Cobblestone
@@ -6555,6 +6570,169 @@ botania:altgrass:3, Scorched Grass
 botania:altgrass:4, Infused Grass
 botania:altgrass:5, Mutated Grass
 botania:animatedtorch, tile.animatedTorch.name
+botania:livingwood0stairs, tile.livingwood0Stairs.name
+botania:livingwood0slab:0, Livingwood Slab
+botania:livingwood0wall, tile.livingwood0Wall.name
+botania:livingwood1stairs, tile.livingwood1Stairs.name
+botania:livingwood1slab:0, Livingwood Plank Slab
+botania:livingrock0stairs, tile.livingrock0Stairs.name
+botania:livingrock0slab:0, Livingrock Slab
+botania:livingrock0wall, tile.livingrock0Wall.name
+botania:livingrock1stairs, tile.livingrock1Stairs.name
+botania:livingrock1slab:0, Livingrock Brick Slab
+botania:dreamwood0stairs, tile.dreamwood0Stairs.name
+botania:dreamwood0slab:0, Dreamwood Slab
+botania:dreamwood0wall, tile.dreamwood0Wall.name
+botania:dreamwood1stairs, tile.dreamwood1Stairs.name
+botania:dreamwood1slab:0, Dreamwood Plank Slab
+botania:quartztypedark:0, Block of Smokey Quartz
+botania:quartztypedark:1, Chiseled Smokey Quartz Block
+botania:quartztypedark:2, Pillar Smokey Quartz Block
+botania:quartzslabdarkhalf:0, Smokey Quartz Slab
+botania:quartzstairsdark, tile.quartzStairsDark.name
+botania:quartztypemana:0, Block of Mana Quartz
+botania:quartztypemana:1, Chiseled Mana Quartz Block
+botania:quartztypemana:2, Pillar Mana Quartz Block
+botania:quartzslabmanahalf:0, Mana Quartz Slab
+botania:quartzstairsmana, tile.quartzStairsMana.name
+botania:quartztypeblaze:0, Block of Blaze Quartz
+botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
+botania:quartztypeblaze:2, Pillar Blaze Quartz Block
+botania:quartzslabblazehalf:0, Blaze Quartz Slab
+botania:quartzstairsblaze, tile.quartzStairsBlaze.name
+botania:quartztypelavender:0, Block of Lavender Quartz
+botania:quartztypelavender:1, Chiseled Lavender Quartz Block
+botania:quartztypelavender:2, Pillar Lavender Quartz Block
+botania:quartzslablavenderhalf:0, Lavender Quartz Slab
+botania:quartzstairslavender, tile.quartzStairsLavender.name
+botania:quartztypered:0, Block of Redquartz
+botania:quartztypered:1, Chiseled Redquartz Block
+botania:quartztypered:2, Pillar Redquartz Block
+botania:quartzslabredhalf:0, Redquartz Slab
+botania:quartzstairsred, tile.quartzStairsRed.name
+botania:quartztypeelf:0, Block of Elven Quartz
+botania:quartztypeelf:1, Chiseled Elven Quartz Block
+botania:quartztypeelf:2, Pillar Elven Quartz Block
+botania:quartzslabelfhalf:0, Elven Quartz Slab
+botania:quartzstairself, tile.quartzStairsElf.name
+botania:quartztypesunny:0, Block of Sunny Quartz
+botania:quartztypesunny:1, Chiseled Sunny Quartz Block
+botania:quartztypesunny:2, Pillar Sunny Quartz Block
+botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
+botania:quartzstairssunny, tile.quartzStairsSunny.name
+botania:biomestonea:0, Metamorphic Forest Stone
+botania:biomestonea:1, Metamorphic Plains Stone
+botania:biomestonea:2, Metamorphic Mountain Stone
+botania:biomestonea:3, Metamorphic Fungal Stone
+botania:biomestonea:4, Metamorphic Swamp Stone
+botania:biomestonea:5, Metamorphic Desert Stone
+botania:biomestonea:6, Metamorphic Taiga Stone
+botania:biomestonea:7, Metamorphic Mesa Stone
+botania:biomestonea:8, Metamorphic Forest Cobblestone
+botania:biomestonea:9, Metamorphic Plains Cobblestone
+botania:biomestonea:10, Metamorphic Mountain Cobblestone
+botania:biomestonea:11, Metamorphic Fungal Cobblestone
+botania:biomestonea:12, Metamorphic Swamp Cobblestone
+botania:biomestonea:13, Metamorphic Desert Cobblestone
+botania:biomestonea:14, Metamorphic Taiga Cobblestone
+botania:biomestonea:15, Metamorphic Mesa Cobblestone
+botania:biomestoneb:0, Metamorphic Forest Stone Bricks
+botania:biomestoneb:1, Metamorphic Plains Stone Bricks
+botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
+botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
+botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
+botania:biomestoneb:5, Metamorphic Desert Stone Bricks
+botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
+botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
+botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
+botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
+botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
+botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
+botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
+botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
+botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
+botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
+botania:pavement:0, White Portuguese Pavement
+botania:pavement:1, Black Portuguese Pavement
+botania:pavement:2, Blue Portuguese Pavement
+botania:pavement:3, Red Portuguese Pavement
+botania:pavement:4, Yellow Portuguese Pavement
+botania:pavement:5, Green Portuguese Pavement
+botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
+botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
+botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
+botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
+botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
+botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
+botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
+botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
+botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
+botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
+botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
+botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
+botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
+botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
+botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
+botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
+botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
+botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
+botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
+botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
+botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
+botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
+botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
+botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
+botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
+botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
+botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
+botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
+botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
+botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
+botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
+botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
+botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
+botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
+botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
+botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
+botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
+botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
+botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
+botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
+botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
+botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
+botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
+botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
+botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
+botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
+botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
+botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
+botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
+botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
+botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
+botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
+botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
+botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
+botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
+botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
+botania:pavement0stairs, tile.pavement0Stairs.name
+botania:pavement0slab:0, White Portuguese Pavement Slab
+botania:pavement1stairs, tile.pavement1Stairs.name
+botania:pavement1slab:0, Black Portuguese Pavement Slab
+botania:pavement2stairs, tile.pavement2Stairs.name
+botania:pavement2slab:0, Blue Portuguese Pavement Slab
+botania:pavement3stairs, tile.pavement3Stairs.name
+botania:pavement3slab:0, Red Portuguese Pavement Slab
+botania:pavement4stairs, tile.pavement4Stairs.name
+botania:pavement4slab:0, Yellow Portuguese Pavement Slab
+botania:pavement5stairs, tile.pavement5Stairs.name
+botania:pavement5slab:0, Green Portuguese Pavement Slab
+botania:shimmerrock0slab:0, Shimmerrock Slab
+botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
+botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
+botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
+botania:managlasspane, tile.manaGlassPane.name
+botania:elfglasspane, tile.elfGlassPane.name
+botania:bifrostpermpane, tile.bifrostPermPane.name
 botania:lexicon, item.lexicon.name
 botania:petal:0, Mystical White Petal
 botania:petal:1, Mystical Orange Petal
@@ -6890,169 +7068,6 @@ botania:supercloudpendant, item.superCloudPendant.name
 botania:thirdeye, item.thirdEye.name
 botania:astrolabe, item.astrolabe.name
 botania:goddesscharm, item.goddessCharm.name
-botania:livingwood0stairs, tile.livingwood0Stairs.name
-botania:livingwood0slab:0, Livingwood Slab
-botania:livingwood0wall, tile.livingwood0Wall.name
-botania:livingwood1stairs, tile.livingwood1Stairs.name
-botania:livingwood1slab:0, Livingwood Plank Slab
-botania:livingrock0stairs, tile.livingrock0Stairs.name
-botania:livingrock0slab:0, Livingrock Slab
-botania:livingrock0wall, tile.livingrock0Wall.name
-botania:livingrock1stairs, tile.livingrock1Stairs.name
-botania:livingrock1slab:0, Livingrock Brick Slab
-botania:dreamwood0stairs, tile.dreamwood0Stairs.name
-botania:dreamwood0slab:0, Dreamwood Slab
-botania:dreamwood0wall, tile.dreamwood0Wall.name
-botania:dreamwood1stairs, tile.dreamwood1Stairs.name
-botania:dreamwood1slab:0, Dreamwood Plank Slab
-botania:quartztypedark:0, Block of Smokey Quartz
-botania:quartztypedark:1, Chiseled Smokey Quartz Block
-botania:quartztypedark:2, Pillar Smokey Quartz Block
-botania:quartzslabdarkhalf:0, Smokey Quartz Slab
-botania:quartzstairsdark, tile.quartzStairsDark.name
-botania:quartztypemana:0, Block of Mana Quartz
-botania:quartztypemana:1, Chiseled Mana Quartz Block
-botania:quartztypemana:2, Pillar Mana Quartz Block
-botania:quartzslabmanahalf:0, Mana Quartz Slab
-botania:quartzstairsmana, tile.quartzStairsMana.name
-botania:quartztypeblaze:0, Block of Blaze Quartz
-botania:quartztypeblaze:1, Chiseled Blaze Quartz Block
-botania:quartztypeblaze:2, Pillar Blaze Quartz Block
-botania:quartzslabblazehalf:0, Blaze Quartz Slab
-botania:quartzstairsblaze, tile.quartzStairsBlaze.name
-botania:quartztypelavender:0, Block of Lavender Quartz
-botania:quartztypelavender:1, Chiseled Lavender Quartz Block
-botania:quartztypelavender:2, Pillar Lavender Quartz Block
-botania:quartzslablavenderhalf:0, Lavender Quartz Slab
-botania:quartzstairslavender, tile.quartzStairsLavender.name
-botania:quartztypered:0, Block of Redquartz
-botania:quartztypered:1, Chiseled Redquartz Block
-botania:quartztypered:2, Pillar Redquartz Block
-botania:quartzslabredhalf:0, Redquartz Slab
-botania:quartzstairsred, tile.quartzStairsRed.name
-botania:quartztypeelf:0, Block of Elven Quartz
-botania:quartztypeelf:1, Chiseled Elven Quartz Block
-botania:quartztypeelf:2, Pillar Elven Quartz Block
-botania:quartzslabelfhalf:0, Elven Quartz Slab
-botania:quartzstairself, tile.quartzStairsElf.name
-botania:quartztypesunny:0, Block of Sunny Quartz
-botania:quartztypesunny:1, Chiseled Sunny Quartz Block
-botania:quartztypesunny:2, Pillar Sunny Quartz Block
-botania:quartzslabsunnyhalf:0, Sunny Quartz Slab
-botania:quartzstairssunny, tile.quartzStairsSunny.name
-botania:biomestonea:0, Metamorphic Forest Stone
-botania:biomestonea:1, Metamorphic Plains Stone
-botania:biomestonea:2, Metamorphic Mountain Stone
-botania:biomestonea:3, Metamorphic Fungal Stone
-botania:biomestonea:4, Metamorphic Swamp Stone
-botania:biomestonea:5, Metamorphic Desert Stone
-botania:biomestonea:6, Metamorphic Taiga Stone
-botania:biomestonea:7, Metamorphic Mesa Stone
-botania:biomestonea:8, Metamorphic Forest Cobblestone
-botania:biomestonea:9, Metamorphic Plains Cobblestone
-botania:biomestonea:10, Metamorphic Mountain Cobblestone
-botania:biomestonea:11, Metamorphic Fungal Cobblestone
-botania:biomestonea:12, Metamorphic Swamp Cobblestone
-botania:biomestonea:13, Metamorphic Desert Cobblestone
-botania:biomestonea:14, Metamorphic Taiga Cobblestone
-botania:biomestonea:15, Metamorphic Mesa Cobblestone
-botania:biomestoneb:0, Metamorphic Forest Stone Bricks
-botania:biomestoneb:1, Metamorphic Plains Stone Bricks
-botania:biomestoneb:2, Metamorphic Mountain Stone Bricks
-botania:biomestoneb:3, Metamorphic Fungal Stone Bricks
-botania:biomestoneb:4, Metamorphic Swamp Stone Bricks
-botania:biomestoneb:5, Metamorphic Desert Stone Bricks
-botania:biomestoneb:6, Metamorphic Taiga Stone Bricks
-botania:biomestoneb:7, Metamorphic Mesa Stone Bricks
-botania:biomestoneb:8, Chiseled Metamorphic Forest Stone Brick
-botania:biomestoneb:9, Chiseled Metamorphic Plains Stone Brick
-botania:biomestoneb:10, Chiseled Metamorphic Mountain Stone Brick
-botania:biomestoneb:11, Chiseled Metamorphic Fungal Stone Brick
-botania:biomestoneb:12, Chiseled Metamorphic Swamp Stone Brick
-botania:biomestoneb:13, Chiseled Metamorphic Desert Stone Brick
-botania:biomestoneb:14, Chiseled Metamorphic Taiga Stone Brick
-botania:biomestoneb:15, Chiseled Metamorphic Mesa Stone Brick
-botania:pavement:0, White Portuguese Pavement
-botania:pavement:1, Black Portuguese Pavement
-botania:pavement:2, Blue Portuguese Pavement
-botania:pavement:3, Red Portuguese Pavement
-botania:pavement:4, Yellow Portuguese Pavement
-botania:pavement:5, Green Portuguese Pavement
-botania:biomestonea0stairs, tile.biomeStoneA0Stairs.name
-botania:biomestonea0slab:0, Metamorphic Forest Stone Slab
-botania:biomestonea1stairs, tile.biomeStoneA1Stairs.name
-botania:biomestonea1slab:0, Metamorphic Plains Stone Slab
-botania:biomestonea2stairs, tile.biomeStoneA2Stairs.name
-botania:biomestonea2slab:0, Metamorphic Mountain Stone Slab
-botania:biomestonea3stairs, tile.biomeStoneA3Stairs.name
-botania:biomestonea3slab:0, Metamorphic Fungal Stone Slab
-botania:biomestonea4stairs, tile.biomeStoneA4Stairs.name
-botania:biomestonea4slab:0, Metamorphic Swamp Stone Slab
-botania:biomestonea5stairs, tile.biomeStoneA5Stairs.name
-botania:biomestonea5slab:0, Metamorphic Desert Stone Slab
-botania:biomestonea6stairs, tile.biomeStoneA6Stairs.name
-botania:biomestonea6slab:0, Metamorphic Taiga Stone Slab
-botania:biomestonea7stairs, tile.biomeStoneA7Stairs.name
-botania:biomestonea7slab:0, Metamorphic Mesa Stone Slab
-botania:biomestonea8stairs, tile.biomeStoneA8Stairs.name
-botania:biomestonea8slab:0, Metamorphic Forest Cobblestone Slab
-botania:biomestonea9stairs, tile.biomeStoneA9Stairs.name
-botania:biomestonea9slab:0, Metamorphic Plains Cobblestone Slab
-botania:biomestonea10stairs, tile.biomeStoneA10Stairs.name
-botania:biomestonea10slab:0, Metamorphic Mountain Cobblestone Slab
-botania:biomestonea11stairs, tile.biomeStoneA11Stairs.name
-botania:biomestonea11slab:0, Metamorphic Fungal Cobblestone Slab
-botania:biomestonea12stairs, tile.biomeStoneA12Stairs.name
-botania:biomestonea12slab:0, Metamorphic Swamp Cobblestone Slab
-botania:biomestonea13stairs, tile.biomeStoneA13Stairs.name
-botania:biomestonea13slab:0, Metamorphic Desert Cobblestone Slab
-botania:biomestonea14stairs, tile.biomeStoneA14Stairs.name
-botania:biomestonea14slab:0, Metamorphic Taiga Cobblestone Slab
-botania:biomestonea15stairs, tile.biomeStoneA15Stairs.name
-botania:biomestonea15slab:0, Metamorphic Mesa Cobblestone Slab
-botania:biomestoneb0stairs, tile.biomeStoneB0Stairs.name
-botania:biomestoneb0slab:0, Metamorphic Forest Stone Brick Slab
-botania:biomestoneb1stairs, tile.biomeStoneB1Stairs.name
-botania:biomestoneb1slab:0, Metamorphic Plains Stone Brick Slab
-botania:biomestoneb2stairs, tile.biomeStoneB2Stairs.name
-botania:biomestoneb2slab:0, Metamorphic Mountain Stone Brick Slab
-botania:biomestoneb3stairs, tile.biomeStoneB3Stairs.name
-botania:biomestoneb3slab:0, Metamorphic Fungal Stone Brick Slab
-botania:biomestoneb4stairs, tile.biomeStoneB4Stairs.name
-botania:biomestoneb4slab:0, Metamorphic Swamp Stone Brick Slab
-botania:biomestoneb5stairs, tile.biomeStoneB5Stairs.name
-botania:biomestoneb5slab:0, Metamorphic Desert Stone Brick Slab
-botania:biomestoneb6stairs, tile.biomeStoneB6Stairs.name
-botania:biomestoneb6slab:0, Metamorphic Taiga Stone Brick Slab
-botania:biomestoneb7stairs, tile.biomeStoneB7Stairs.name
-botania:biomestoneb7slab:0, Metamorphic Mesa Stone Bricks Slab
-botania:biomestonea0wall:0, Metamorphic Forest Cobblestone Wall
-botania:biomestonea0wall:1, Metamorphic Plains Cobblestone Wall
-botania:biomestonea0wall:2, Metamorphic Mountain Cobblestone Wall
-botania:biomestonea0wall:3, Metamorphic Fungal Cobblestone Wall
-botania:biomestonea0wall:4, Metamorphic Swamp Cobblestone Wall
-botania:biomestonea0wall:5, Metamorphic Desert Cobblestone Wall
-botania:biomestonea0wall:6, Metamorphic Taiga Cobblestone Wall
-botania:biomestonea0wall:7, Metamorphic Mesa Cobblestone Wall
-botania:pavement0stairs, tile.pavement0Stairs.name
-botania:pavement0slab:0, White Portuguese Pavement Slab
-botania:pavement1stairs, tile.pavement1Stairs.name
-botania:pavement1slab:0, Black Portuguese Pavement Slab
-botania:pavement2stairs, tile.pavement2Stairs.name
-botania:pavement2slab:0, Blue Portuguese Pavement Slab
-botania:pavement3stairs, tile.pavement3Stairs.name
-botania:pavement3slab:0, Red Portuguese Pavement Slab
-botania:pavement4stairs, tile.pavement4Stairs.name
-botania:pavement4slab:0, Yellow Portuguese Pavement Slab
-botania:pavement5stairs, tile.pavement5Stairs.name
-botania:pavement5slab:0, Green Portuguese Pavement Slab
-botania:shimmerrock0slab:0, Shimmerrock Slab
-botania:shimmerrock0stairs, tile.shimmerrock0Stairs.name
-botania:shimmerwoodplanks0slab:0, Shimmerwood Plank Slab
-botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
-botania:managlasspane, tile.manaGlassPane.name
-botania:elfglasspane, tile.elfGlassPane.name
-botania:bifrostpermpane, tile.bifrostPermPane.name
 aiotbotania:livingwoodshears, Livingwood Shears
 aiotbotania:livingwoodsword, Livingwood Sword
 aiotbotania:livingwoodaxe, Livingwood Axe
@@ -8591,7 +8606,6 @@ extraplanets:iapetus_gravel, Iapetus Gravel
 extraplanets:fossil, Fossil Block
 extraplanets:nuclear_bomb, Nuclear Bomb
 extraplanets:fire_bomb, Fire Bomb
-extraplanets:ore_lead, Lead Ore
 extraplanets:potash, Potash
 extraplanets:advanced_launch_pad:0, Tier 2 Rocket Launch Pad
 extraplanets:advanced_launch_pad:1, Tier 3 Rocket Launch Pad
@@ -10794,142 +10808,142 @@ gregtech:fluid_pipe_nonuple:115, Nonuple Tungsten Fluid Pipe
 gregtech:fluid_pipe_nonuple:396, Nonuple Tungstencarbide Fluid Pipe
 gregtech:fluid_pipe_nonuple:2013, Nonuple Tungstensteel Fluid Pipe
 gregtech:fluid_pipe_nonuple:2036, Nonuple Vanadiumsteel Fluid Pipe
-gregtech:item_pipe_small:23, Small Cobalt Item Pipe
-gregtech:item_pipe_small:274, Small Cupronickel Item Pipe
-gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
-gregtech:item_pipe_small:3, Small Americium Item Pipe
-gregtech:item_pipe_small:75, Small Osmium Item Pipe
-gregtech:item_pipe_small:277, Small Electrum Item Pipe
-gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
-gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
-gregtech:item_pipe_small:259, Small Brass Item Pipe
-gregtech:item_pipe_small:112, Small Tin Item Pipe
-gregtech:item_pipe_small:290, Small Magnalium Item Pipe
-gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
-gregtech:item_pipe_small:1007, Small Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_small:80, Small Platinum Item Pipe
-gregtech:item_pipe_small:301, Small Rose Gold Item Pipe
-gregtech:item_pipe_small:69, Small Nickel Item Pipe
 gregtech:item_pipe_small:331, Small Ultimet Item Pipe
-gregtech:item_pipe_normal:23, Cobalt Item Pipe
-gregtech:item_pipe_normal:274, Cupronickel Item Pipe
-gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
-gregtech:item_pipe_normal:3, Americium Item Pipe
-gregtech:item_pipe_normal:75, Osmium Item Pipe
-gregtech:item_pipe_normal:277, Electrum Item Pipe
-gregtech:item_pipe_normal:344, Osmiridium Item Pipe
-gregtech:item_pipe_normal:302, Black Bronze Item Pipe
-gregtech:item_pipe_normal:259, Brass Item Pipe
-gregtech:item_pipe_normal:112, Tin Item Pipe
-gregtech:item_pipe_normal:290, Magnalium Item Pipe
-gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
-gregtech:item_pipe_normal:1007, Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_normal:80, Platinum Item Pipe
-gregtech:item_pipe_normal:301, Rose Gold Item Pipe
-gregtech:item_pipe_normal:69, Nickel Item Pipe
+gregtech:item_pipe_small:23, Small Cobalt Item Pipe
+gregtech:item_pipe_small:277, Small Electrum Item Pipe
+gregtech:item_pipe_small:112, Small Tin Item Pipe
+gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
+gregtech:item_pipe_small:301, Small Rose Gold Item Pipe
+gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
+gregtech:item_pipe_small:69, Small Nickel Item Pipe
+gregtech:item_pipe_small:80, Small Platinum Item Pipe
+gregtech:item_pipe_small:274, Small Cupronickel Item Pipe
+gregtech:item_pipe_small:1007, Small Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_small:259, Small Brass Item Pipe
+gregtech:item_pipe_small:290, Small Magnalium Item Pipe
+gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
+gregtech:item_pipe_small:75, Small Osmium Item Pipe
+gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
+gregtech:item_pipe_small:3, Small Americium Item Pipe
 gregtech:item_pipe_normal:331, Ultimet Item Pipe
-gregtech:item_pipe_large:23, Large Cobalt Item Pipe
-gregtech:item_pipe_large:274, Large Cupronickel Item Pipe
-gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
-gregtech:item_pipe_large:3, Large Americium Item Pipe
-gregtech:item_pipe_large:75, Large Osmium Item Pipe
-gregtech:item_pipe_large:277, Large Electrum Item Pipe
-gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
-gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
-gregtech:item_pipe_large:259, Large Brass Item Pipe
-gregtech:item_pipe_large:112, Large Tin Item Pipe
-gregtech:item_pipe_large:290, Large Magnalium Item Pipe
-gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
-gregtech:item_pipe_large:1007, Large Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_large:80, Large Platinum Item Pipe
-gregtech:item_pipe_large:301, Large Rose Gold Item Pipe
-gregtech:item_pipe_large:69, Large Nickel Item Pipe
+gregtech:item_pipe_normal:23, Cobalt Item Pipe
+gregtech:item_pipe_normal:277, Electrum Item Pipe
+gregtech:item_pipe_normal:112, Tin Item Pipe
+gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
+gregtech:item_pipe_normal:301, Rose Gold Item Pipe
+gregtech:item_pipe_normal:302, Black Bronze Item Pipe
+gregtech:item_pipe_normal:69, Nickel Item Pipe
+gregtech:item_pipe_normal:80, Platinum Item Pipe
+gregtech:item_pipe_normal:274, Cupronickel Item Pipe
+gregtech:item_pipe_normal:1007, Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_normal:259, Brass Item Pipe
+gregtech:item_pipe_normal:290, Magnalium Item Pipe
+gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
+gregtech:item_pipe_normal:75, Osmium Item Pipe
+gregtech:item_pipe_normal:344, Osmiridium Item Pipe
+gregtech:item_pipe_normal:3, Americium Item Pipe
 gregtech:item_pipe_large:331, Large Ultimet Item Pipe
-gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
-gregtech:item_pipe_huge:274, Huge Cupronickel Item Pipe
-gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
-gregtech:item_pipe_huge:3, Huge Americium Item Pipe
-gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
-gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
-gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
-gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
-gregtech:item_pipe_huge:259, Huge Brass Item Pipe
-gregtech:item_pipe_huge:112, Huge Tin Item Pipe
-gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
-gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
-gregtech:item_pipe_huge:1007, Huge Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
-gregtech:item_pipe_huge:301, Huge Rose Gold Item Pipe
-gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
+gregtech:item_pipe_large:23, Large Cobalt Item Pipe
+gregtech:item_pipe_large:277, Large Electrum Item Pipe
+gregtech:item_pipe_large:112, Large Tin Item Pipe
+gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
+gregtech:item_pipe_large:301, Large Rose Gold Item Pipe
+gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
+gregtech:item_pipe_large:69, Large Nickel Item Pipe
+gregtech:item_pipe_large:80, Large Platinum Item Pipe
+gregtech:item_pipe_large:274, Large Cupronickel Item Pipe
+gregtech:item_pipe_large:1007, Large Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_large:259, Large Brass Item Pipe
+gregtech:item_pipe_large:290, Large Magnalium Item Pipe
+gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
+gregtech:item_pipe_large:75, Large Osmium Item Pipe
+gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
+gregtech:item_pipe_large:3, Large Americium Item Pipe
 gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
-gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
-gregtech:item_pipe_small_restrictive:274, Small Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
-gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
-gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
-gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
-gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
-gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
-gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_small_restrictive:1007, Small Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
-gregtech:item_pipe_small_restrictive:301, Small Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
+gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
+gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
+gregtech:item_pipe_huge:112, Huge Tin Item Pipe
+gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
+gregtech:item_pipe_huge:301, Huge Rose Gold Item Pipe
+gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
+gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
+gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
+gregtech:item_pipe_huge:274, Huge Cupronickel Item Pipe
+gregtech:item_pipe_huge:1007, Huge Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge:259, Huge Brass Item Pipe
+gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
+gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
+gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
+gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
+gregtech:item_pipe_huge:3, Huge Americium Item Pipe
 gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
-gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
-gregtech:item_pipe_normal_restrictive:274, Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
-gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
-gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
-gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
-gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
-gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
-gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_normal_restrictive:1007, Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
-gregtech:item_pipe_normal_restrictive:301, Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
+gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
+gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
+gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
+gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_small_restrictive:301, Small Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
+gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
+gregtech:item_pipe_small_restrictive:274, Small Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_small_restrictive:1007, Small Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
+gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
+gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
+gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
 gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
-gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
-gregtech:item_pipe_large_restrictive:274, Large Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
-gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
-gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
-gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
-gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
-gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
-gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_large_restrictive:1007, Large Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
-gregtech:item_pipe_large_restrictive:301, Large Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
+gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
+gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
+gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
+gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_normal_restrictive:301, Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
+gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
+gregtech:item_pipe_normal_restrictive:274, Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_normal_restrictive:1007, Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
+gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
+gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
 gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
-gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
-gregtech:item_pipe_huge_restrictive:274, Huge Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
-gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
-gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
-gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
-gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
-gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
-gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
-gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_huge_restrictive:1007, Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
-gregtech:item_pipe_huge_restrictive:301, Huge Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
+gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
+gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
+gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
+gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_large_restrictive:301, Large Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
+gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
+gregtech:item_pipe_large_restrictive:274, Large Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_large_restrictive:1007, Large Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
+gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
+gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
+gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
 gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
+gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
+gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
+gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
+gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_huge_restrictive:301, Huge Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
+gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
+gregtech:item_pipe_huge_restrictive:274, Huge Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_huge_restrictive:1007, Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
+gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
+gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
+gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
 gregtech:optical_pipe_normal:0, Optical Fiber Cable
 gregtech:laser_pipe_normal:0, Laser Transmitting Cable
 gregtech:ld_item_pipe, Long Distance Item Pipe
@@ -11620,11 +11634,12 @@ gregtech:meta_block_compressed_157:5, Block of Red Alloy
 gregtech:meta_block_compressed_157:7, Block of HSS-E
 gregtech:meta_block_compressed_157:8, Block of HSS-S
 gregtech:meta_block_compressed_157:15, Block of Blue Alloy
-gregtech:meta_block_compressed_500:0, Block of gregtech.material.albite
-gregtech:meta_block_compressed_500:1, Block of gregtech.material.anorthite
-gregtech:meta_block_compressed_500:2, Block of gregtech.material.plagioclase
-gregtech:meta_block_compressed_500:3, Block of gregtech.material.pyroxene
-gregtech:meta_block_compressed_500:6, Block of gregtech.material.ammoniated_silicate
+gregtech:meta_block_compressed_500:0, Block of Albite
+gregtech:meta_block_compressed_500:1, Block of Anorthite
+gregtech:meta_block_compressed_500:2, Block of Plagioclase
+gregtech:meta_block_compressed_500:3, Block of Pyroxene
+gregtech:meta_block_compressed_500:6, Block of Ammoniated Silicate
+gregtech:meta_block_compressed_625:0, Block of Precious Metals
 gregtech:meta_block_frame_0:2, Aluminium Frame Box
 gregtech:meta_block_frame_2:1, Europium Frame Box
 gregtech:meta_block_frame_3:2, Iridium Frame Box
@@ -13327,96 +13342,111 @@ gregtech:ore_basaltic_mineral_sand_0:11, Basalt Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:12, Moon Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:13, Ceres Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:14, Pluto Basaltic Mineral Sand Ore
-gregtech:ore_albite_0:0, gregtech.material.albite Ore
-gregtech:ore_albite_0:1, Nether gregtech.material.albite Ore
-gregtech:ore_albite_0:2, End gregtech.material.albite Ore
-gregtech:ore_albite_0:3, Sand gregtech.material.albite Ore
-gregtech:ore_albite_0:4, Red Sand gregtech.material.albite Ore
-gregtech:ore_albite_0:5, Granite gregtech.material.albite Ore
-gregtech:ore_albite_0:6, Diorite gregtech.material.albite Ore
-gregtech:ore_albite_0:7, Andesite gregtech.material.albite Ore
-gregtech:ore_albite_0:8, Granite gregtech.material.albite Ore
-gregtech:ore_albite_0:9, Granite gregtech.material.albite Ore
-gregtech:ore_albite_0:10, Marble gregtech.material.albite Ore
-gregtech:ore_albite_0:11, Basalt gregtech.material.albite Ore
-gregtech:ore_albite_0:12, Moon gregtech.material.albite Ore
-gregtech:ore_albite_0:13, Ceres gregtech.material.albite Ore
-gregtech:ore_albite_0:14, Pluto gregtech.material.albite Ore
-gregtech:ore_anorthite_0:0, gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:1, Nether gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:2, End gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:3, Sand gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:4, Red Sand gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:5, Granite gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:6, Diorite gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:7, Andesite gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:8, Granite gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:9, Granite gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:10, Marble gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:11, Basalt gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:12, Moon gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:13, Ceres gregtech.material.anorthite Ore
-gregtech:ore_anorthite_0:14, Pluto gregtech.material.anorthite Ore
-gregtech:ore_plagioclase_0:0, gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:1, Nether gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:2, End gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:3, Sand gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:4, Red Sand gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:5, Granite gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:6, Diorite gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:7, Andesite gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:8, Granite gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:9, Granite gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:10, Marble gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:11, Basalt gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:12, Moon gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:13, Ceres gregtech.material.plagioclase Ore
-gregtech:ore_plagioclase_0:14, Pluto gregtech.material.plagioclase Ore
-gregtech:ore_pyroxene_0:0, gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:1, Nether gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:2, End gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:3, Sand gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:4, Red Sand gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:5, Granite gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:6, Diorite gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:7, Andesite gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:8, Granite gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:9, Granite gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:10, Marble gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:11, Basalt gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:12, Moon gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:13, Ceres gregtech.material.pyroxene Ore
-gregtech:ore_pyroxene_0:14, Pluto gregtech.material.pyroxene Ore
-gregtech:ore_carbonate_0:0, gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:1, Nether gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:2, End gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:3, Sand gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:4, Red Sand gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:5, Granite gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:6, Diorite gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:7, Andesite gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:8, Granite gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:9, Granite gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:10, Marble gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:11, Basalt gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:12, Moon gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:13, Ceres gregtech.material.carbonate Ore
-gregtech:ore_carbonate_0:14, Pluto gregtech.material.carbonate Ore
-gregtech:ore_ammoniated_silicate_0:0, gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:1, Nether gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:2, End gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:3, Sand gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:4, Red Sand gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:5, Granite gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:6, Diorite gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:7, Andesite gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:8, Granite gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:9, Granite gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:10, Marble gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:11, Basalt gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:12, Moon gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:13, Ceres gregtech.material.ammoniated_silicate Ore
-gregtech:ore_ammoniated_silicate_0:14, Pluto gregtech.material.ammoniated_silicate Ore
+gregtech:ore_albite_0:0, Albite Ore
+gregtech:ore_albite_0:1, Nether Albite Ore
+gregtech:ore_albite_0:2, End Albite Ore
+gregtech:ore_albite_0:3, Sand Albite Ore
+gregtech:ore_albite_0:4, Red Sand Albite Ore
+gregtech:ore_albite_0:5, Granite Albite Ore
+gregtech:ore_albite_0:6, Diorite Albite Ore
+gregtech:ore_albite_0:7, Andesite Albite Ore
+gregtech:ore_albite_0:8, Granite Albite Ore
+gregtech:ore_albite_0:9, Granite Albite Ore
+gregtech:ore_albite_0:10, Marble Albite Ore
+gregtech:ore_albite_0:11, Basalt Albite Ore
+gregtech:ore_albite_0:12, Moon Albite Ore
+gregtech:ore_albite_0:13, Ceres Albite Ore
+gregtech:ore_albite_0:14, Pluto Albite Ore
+gregtech:ore_anorthite_0:0, Anorthite Ore
+gregtech:ore_anorthite_0:1, Nether Anorthite Ore
+gregtech:ore_anorthite_0:2, End Anorthite Ore
+gregtech:ore_anorthite_0:3, Sand Anorthite Ore
+gregtech:ore_anorthite_0:4, Red Sand Anorthite Ore
+gregtech:ore_anorthite_0:5, Granite Anorthite Ore
+gregtech:ore_anorthite_0:6, Diorite Anorthite Ore
+gregtech:ore_anorthite_0:7, Andesite Anorthite Ore
+gregtech:ore_anorthite_0:8, Granite Anorthite Ore
+gregtech:ore_anorthite_0:9, Granite Anorthite Ore
+gregtech:ore_anorthite_0:10, Marble Anorthite Ore
+gregtech:ore_anorthite_0:11, Basalt Anorthite Ore
+gregtech:ore_anorthite_0:12, Moon Anorthite Ore
+gregtech:ore_anorthite_0:13, Ceres Anorthite Ore
+gregtech:ore_anorthite_0:14, Pluto Anorthite Ore
+gregtech:ore_plagioclase_0:0, Plagioclase Ore
+gregtech:ore_plagioclase_0:1, Nether Plagioclase Ore
+gregtech:ore_plagioclase_0:2, End Plagioclase Ore
+gregtech:ore_plagioclase_0:3, Sand Plagioclase Ore
+gregtech:ore_plagioclase_0:4, Red Sand Plagioclase Ore
+gregtech:ore_plagioclase_0:5, Granite Plagioclase Ore
+gregtech:ore_plagioclase_0:6, Diorite Plagioclase Ore
+gregtech:ore_plagioclase_0:7, Andesite Plagioclase Ore
+gregtech:ore_plagioclase_0:8, Granite Plagioclase Ore
+gregtech:ore_plagioclase_0:9, Granite Plagioclase Ore
+gregtech:ore_plagioclase_0:10, Marble Plagioclase Ore
+gregtech:ore_plagioclase_0:11, Basalt Plagioclase Ore
+gregtech:ore_plagioclase_0:12, Moon Plagioclase Ore
+gregtech:ore_plagioclase_0:13, Ceres Plagioclase Ore
+gregtech:ore_plagioclase_0:14, Pluto Plagioclase Ore
+gregtech:ore_pyroxene_0:0, Pyroxene Ore
+gregtech:ore_pyroxene_0:1, Nether Pyroxene Ore
+gregtech:ore_pyroxene_0:2, End Pyroxene Ore
+gregtech:ore_pyroxene_0:3, Sand Pyroxene Ore
+gregtech:ore_pyroxene_0:4, Red Sand Pyroxene Ore
+gregtech:ore_pyroxene_0:5, Granite Pyroxene Ore
+gregtech:ore_pyroxene_0:6, Diorite Pyroxene Ore
+gregtech:ore_pyroxene_0:7, Andesite Pyroxene Ore
+gregtech:ore_pyroxene_0:8, Granite Pyroxene Ore
+gregtech:ore_pyroxene_0:9, Granite Pyroxene Ore
+gregtech:ore_pyroxene_0:10, Marble Pyroxene Ore
+gregtech:ore_pyroxene_0:11, Basalt Pyroxene Ore
+gregtech:ore_pyroxene_0:12, Moon Pyroxene Ore
+gregtech:ore_pyroxene_0:13, Ceres Pyroxene Ore
+gregtech:ore_pyroxene_0:14, Pluto Pyroxene Ore
+gregtech:ore_carbonate_0:0, Carbonate Ore
+gregtech:ore_carbonate_0:1, Nether Carbonate Ore
+gregtech:ore_carbonate_0:2, End Carbonate Ore
+gregtech:ore_carbonate_0:3, Sand Carbonate Ore
+gregtech:ore_carbonate_0:4, Red Sand Carbonate Ore
+gregtech:ore_carbonate_0:5, Granite Carbonate Ore
+gregtech:ore_carbonate_0:6, Diorite Carbonate Ore
+gregtech:ore_carbonate_0:7, Andesite Carbonate Ore
+gregtech:ore_carbonate_0:8, Granite Carbonate Ore
+gregtech:ore_carbonate_0:9, Granite Carbonate Ore
+gregtech:ore_carbonate_0:10, Marble Carbonate Ore
+gregtech:ore_carbonate_0:11, Basalt Carbonate Ore
+gregtech:ore_carbonate_0:12, Moon Carbonate Ore
+gregtech:ore_carbonate_0:13, Ceres Carbonate Ore
+gregtech:ore_carbonate_0:14, Pluto Carbonate Ore
+gregtech:ore_ammoniated_silicate_0:0, Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:1, Nether Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:2, End Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:3, Sand Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:4, Red Sand Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:5, Granite Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:6, Diorite Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:7, Andesite Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:8, Granite Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:9, Granite Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:10, Marble Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:11, Basalt Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:12, Moon Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:13, Ceres Ammoniated Silicate Ore
+gregtech:ore_ammoniated_silicate_0:14, Pluto Ammoniated Silicate Ore
+gregtech:ore_precious_metals_0:0, Precious Metals Ore
+gregtech:ore_precious_metals_0:1, Nether Precious Metals Ore
+gregtech:ore_precious_metals_0:2, End Precious Metals Ore
+gregtech:ore_precious_metals_0:3, Sand Precious Metals Ore
+gregtech:ore_precious_metals_0:4, Red Sand Precious Metals Ore
+gregtech:ore_precious_metals_0:5, Granite Precious Metals Ore
+gregtech:ore_precious_metals_0:6, Diorite Precious Metals Ore
+gregtech:ore_precious_metals_0:7, Andesite Precious Metals Ore
+gregtech:ore_precious_metals_0:8, Granite Precious Metals Ore
+gregtech:ore_precious_metals_0:9, Granite Precious Metals Ore
+gregtech:ore_precious_metals_0:10, Marble Precious Metals Ore
+gregtech:ore_precious_metals_0:11, Basalt Precious Metals Ore
+gregtech:ore_precious_metals_0:12, Moon Precious Metals Ore
+gregtech:ore_precious_metals_0:13, Ceres Precious Metals Ore
+gregtech:ore_precious_metals_0:14, Pluto Precious Metals Ore
 gregtech:gt.frame_accelerated, Accelerated Frame
 gregtech:gt.frame_mutagenic, Mutagenic Frame
 gregtech:gt.frame_working, Working Frame
@@ -13657,6 +13687,18 @@ notreepunching:saw/steel, Steel Saw
 spiceoflife:bookfoodjournal, Food Journal
 spiceoflife:lunchbox, Lunch Box
 spiceoflife:lunchbag, Lunch Bag
+tc_integration:cluster_aluminum, Native Aluminum Cluster
+tc_integration:cluster_ardite, Native Ardite Cluster
+tc_integration:cluster_cobalt, Native Cobalt Cluster
+tc_integration:cluster_arlemite, Native Arlemite Cluster
+tc_integration:cluster_iridium, Native Iridium Cluster
+tc_integration:cluster_netherite, Native Netherite Cluster
+tc_integration:cluster_nickel, Native Nickel Cluster
+tc_integration:cluster_osmium, Native Osmium Cluster
+tc_integration:cluster_platinum, Native Platinum Cluster
+tc_integration:cluster_realmite, Native Realmite Cluster
+tc_integration:cluster_rupee, Native Rupee Cluster
+tc_integration:cluster_astralstarmetal, Native Starmetal Cluster
 travelersbackpack:travelers_backpack:0, Traveler's Backpack
 travelersbackpack:travelers_backpack:1, Traveler's Backpack
 travelersbackpack:travelers_backpack:2, Traveler's Backpack
@@ -15100,8 +15142,8 @@ pamsbreadcraft:sourdoughbread, Sourdough Bread
 pamsbreadcraft:anpan, Anpan
 pamsbreadcraft:pandequeso, Pandequeso
 pamsbreadcraft:challah, Challah
-pamsbreadcraft:croutons, Croutons
 pamsbreadcraft:currybread, Curry Bread
+pamsbreadcraft:croutons, Croutons
 pamsbreadcraft:coppiaferrarese, Coppia Ferrarese
 pamsbreadcraft:melonpan, Melonpan
 pamsbreadcraft:kulcha, Kulcha
@@ -15194,6 +15236,13 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -15214,13 +15263,6 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 guideapi:bloodarsenal-guide, item.guideapi.book.bloodarsenal.guide.name
 guideapi:bloodmagic-guide, item.guideapi.book.bloodmagic.guide.name
 guideapi:notreepunching-guide_book, item.guideapi.book.notreepunching.guide_book.name

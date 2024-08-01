@@ -2,7 +2,7 @@
   "name": "gregtech.veins.ore.redstone",
   "weight": 60,
   "density": 0.2,
-  "dimension_filter": ["name:overworld"],
+  "dimension_filter": ["name:twilight_forest"],
   "max_height": 40,
   "min_height": 5,
   "vein_populator": {

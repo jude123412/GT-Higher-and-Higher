@@ -27,14 +27,20 @@ class GTHHMaterials {
     static Material AmmoniatedSilicate
     static Material Ceres
     static Material Pluto
+    static Material PreciousMetals
+    static Material Cryolite
 
-    //FantasyMaterials
+    //Fantasy Materials
     static Material CosmicNeutronium
     static Material InfinityCatalyst
     static Material Infinity
     
     //Second Degree Materials
-    
+    static Material DirtyPreciousMetalSolution
+    static Material DilutePreciousMetalSolution
+    static Material CleanPreciousMetalSolution
+    static Material ConcentratedPreciousMetalSolution
+
     static void init() {
 
         GTHHSecondDegreeMaterials.register()

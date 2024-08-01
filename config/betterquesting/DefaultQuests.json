@@ -1430,7 +1430,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "Cobaltite Vein Contains 4 main ores Cobalt, Cobaltite, Realgar and Sulfur. All important elements for creating Electronic Circuits.",
+          "desc:8": "Cobaltite Vein Contains 4 main ores Cobalt, Cobaltite, Realgar and Sulfur.",
           "frame:8": "ROUNDED_SQUARE",
           "globalshare:1": 0,
           "icon:10": {
@@ -2736,279 +2736,6 @@
       }
     },
     "38:10": {
-      "preRequisites:11": [
-        54,
-        42,
-        58
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "The ULV Robot Arm is Just a Glorified Conveyer. It allows you to limit the amount of items stored in a container.",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 4,
-            "OreDict:8": "",
-            "id:8": "ulv_covers:ulv_cover_meta_item"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "ULV Robot Arm",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 40,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 55,
-              "OreDict:8": "",
-              "id:8": "gregtech:cable_single"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": "",
-              "id:8": "ulv_covers:ulv_cover_meta_item"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "39:10": {
-      "preRequisites:11": [
-        40,
-        42,
-        54
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "The ULV Piston is a crafting component used for the ULV Robot Arm",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 3,
-            "OreDict:8": "",
-            "id:8": "ulv_covers:ulv_cover_meta_item"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "ULV Piston",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 41,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 55,
-              "OreDict:8": "",
-              "id:8": "gregtech:cable_single"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 3,
-              "OreDict:8": "",
-              "id:8": "ulv_covers:ulv_cover_meta_item"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "40:10": {
-      "preRequisites:11": [
-        54
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "ULV Motor Used for ULV Tier Components.",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 2,
-            "OreDict:8": "",
-            "id:8": "ulv_covers:ulv_cover_meta_item"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "ULV Motor",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 42,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 55,
-              "OreDict:8": "",
-              "id:8": "gregtech:cable_single"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": "",
-              "id:8": "ulv_covers:ulv_cover_meta_item"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "41:10": {
-      "preRequisites:11": [
-        54,
-        42
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Any Gregtech pump will allow you to pump fluids outs of tanks into pipes or vise versa. the ULV Pump is a good starting point for fluid transport before LV.\nYou can also use these to pump water out of the rain collectors.",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 1,
-            "OreDict:8": "",
-            "id:8": "ulv_covers:ulv_cover_meta_item"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "ULV Pump",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 43,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 55,
-              "OreDict:8": "",
-              "id:8": "gregtech:cable_single"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "ulv_covers:ulv_cover_meta_item"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "42:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -3068,7 +2795,7 @@
         }
       }
     },
-    "43:10": {
+    "39:10": {
       "preRequisites:11": [
         23,
         39
@@ -3160,7 +2887,7 @@
         }
       }
     },
-    "44:10": {
+    "40:10": {
       "preRequisites:11": [
         23
       ],
@@ -3227,7 +2954,7 @@
         }
       }
     },
-    "45:10": {
+    "41:10": {
       "preRequisites:11": [
         45
       ],
@@ -3330,7 +3057,7 @@
         }
       }
     },
-    "46:10": {
+    "42:10": {
       "preRequisites:11": [
         13
       ],
@@ -3503,7 +3230,7 @@
         }
       }
     },
-    "47:10": {
+    "43:10": {
       "preRequisites:11": [
         50,
         48
@@ -3579,7 +3306,7 @@
         }
       }
     },
-    "48:10": {
+    "44:10": {
       "preRequisites:11": [
         12
       ],
@@ -3646,7 +3373,7 @@
         }
       }
     },
-    "49:10": {
+    "45:10": {
       "preRequisites:11": [
         45,
         22
@@ -3720,75 +3447,7 @@
         }
       }
     },
-    "50:10": {
-      "preRequisites:11": [
-        54,
-        42
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "ULV Conveyers can be placed on any Gregtech machine, Item Pipe or Crate to transport items in/out of them. really usful early on.",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": "",
-            "id:8": "ulv_covers:ulv_cover_meta_item"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "ULV Conveyer Module",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 52,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 4,
-              "Damage:2": 55,
-              "OreDict:8": "",
-              "id:8": "gregtech:cable_single"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ulv_covers:ulv_cover_meta_item"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "51:10": {
+    "46:10": {
       "preRequisites:11": [
         26
       ],
@@ -3885,7 +3544,7 @@
         }
       }
     },
-    "52:10": {
+    "47:10": {
       "preRequisiteTypes:7": [
         0,
         0,
@@ -3961,7 +3620,7 @@
         }
       }
     },
-    "53:10": {
+    "48:10": {
       "preRequisites:11": [
         51
       ],
@@ -4028,7 +3687,7 @@
         }
       }
     },
-    "54:10": {
+    "49:10": {
       "preRequisites:11": [
         70
       ],
@@ -4082,7 +3741,7 @@
         }
       }
     },
-    "55:10": {
+    "50:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -4154,7 +3813,7 @@
         }
       }
     },
-    "56:10": {
+    "51:10": {
       "preRequisites:11": [
         57,
         54
@@ -4222,7 +3881,7 @@
         }
       }
     },
-    "57:10": {
+    "52:10": {
       "preRequisites:11": [
         46
       ],
@@ -4289,7 +3948,7 @@
         }
       }
     },
-    "58:10": {
+    "53:10": {
       "preRequisites:11": [
         5
       ],
@@ -4374,7 +4033,7 @@
         }
       }
     },
-    "59:10": {
+    "54:10": {
       "preRequisites:11": [
         174
       ],
@@ -4441,7 +4100,7 @@
         }
       }
     },
-    "60:10": {
+    "55:10": {
       "preRequisites:11": [
         65
       ],
@@ -4508,7 +4167,7 @@
         }
       }
     },
-    "61:10": {
+    "56:10": {
       "preRequisites:11": [
         61,
         62,
@@ -4519,7 +4178,7 @@
         "betterquesting:10": {
           "autoclaim:1": 0,
           "desc:8": "Now you have the first of literally hundreds of these. Better start crafting more :D Electronic Circuits are a gateway Component to all the LV Machines and the Electric Blast Furnace.",
-          "frame:8": "GATE",
+          "frame:8": "ROUNDED_SQUARE",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4578,7 +4237,7 @@
         }
       }
     },
-    "62:10": {
+    "57:10": {
       "preRequisites:11": [
         39
       ],
@@ -4645,7 +4304,7 @@
         }
       }
     },
-    "63:10": {
+    "58:10": {
       "preRequisites:11": [
         64
       ],
@@ -4712,7 +4371,7 @@
         }
       }
     },
-    "64:10": {
+    "59:10": {
       "preRequisites:11": [
         22,
         55,
@@ -4781,7 +4440,7 @@
         }
       }
     },
-    "65:10": {
+    "60:10": {
       "preRequisites:11": [
         27
       ],
@@ -4884,101 +4543,8 @@
         }
       }
     },
-    "66:10": {
-      "preRequisites:11": [
-        55
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "You have Steel, Rubber, Cables and ores. Now its time to start making some LV machines, start with crafting a LV Machine Hull.",
-          "frame:8": "GATE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 986,
-            "OreDict:8": "",
-            "id:8": "gregtech:machine"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 1,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "LV Machine Hull",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 68,
-      "rewards:9": {
-        "0:10": {
-          "choices:9": {
-            "0:10": {
-              "Count:3": 16,
-              "Damage:2": 112,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
-            },
-            "1:10": {
-              "Count:3": 16,
-              "Damage:2": 1068,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
-            },
-            "2:10": {
-              "Count:3": 16,
-              "Damage:2": 32004,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_gem"
-            }
-          },
-          "index:3": 0,
-          "rewardID:8": "bq_standard:choice"
-        },
-        "1:10": {
-          "index:3": 1,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "minecraft:golden_apple"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 986,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "67:10": {
-      "preRequisites:11": [
-        68
-      ],
+    "61:10": {
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -5015,7 +4581,7 @@
         }
       }
     },
-    "68:10": {
+    "62:10": {
       "preRequisites:11": [
         69
       ],
@@ -5069,7 +4635,7 @@
         }
       }
     },
-    "69:10": {
+    "63:10": {
       "preRequisites:11": [
         70
       ],
@@ -5123,7 +4689,7 @@
         }
       }
     },
-    "70:10": {
+    "64:10": {
       "preRequisites:11": [
         70
       ],
@@ -5177,7 +4743,7 @@
         }
       }
     },
-    "71:10": {
+    "65:10": {
       "preRequisites:11": [
         70
       ],
@@ -5231,7 +4797,7 @@
         }
       }
     },
-    "72:10": {
+    "66:10": {
       "preRequisites:11": [
         70
       ],
@@ -5285,7 +4851,7 @@
         }
       }
     },
-    "73:10": {
+    "67:10": {
       "preRequisites:11": [
         70
       ],
@@ -5339,7 +4905,7 @@
         }
       }
     },
-    "74:10": {
+    "68:10": {
       "preRequisites:11": [
         70
       ],
@@ -5393,7 +4959,7 @@
         }
       }
     },
-    "75:10": {
+    "69:10": {
       "preRequisites:11": [
         70
       ],
@@ -5447,7 +5013,7 @@
         }
       }
     },
-    "76:10": {
+    "70:10": {
       "preRequisites:11": [
         70
       ],
@@ -5501,7 +5067,7 @@
         }
       }
     },
-    "77:10": {
+    "71:10": {
       "preRequisites:11": [
         70
       ],
@@ -5555,7 +5121,7 @@
         }
       }
     },
-    "78:10": {
+    "72:10": {
       "preRequisites:11": [
         76,
         81
@@ -5610,7 +5176,7 @@
         }
       }
     },
-    "79:10": {
+    "73:10": {
       "preRequisites:11": [
         70
       ],
@@ -5664,7 +5230,7 @@
         }
       }
     },
-    "80:10": {
+    "74:10": {
       "preRequisites:11": [
         78,
         79
@@ -5725,7 +5291,7 @@
         }
       }
     },
-    "81:10": {
+    "75:10": {
       "preRequisites:11": [
         70
       ],
@@ -5779,7 +5345,7 @@
         }
       }
     },
-    "82:10": {
+    "76:10": {
       "preRequisites:11": [
         70
       ],
@@ -5833,7 +5399,7 @@
         }
       }
     },
-    "83:10": {
+    "77:10": {
       "preRequisites:11": [
         71,
         84,
@@ -5889,7 +5455,7 @@
         }
       }
     },
-    "84:10": {
+    "78:10": {
       "preRequisites:11": [
         72,
         87
@@ -5950,7 +5516,7 @@
         }
       }
     },
-    "85:10": {
+    "79:10": {
       "preRequisites:11": [
         75,
         242
@@ -6005,7 +5571,7 @@
         }
       }
     },
-    "86:10": {
+    "80:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -6063,7 +5629,7 @@
         }
       }
     },
-    "87:10": {
+    "81:10": {
       "preRequisites:11": [
         70
       ],
@@ -6117,7 +5683,7 @@
         }
       }
     },
-    "88:10": {
+    "82:10": {
       "preRequisites:11": [
         34,
         55
@@ -6172,7 +5738,7 @@
         }
       }
     },
-    "89:10": {
+    "83:10": {
       "preRequisites:11": [
         55
       ],
@@ -6258,7 +5824,7 @@
         }
       }
     },
-    "90:10": {
+    "84:10": {
       "preRequisites:11": [
         33,
         55
@@ -6294,7 +5860,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "91:10": {
+    "85:10": {
       "preRequisites:11": [
         32,
         55
@@ -6349,9 +5915,8 @@
         }
       }
     },
-    "92:10": {
+    "86:10": {
       "preRequisites:11": [
-        68,
         98
       ],
       "properties:10": {
@@ -6452,7 +6017,7 @@
         }
       }
     },
-    "93:10": {
+    "87:10": {
       "preRequisites:11": [
         187
       ],
@@ -6466,11 +6031,7 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "twilightforest:miniature_structure",
-              "orig_meta:3": 0
-            }
+            "id:8": "twilightforest:miniature_structure"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -6497,11 +6058,7 @@
               "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "betterquesting:placeholder",
-              "tag:10": {
-                "orig_id:8": "twilightforest:liveroot",
-                "orig_meta:3": 0
-              }
+              "id:8": "twilightforest:liveroot"
             }
           }
         }
@@ -6543,7 +6100,7 @@
         }
       }
     },
-    "94:10": {
+    "88:10": {
       "preRequisites:11": [
         85
       ],
@@ -6645,7 +6202,7 @@
         }
       }
     },
-    "95:10": {
+    "89:10": {
       "preRequisites:11": [
         96
       ],
@@ -6848,7 +6405,7 @@
         }
       }
     },
-    "96:10": {
+    "90:10": {
       "preRequisites:11": [
         45
       ],
@@ -6908,7 +6465,7 @@
         }
       }
     },
-    "97:10": {
+    "91:10": {
       "preRequisites:11": [
         86
       ],
@@ -7010,7 +6567,7 @@
         }
       }
     },
-    "98:10": {
+    "92:10": {
       "preRequisites:11": [
         44
       ],
@@ -7054,7 +6611,7 @@
         }
       }
     },
-    "99:10": {
+    "93:10": {
       "preRequisites:11": [
         100
       ],
@@ -7116,7 +6673,7 @@
         }
       }
     },
-    "100:10": {
+    "94:10": {
       "preRequisites:11": [
         100
       ],
@@ -7178,7 +6735,7 @@
         }
       }
     },
-    "101:10": {
+    "95:10": {
       "preRequisites:11": [
         100
       ],
@@ -7240,7 +6797,7 @@
         }
       }
     },
-    "102:10": {
+    "96:10": {
       "preRequisites:11": [
         37
       ],
@@ -7313,7 +6870,7 @@
         }
       }
     },
-    "103:10": {
+    "97:10": {
       "preRequisites:11": [
         103,
         102
@@ -7376,7 +6933,7 @@
         }
       }
     },
-    "104:10": {
+    "98:10": {
       "preRequisites:11": [
         101,
         105
@@ -7448,7 +7005,7 @@
         }
       }
     },
-    "105:10": {
+    "99:10": {
       "preRequisites:11": [
         103,
         110
@@ -7541,7 +7098,7 @@
         }
       }
     },
-    "106:10": {
+    "100:10": {
       "preRequisites:11": [
         103,
         109
@@ -7648,7 +7205,7 @@
         }
       }
     },
-    "107:10": {
+    "101:10": {
       "preRequisites:11": [
         44
       ],
@@ -7688,7 +7245,7 @@
         }
       }
     },
-    "108:10": {
+    "102:10": {
       "preRequisites:11": [
         44
       ],
@@ -7728,7 +7285,7 @@
         }
       }
     },
-    "109:10": {
+    "103:10": {
       "preRequisites:11": [
         106,
         109
@@ -7791,7 +7348,7 @@
         }
       }
     },
-    "110:10": {
+    "104:10": {
       "preRequisites:11": [
         106,
         110
@@ -7884,7 +7441,7 @@
         }
       }
     },
-    "111:10": {
+    "105:10": {
       "preRequisites:11": [
         109
       ],
@@ -7919,7 +7476,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "112:10": {
+    "106:10": {
       "preRequisites:11": [
         110
       ],
@@ -7954,7 +7511,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "113:10": {
+    "107:10": {
       "preRequisites:11": [
         102
       ],
@@ -8033,7 +7590,7 @@
         }
       }
     },
-    "114:10": {
+    "108:10": {
       "preRequisites:11": [
         44,
         105
@@ -8135,7 +7692,7 @@
         }
       }
     },
-    "115:10": {
+    "109:10": {
       "preRequisites:11": [
         44
       ],
@@ -8219,7 +7776,7 @@
         }
       }
     },
-    "116:10": {
+    "110:10": {
       "preRequisites:11": [
         11,
         55,
@@ -8288,7 +7845,7 @@
         }
       }
     },
-    "117:10": {
+    "111:10": {
       "preRequisites:11": [
         118,
         103,
@@ -8375,7 +7932,7 @@
         }
       }
     },
-    "118:10": {
+    "112:10": {
       "preRequisites:11": [
         119
       ],
@@ -8429,7 +7986,7 @@
         }
       }
     },
-    "119:10": {
+    "113:10": {
       "preRequisites:11": [
         120
       ],
@@ -8483,7 +8040,7 @@
         }
       }
     },
-    "120:10": {
+    "114:10": {
       "preRequisites:11": [
         16
       ],
@@ -8555,7 +8112,7 @@
         }
       }
     },
-    "121:10": {
+    "115:10": {
       "preRequisites:11": [
         122
       ],
@@ -8676,7 +8233,7 @@
         }
       }
     },
-    "122:10": {
+    "116:10": {
       "preRequisites:11": [
         12,
         122
@@ -8744,7 +8301,7 @@
         }
       }
     },
-    "123:10": {
+    "117:10": {
       "preRequisites:11": [
         120
       ],
@@ -8798,7 +8355,7 @@
         }
       }
     },
-    "124:10": {
+    "118:10": {
       "preRequisites:11": [
         120
       ],
@@ -8852,7 +8409,7 @@
         }
       }
     },
-    "125:10": {
+    "119:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -8917,7 +8474,7 @@
         }
       }
     },
-    "126:10": {
+    "120:10": {
       "preRequisites:11": [
         70
       ],
@@ -8989,7 +8546,7 @@
         }
       }
     },
-    "127:10": {
+    "121:10": {
       "preRequisites:11": [
         119
       ],
@@ -9043,7 +8600,7 @@
         }
       }
     },
-    "128:10": {
+    "122:10": {
       "preRequisites:11": [
         76
       ],
@@ -9097,7 +8654,7 @@
         }
       }
     },
-    "129:10": {
+    "123:10": {
       "preRequisites:11": [
         120
       ],
@@ -9151,7 +8708,7 @@
         }
       }
     },
-    "130:10": {
+    "124:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9210,7 +8767,7 @@
         }
       }
     },
-    "131:10": {
+    "125:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9269,7 +8826,7 @@
         }
       }
     },
-    "132:10": {
+    "126:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -9328,7 +8885,7 @@
         }
       }
     },
-    "133:10": {
+    "127:10": {
       "preRequisites:11": [
         125,
         121
@@ -9383,7 +8940,7 @@
         }
       }
     },
-    "134:10": {
+    "128:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9442,7 +8999,7 @@
         }
       }
     },
-    "135:10": {
+    "129:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9501,7 +9058,7 @@
         }
       }
     },
-    "136:10": {
+    "130:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9560,7 +9117,7 @@
         }
       }
     },
-    "137:10": {
+    "131:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9619,7 +9176,7 @@
         }
       }
     },
-    "138:10": {
+    "132:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9678,7 +9235,7 @@
         }
       }
     },
-    "139:10": {
+    "133:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9737,7 +9294,7 @@
         }
       }
     },
-    "140:10": {
+    "134:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -9796,7 +9353,7 @@
         }
       }
     },
-    "141:10": {
+    "135:10": {
       "preRequisites:11": [
         120
       ],
@@ -9850,7 +9407,7 @@
         }
       }
     },
-    "142:10": {
+    "136:10": {
       "preRequisites:11": [
         73,
         145
@@ -9905,7 +9462,7 @@
         }
       }
     },
-    "143:10": {
+    "137:10": {
       "preRequisites:11": [
         70
       ],
@@ -9959,7 +9516,7 @@
         }
       }
     },
-    "144:10": {
+    "138:10": {
       "preRequisites:11": [
         146,
         96,
@@ -10039,7 +9596,7 @@
         }
       }
     },
-    "145:10": {
+    "139:10": {
       "preRequisites:11": [
         144,
         146
@@ -10094,7 +9651,7 @@
         }
       }
     },
-    "146:10": {
+    "140:10": {
       "preRequisites:11": [
         139,
         140,
@@ -10158,7 +9715,7 @@
         }
       }
     },
-    "147:10": {
+    "141:10": {
       "preRequisiteTypes:7": [
         1,
         1,
@@ -10235,7 +9792,7 @@
         }
       }
     },
-    "148:10": {
+    "142:10": {
       "preRequisites:11": [
         149
       ],
@@ -10319,7 +9876,7 @@
         }
       }
     },
-    "149:10": {
+    "143:10": {
       "preRequisites:11": [
         150
       ],
@@ -10397,7 +9954,7 @@
         }
       }
     },
-    "150:10": {
+    "144:10": {
       "preRequisites:11": [
         151
       ],
@@ -10451,7 +10008,7 @@
         }
       }
     },
-    "151:10": {
+    "145:10": {
       "preRequisites:11": [
         151
       ],
@@ -10505,7 +10062,7 @@
         }
       }
     },
-    "152:10": {
+    "146:10": {
       "preRequisites:11": [
         151
       ],
@@ -10559,7 +10116,7 @@
         }
       }
     },
-    "153:10": {
+    "147:10": {
       "preRequisites:11": [
         151
       ],
@@ -10613,7 +10170,7 @@
         }
       }
     },
-    "154:10": {
+    "148:10": {
       "preRequisites:11": [
         152,
         155
@@ -10668,7 +10225,7 @@
         }
       }
     },
-    "155:10": {
+    "149:10": {
       "preRequisites:11": [
         941857624
       ],
@@ -10765,7 +10322,7 @@
         }
       }
     },
-    "156:10": {
+    "150:10": {
       "preRequisites:11": [
         127
       ],
@@ -10831,7 +10388,7 @@
         }
       }
     },
-    "157:10": {
+    "151:10": {
       "preRequisites:11": [
         157
       ],
@@ -10997,7 +10554,7 @@
         }
       }
     },
-    "158:10": {
+    "152:10": {
       "preRequisites:11": [
         91
       ],
@@ -11081,7 +10638,7 @@
         }
       }
     },
-    "159:10": {
+    "153:10": {
       "preRequisites:11": [
         159
       ],
@@ -11160,7 +10717,7 @@
         }
       }
     },
-    "160:10": {
+    "154:10": {
       "preRequisites:11": [
         161
       ],
@@ -11227,7 +10784,7 @@
         }
       }
     },
-    "161:10": {
+    "155:10": {
       "preRequisites:11": [
         226
       ],
@@ -11281,7 +10838,7 @@
         }
       }
     },
-    "162:10": {
+    "156:10": {
       "preRequisites:11": [
         240,
         303
@@ -11471,7 +11028,7 @@
         }
       }
     },
-    "163:10": {
+    "157:10": {
       "preRequisiteTypes:7": [
         1,
         0,
@@ -11488,7 +11045,7 @@
         "betterquesting:10": {
           "autoclaim:1": 0,
           "desc:8": "Spice of life is quite a fun mod, If you eat a food type over and over its food value will drop.\nTo keep food values at there best you need to eat different types of food.\nThe Lunch Bag will help you eat different types of food if you place them inside it.\nThere are hundreds of food types for you to choose from, At least that helps.\n",
-          "frame:8": "CIRCLE",
+          "frame:8": "PRICKLE",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11583,7 +11140,7 @@
         }
       }
     },
-    "164:10": {
+    "158:10": {
       "preRequisites:11": [
         159
       ],
@@ -11686,7 +11243,7 @@
         }
       }
     },
-    "165:10": {
+    "159:10": {
       "preRequisites:11": [
         167,
         170
@@ -11772,7 +11329,7 @@
         }
       }
     },
-    "166:10": {
+    "160:10": {
       "preRequisites:11": [
         157
       ],
@@ -11845,7 +11402,7 @@
         }
       }
     },
-    "167:10": {
+    "161:10": {
       "preRequisites:11": [
         165
       ],
@@ -11899,7 +11456,7 @@
         }
       }
     },
-    "168:10": {
+    "162:10": {
       "preRequisiteTypes:7": [
         0,
         0,
@@ -11916,7 +11473,7 @@
         "betterquesting:10": {
           "autoclaim:1": 0,
           "desc:8": "Bronze is a metal alloy with a ratio of 3 parts Copper 1 part Tin. \nIts also your gateway to making your first steam machines.",
-          "frame:8": "CIRCLE",
+          "frame:8": "PRICKLE",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 16,
@@ -12005,7 +11562,7 @@
         }
       }
     },
-    "169:10": {
+    "163:10": {
       "preRequisites:11": [
         91
       ],
@@ -12083,7 +11640,7 @@
         }
       }
     },
-    "170:10": {
+    "164:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -12142,7 +11699,7 @@
         }
       }
     },
-    "171:10": {
+    "165:10": {
       "preRequisites:11": [
         23,
         22,
@@ -12222,7 +11779,7 @@
         }
       }
     },
-    "172:10": {
+    "166:10": {
       "preRequisites:11": [
         79
       ],
@@ -12336,7 +11893,7 @@
         }
       }
     },
-    "173:10": {
+    "167:10": {
       "preRequisiteTypes:7": [
         1,
         0,
@@ -12412,7 +11969,7 @@
         }
       }
     },
-    "174:10": {
+    "168:10": {
       "preRequisiteTypes:7": [
         0,
         1,
@@ -12510,7 +12067,7 @@
         }
       }
     },
-    "175:10": {
+    "169:10": {
       "preRequisites:11": [
         55
       ],
@@ -12595,7 +12152,7 @@
         }
       }
     },
-    "176:10": {
+    "170:10": {
       "preRequisites:11": [
         74
       ],
@@ -12667,7 +12224,7 @@
         }
       }
     },
-    "177:10": {
+    "171:10": {
       "preRequisites:11": [
         70
       ],
@@ -12721,7 +12278,7 @@
         }
       }
     },
-    "178:10": {
+    "172:10": {
       "preRequisites:11": [
         180,
         179
@@ -12776,7 +12333,7 @@
         }
       }
     },
-    "179:10": {
+    "173:10": {
       "preRequisites:11": [
         45
       ],
@@ -12833,7 +12390,7 @@
         }
       }
     },
-    "180:10": {
+    "174:10": {
       "preRequisites:11": [
         181,
         182,
@@ -12893,7 +12450,7 @@
         }
       }
     },
-    "181:10": {
+    "175:10": {
       "preRequisiteTypes:7": [
         1,
         1
@@ -12952,7 +12509,7 @@
         }
       }
     },
-    "182:10": {
+    "176:10": {
       "preRequisites:11": [
         73
       ],
@@ -13006,7 +12563,7 @@
         }
       }
     },
-    "183:10": {
+    "177:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -13065,7 +12622,7 @@
         }
       }
     },
-    "184:10": {
+    "178:10": {
       "preRequisites:11": [
         176,
         186
@@ -13120,62 +12677,7 @@
         }
       }
     },
-    "185:10": {
-      "preRequisites:11": [
-        70,
-        187
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "How long did it take to make this. Well now you can craft circuits much more efficiently.",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 635,
-            "OreDict:8": "",
-            "id:8": "gregtech:machine"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "LV Circuit Assembler",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 188,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 635,
-              "OreDict:8": "",
-              "id:8": "gregtech:machine"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "186:10": {
+    "179:10": {
       "preRequisites:11": [
         86
       ],
@@ -13235,7 +12737,7 @@
         }
       }
     },
-    "187:10": {
+    "180:10": {
       "preRequisites:11": [
         70
       ],
@@ -13279,7 +12781,7 @@
         }
       }
     },
-    "188:10": {
+    "181:10": {
       "preRequisites:11": [
         190
       ],
@@ -13333,7 +12835,7 @@
         }
       }
     },
-    "189:10": {
+    "182:10": {
       "preRequisites:11": [
         190
       ],
@@ -13387,7 +12889,7 @@
         }
       }
     },
-    "190:10": {
+    "183:10": {
       "preRequisites:11": [
         96,
         95
@@ -13442,7 +12944,7 @@
         }
       }
     },
-    "191:10": {
+    "184:10": {
       "preRequisites:11": [
         193
       ],
@@ -13496,7 +12998,7 @@
         }
       }
     },
-    "192:10": {
+    "185:10": {
       "preRequisites:11": [
         194
       ],
@@ -13550,7 +13052,7 @@
         }
       }
     },
-    "193:10": {
+    "186:10": {
       "preRequisites:11": [
         96,
         203,
@@ -13606,7 +13108,7 @@
         }
       }
     },
-    "194:10": {
+    "187:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -13665,7 +13167,7 @@
         }
       }
     },
-    "195:10": {
+    "188:10": {
       "preRequisites:11": [
         201,
         199,
@@ -13721,7 +13223,7 @@
         }
       }
     },
-    "196:10": {
+    "189:10": {
       "preRequisites:11": [
         194
       ],
@@ -13775,7 +13277,7 @@
         }
       }
     },
-    "197:10": {
+    "190:10": {
       "preRequisites:11": [
         194
       ],
@@ -13829,7 +13331,7 @@
         }
       }
     },
-    "198:10": {
+    "191:10": {
       "preRequisites:11": [
         200
       ],
@@ -13883,7 +13385,7 @@
         }
       }
     },
-    "199:10": {
+    "192:10": {
       "preRequisites:11": [
         198,
         195
@@ -13938,7 +13440,7 @@
         }
       }
     },
-    "200:10": {
+    "193:10": {
       "preRequisites:11": [
         79
       ],
@@ -13992,11 +13494,10 @@
         }
       }
     },
-    "201:10": {
+    "194:10": {
       "preRequisites:11": [
         202,
-        176,
-        188
+        176
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14048,10 +13549,9 @@
         }
       }
     },
-    "202:10": {
+    "195:10": {
       "preRequisites:11": [
-        204,
-        188
+        204
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -14103,7 +13603,7 @@
         }
       }
     },
-    "203:10": {
+    "196:10": {
       "preRequisites:11": [
         200
       ],
@@ -14157,7 +13657,7 @@
         }
       }
     },
-    "204:10": {
+    "197:10": {
       "preRequisites:11": [
         206,
         199,
@@ -14213,7 +13713,7 @@
         }
       }
     },
-    "205:10": {
+    "198:10": {
       "preRequisites:11": [
         195,
         207
@@ -14268,7 +13768,7 @@
         }
       }
     },
-    "206:10": {
+    "199:10": {
       "preRequisites:11": [
         208,
         205,
@@ -14324,7 +13824,7 @@
         }
       }
     },
-    "207:10": {
+    "200:10": {
       "preRequisites:11": [
         194,
         209
@@ -14379,7 +13879,7 @@
         }
       }
     },
-    "208:10": {
+    "201:10": {
       "preRequisites:11": [
         194
       ],
@@ -14433,7 +13933,7 @@
         }
       }
     },
-    "209:10": {
+    "202:10": {
       "preRequisites:11": [
         211,
         96,
@@ -14489,7 +13989,7 @@
         }
       }
     },
-    "210:10": {
+    "203:10": {
       "preRequisites:11": [
         194
       ],
@@ -14543,7 +14043,7 @@
         }
       }
     },
-    "211:10": {
+    "204:10": {
       "preRequisites:11": [
         213
       ],
@@ -14597,7 +14097,7 @@
         }
       }
     },
-    "212:10": {
+    "205:10": {
       "preRequisites:11": [
         200
       ],
@@ -14651,7 +14151,7 @@
         }
       }
     },
-    "213:10": {
+    "206:10": {
       "preRequisites:11": [
         75
       ],
@@ -14705,7 +14205,7 @@
         }
       }
     },
-    "214:10": {
+    "207:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -14743,7 +14243,7 @@
         }
       }
     },
-    "215:10": {
+    "208:10": {
       "preRequisites:11": [
         226
       ],
@@ -14797,7 +14297,7 @@
         }
       }
     },
-    "216:10": {
+    "209:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -14809,11 +14309,7 @@
             "Count:3": 1,
             "Damage:2": 1,
             "OreDict:8": "",
-            "id:8": "betterquesting:placeholder",
-            "tag:10": {
-              "orig_id:8": "twilightforest:root",
-              "orig_meta:3": 1
-            }
+            "id:8": "twilightforest:root"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
@@ -14846,7 +14342,7 @@
         }
       }
     },
-    "217:10": {
+    "210:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -14884,7 +14380,7 @@
         }
       }
     },
-    "218:10": {
+    "211:10": {
       "preRequisites:11": [
         217
       ],
@@ -14956,7 +14452,7 @@
         }
       }
     },
-    "219:10": {
+    "212:10": {
       "preRequisites:11": [
         217
       ],
@@ -15040,7 +14536,7 @@
         }
       }
     },
-    "220:10": {
+    "213:10": {
       "preRequisites:11": [
         217
       ],
@@ -15124,7 +14620,7 @@
         }
       }
     },
-    "221:10": {
+    "214:10": {
       "preRequisites:11": [
         217
       ],
@@ -15208,7 +14704,7 @@
         }
       }
     },
-    "222:10": {
+    "215:10": {
       "preRequisites:11": [
         217
       ],
@@ -15286,7 +14782,7 @@
         }
       }
     },
-    "223:10": {
+    "216:10": {
       "preRequisites:11": [
         217
       ],
@@ -15364,7 +14860,7 @@
         }
       }
     },
-    "224:10": {
+    "217:10": {
       "preRequisites:11": [
         217
       ],
@@ -15418,7 +14914,7 @@
         }
       }
     },
-    "225:10": {
+    "218:10": {
       "preRequisites:11": [
         217
       ],
@@ -15496,7 +14992,7 @@
         }
       }
     },
-    "226:10": {
+    "219:10": {
       "preRequisites:11": [
         217
       ],
@@ -15580,7 +15076,7 @@
         }
       }
     },
-    "227:10": {
+    "220:10": {
       "preRequisites:11": [
         217
       ],
@@ -15664,7 +15160,7 @@
         }
       }
     },
-    "228:10": {
+    "221:10": {
       "preRequisites:11": [
         217
       ],
@@ -15748,7 +15244,7 @@
         }
       }
     },
-    "229:10": {
+    "222:10": {
       "preRequisites:11": [
         217
       ],
@@ -15826,7 +15322,7 @@
         }
       }
     },
-    "230:10": {
+    "223:10": {
       "preRequisites:11": [
         217
       ],
@@ -15910,7 +15406,7 @@
         }
       }
     },
-    "231:10": {
+    "224:10": {
       "preRequisites:11": [
         217
       ],
@@ -15994,7 +15490,7 @@
         }
       }
     },
-    "232:10": {
+    "225:10": {
       "preRequisites:11": [
         217
       ],
@@ -16080,7 +15576,7 @@
         }
       }
     },
-    "233:10": {
+    "226:10": {
       "preRequisites:11": [
         217
       ],
@@ -16164,7 +15660,7 @@
         }
       }
     },
-    "234:10": {
+    "227:10": {
       "preRequisites:11": [
         217
       ],
@@ -16218,7 +15714,7 @@
         }
       }
     },
-    "235:10": {
+    "228:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -16277,7 +15773,7 @@
         }
       }
     },
-    "236:10": {
+    "229:10": {
       "preRequisiteTypes:7": [
         0,
         1,
@@ -16338,7 +15834,7 @@
         }
       }
     },
-    "237:10": {
+    "230:10": {
       "preRequisiteTypes:7": [
         0,
         1,
@@ -16403,7 +15899,7 @@
         }
       }
     },
-    "238:10": {
+    "231:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -16462,7 +15958,7 @@
         }
       }
     },
-    "239:10": {
+    "232:10": {
       "preRequisites:11": [
         235
       ],
@@ -16516,66 +16012,7 @@
         }
       }
     },
-    "240:10": {
-      "preRequisiteTypes:7": [
-        0,
-        1
-      ],
-      "preRequisites:11": [
-        235,
-        225
-      ],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "Good Circuit Boards require Silver. \nTo obtain Silver Pre-Twilight Forest you\u0027ll need to process either Lead ore in an ore washer or Gold ore in a chemical bath with mercury.",
-          "frame:8": "ROUNDED_SQUARE",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 100,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_ingot"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "Quest for Silver",
-          "questlogic:8": "OR",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 243,
-      "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 100,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "241:10": {
+    "233:10": {
       "preRequisiteTypes:7": [
         0,
         1,
@@ -16636,7 +16073,7 @@
         }
       }
     },
-    "242:10": {
+    "234:10": {
       "preRequisites:11": [
         228
       ],
@@ -16690,7 +16127,7 @@
         }
       }
     },
-    "243:10": {
+    "235:10": {
       "preRequisites:11": [
         229
       ],
@@ -16744,7 +16181,7 @@
         }
       }
     },
-    "244:10": {
+    "236:10": {
       "preRequisites:11": [
         228
       ],
@@ -16798,7 +16235,7 @@
         }
       }
     },
-    "245:10": {
+    "237:10": {
       "preRequisites:11": [
         229
       ],
@@ -16852,7 +16289,7 @@
         }
       }
     },
-    "246:10": {
+    "238:10": {
       "preRequisites:11": [
         229
       ],
@@ -16906,7 +16343,7 @@
         }
       }
     },
-    "247:10": {
+    "239:10": {
       "preRequisites:11": [
         229
       ],
@@ -16960,7 +16397,7 @@
         }
       }
     },
-    "248:10": {
+    "240:10": {
       "preRequisites:11": [
         226
       ],
@@ -17014,7 +16451,7 @@
         }
       }
     },
-    "249:10": {
+    "241:10": {
       "preRequisites:11": [
         230
       ],
@@ -17068,7 +16505,7 @@
         }
       }
     },
-    "250:10": {
+    "242:10": {
       "preRequisites:11": [
         230
       ],
@@ -17122,7 +16559,7 @@
         }
       }
     },
-    "251:10": {
+    "243:10": {
       "preRequisites:11": [
         230
       ],
@@ -17176,7 +16613,7 @@
         }
       }
     },
-    "252:10": {
+    "244:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -17235,7 +16672,7 @@
         }
       }
     },
-    "253:10": {
+    "245:10": {
       "preRequisites:11": [
         237
       ],
@@ -17289,7 +16726,7 @@
         }
       }
     },
-    "254:10": {
+    "246:10": {
       "preRequisites:11": [
         231
       ],
@@ -17343,7 +16780,7 @@
         }
       }
     },
-    "255:10": {
+    "247:10": {
       "preRequisites:11": [
         231
       ],
@@ -17397,7 +16834,7 @@
         }
       }
     },
-    "256:10": {
+    "248:10": {
       "preRequisites:11": [
         232
       ],
@@ -17451,7 +16888,7 @@
         }
       }
     },
-    "257:10": {
+    "249:10": {
       "preRequisites:11": [
         232
       ],
@@ -17505,7 +16942,7 @@
         }
       }
     },
-    "258:10": {
+    "250:10": {
       "preRequisites:11": [
         232
       ],
@@ -17559,7 +16996,7 @@
         }
       }
     },
-    "259:10": {
+    "251:10": {
       "preRequisites:11": [
         231
       ],
@@ -17613,7 +17050,7 @@
         }
       }
     },
-    "260:10": {
+    "252:10": {
       "preRequisites:11": [
         235
       ],
@@ -17667,7 +17104,7 @@
         }
       }
     },
-    "261:10": {
+    "253:10": {
       "preRequisites:11": [
         233
       ],
@@ -17721,7 +17158,7 @@
         }
       }
     },
-    "262:10": {
+    "254:10": {
       "preRequisites:11": [
         233
       ],
@@ -17775,7 +17212,7 @@
         }
       }
     },
-    "263:10": {
+    "255:10": {
       "preRequisites:11": [
         233
       ],
@@ -17829,7 +17266,7 @@
         }
       }
     },
-    "264:10": {
+    "256:10": {
       "preRequisites:11": [
         233
       ],
@@ -17883,7 +17320,7 @@
         }
       }
     },
-    "265:10": {
+    "257:10": {
       "preRequisites:11": [
         234
       ],
@@ -17937,7 +17374,7 @@
         }
       }
     },
-    "266:10": {
+    "258:10": {
       "preRequisites:11": [
         234
       ],
@@ -17991,7 +17428,7 @@
         }
       }
     },
-    "267:10": {
+    "259:10": {
       "preRequisites:11": [
         234
       ],
@@ -18045,7 +17482,7 @@
         }
       }
     },
-    "268:10": {
+    "260:10": {
       "preRequisites:11": [
         234
       ],
@@ -18099,7 +17536,7 @@
         }
       }
     },
-    "269:10": {
+    "261:10": {
       "preRequisites:11": [
         222
       ],
@@ -18153,7 +17590,7 @@
         }
       }
     },
-    "270:10": {
+    "262:10": {
       "preRequisites:11": [
         225
       ],
@@ -18207,7 +17644,7 @@
         }
       }
     },
-    "271:10": {
+    "263:10": {
       "preRequisites:11": [
         236
       ],
@@ -18261,7 +17698,7 @@
         }
       }
     },
-    "272:10": {
+    "264:10": {
       "preRequisites:11": [
         236
       ],
@@ -18315,7 +17752,7 @@
         }
       }
     },
-    "273:10": {
+    "265:10": {
       "preRequisites:11": [
         91
       ],
@@ -18393,7 +17830,7 @@
         }
       }
     },
-    "274:10": {
+    "266:10": {
       "preRequisites:11": [
         91
       ],
@@ -18471,7 +17908,7 @@
         }
       }
     },
-    "275:10": {
+    "267:10": {
       "preRequisites:11": [
         91
       ],
@@ -18555,7 +17992,7 @@
         }
       }
     },
-    "276:10": {
+    "268:10": {
       "preRequisites:11": [
         91
       ],
@@ -18627,7 +18064,7 @@
         }
       }
     },
-    "277:10": {
+    "269:10": {
       "preRequisites:11": [
         91
       ],
@@ -18705,7 +18142,7 @@
         }
       }
     },
-    "278:10": {
+    "270:10": {
       "preRequisites:11": [
         91
       ],
@@ -18789,7 +18226,7 @@
         }
       }
     },
-    "279:10": {
+    "271:10": {
       "preRequisites:11": [
         91
       ],
@@ -18867,7 +18304,7 @@
         }
       }
     },
-    "280:10": {
+    "272:10": {
       "preRequisites:11": [
         91
       ],
@@ -18945,7 +18382,7 @@
         }
       }
     },
-    "281:10": {
+    "273:10": {
       "preRequisites:11": [
         91
       ],
@@ -19029,7 +18466,7 @@
         }
       }
     },
-    "282:10": {
+    "274:10": {
       "preRequisites:11": [
         278
       ],
@@ -19064,7 +18501,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "283:10": {
+    "275:10": {
       "preRequisites:11": [
         278
       ],
@@ -19099,7 +18536,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "284:10": {
+    "276:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -19132,7 +18569,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "285:10": {
+    "277:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -19165,7 +18602,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "286:10": {
+    "278:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -19198,7 +18635,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "287:10": {
+    "279:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -19231,7 +18668,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "288:10": {
+    "280:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -19264,7 +18701,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "289:10": {
+    "281:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -19297,7 +18734,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "290:10": {
+    "282:10": {
       "preRequisites:11": [
         278
       ],
@@ -19332,7 +18769,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "291:10": {
+    "283:10": {
       "preRequisites:11": [
         278
       ],
@@ -19367,7 +18804,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "292:10": {
+    "284:10": {
       "preRequisites:11": [
         194
       ],
@@ -19421,7 +18858,7 @@
         }
       }
     },
-    "293:10": {
+    "285:10": {
       "preRequisites:11": [
         70
       ],
@@ -19475,7 +18912,7 @@
         }
       }
     },
-    "294:10": {
+    "286:10": {
       "preRequisites:11": [
         296
       ],
@@ -19529,7 +18966,7 @@
         }
       }
     },
-    "295:10": {
+    "287:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -19588,7 +19025,7 @@
         }
       }
     },
-    "296:10": {
+    "288:10": {
       "preRequisiteTypes:7": [
         1,
         0,
@@ -19649,7 +19086,7 @@
         }
       }
     },
-    "297:10": {
+    "289:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -19708,7 +19145,7 @@
         }
       }
     },
-    "298:10": {
+    "290:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -19767,7 +19204,7 @@
         }
       }
     },
-    "299:10": {
+    "291:10": {
       "preRequisiteTypes:7": [
         1,
         0
@@ -19826,7 +19263,7 @@
         }
       }
     },
-    "300:10": {
+    "292:10": {
       "preRequisites:11": [
         159
       ],
@@ -19892,7 +19329,7 @@
         }
       }
     },
-    "301:10": {
+    "293:10": {
       "preRequisites:11": [
         199,
         215,
@@ -19948,7 +19385,7 @@
         }
       }
     },
-    "302:10": {
+    "294:10": {
       "preRequisites:11": [
         195,
         304
@@ -20003,7 +19440,7 @@
         }
       }
     },
-    "303:10": {
+    "295:10": {
       "preRequisites:11": [
         305,
         214
@@ -20058,7 +19495,7 @@
         }
       }
     },
-    "304:10": {
+    "296:10": {
       "preRequisites:11": [
         213
       ],
@@ -20112,7 +19549,7 @@
         }
       }
     },
-    "305:10": {
+    "297:10": {
       "preRequisites:11": [
         295,
         302
@@ -20148,7 +19585,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "306:10": {
+    "298:10": {
       "preRequisites:11": [
         308
       ],
@@ -20183,7 +19620,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "307:10": {
+    "299:10": {
       "preRequisites:11": [
         210,
         309,
@@ -20220,7 +19657,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "308:10": {
+    "300:10": {
       "preRequisites:11": [
         310
       ],
@@ -20255,7 +19692,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "309:10": {
+    "301:10": {
       "preRequisites:11": [
         311
       ],
@@ -20290,7 +19727,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "310:10": {
+    "302:10": {
       "preRequisites:11": [
         200
       ],
@@ -20325,7 +19762,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "311:10": {
+    "303:10": {
       "preRequisites:11": [
         197,
         313
@@ -20361,7 +19798,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "312:10": {
+    "304:10": {
       "preRequisites:11": [
         314
       ],
@@ -20396,7 +19833,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "313:10": {
+    "305:10": {
       "preRequisites:11": [
         146
       ],
@@ -20450,7 +19887,7 @@
         }
       }
     },
-    "314:10": {
+    "306:10": {
       "preRequisites:11": [
         106
       ],
@@ -20512,7 +19949,206 @@
         }
       }
     },
-    "315:10": {
+    "307:10": {
+      "preRequisites:11": [
+        1049586506
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "All machines require crafting components for that voltage tier.\nThis tier is LV so all machines require LV Tier crafting components.\nFor this quest just make an LV Motor, Piston, Conveyer, Robot Arm and Pump. \n§6\nYou\u0027ll be using a lot of these so I suggest making a couple of them.",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Basic LV Components",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 64439755,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 127,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 172,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 157,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 187,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 142,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "308:10": {
+      "preRequisites:11": [
+        1562845289
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Are you tired of using buckets to move fluids around, Well you have come to the right place.\n\nWith the Bending machine you just made you can make Fluid Cells in it. \n\nEach one stores 1000mb of any fluid you choose, They even stack to 64!",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Basic Fluid Storage",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 76787104,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "309:10": {
+      "preRequisites:11": [
+        1049586506
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Burning a combustable gas in a Gas Turbine will produce energy.\nMore advanced than a Steam Turbine and requires a combustable gas.\n\nHigher tier fuels will yeild more energy per Mb.",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 965,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Gas Turbine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 106277886,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 965,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "310:10": {
       "preRequisites:11": [
         167,
         1211804775
@@ -20628,7 +20264,7 @@
         }
       }
     },
-    "316:10": {
+    "311:10": {
       "preRequisites:11": [
         920900798
       ],
@@ -20663,7 +20299,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "317:10": {
+    "312:10": {
       "preRequisites:11": [
         659122138
       ],
@@ -20698,7 +20334,116 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "318:10": {
+    "313:10": {
+      "preRequisites:11": [
+        2055066303,
+        1242750732,
+        106277886
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "If you know how Gregtech energy works you can skip this quest without reading it, If you don\u0027t understand how it works you might want to read on.\n\nAs you Might have guessed, Gregtech energy is quite different if you aren\u0027t already familiar with it.\nSo Ill try to explain it to you, Each Voltage tier has a specific voltage.\n§8\nULV\u003d8§7\n LV\u003d32§b\n  MV\u003d128§6\n   HV\u003d512§5\n    EV\u003d2048§1\n     IV\u003d8192§d\n      LuV\u003d32768§c\n       ZPM\u003d131072§3\n        UV\u003d524288§4\n         UHV\u003d2097152§a\n          UEV\u003d8388608§2\n           UIV\u003d33554432§e\n            UXV\u003d134217728§9\n             OpV\u003d536870912§c\n              MAX\u003d2147483648§f\n\nAbove are all the voltage tiers and there coresponding colurs.\n\nAs you can see, the calculation for the next voltage tier is Voltage Tier * 4 \u003d Next Voltage Tier.\n\n\nThe next thing is about energy is cable Amps, I have mentioned them a few times but here I\u0027ll go into detail about them.\nAmps are very important since the more Amps a cable can carry, the more machines can run together.§l\n\nLong story short If you have a 1x cable run to 4 machines and each machine uses 32 eu/t, only 1 machine can run with a single amp, If you have more than one machine you need a bigger cable that can supply more Amps.\n\nOne more thing, if you plug a higher voltage cable into a lower voltage cable, the cable will burn up. Pluging a higher voltage cable into a machine however will result in the machine exploding!\n§r\nHopfully you understand How energy works in gregtech and won\u0027t burn or explode machines :)",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 202,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Understanding Gregtech Energy",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "OR",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 331768023,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
+    },
+    "314:10": {
+      "preRequisites:11": [
+        64439755
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "A Centrifuge will seperate items based on weight. \n\nThis is really usful if you need to seperate somthing instead of electrolysing it. ",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 185,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Hi-Tech Spinning Machine I",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 346365387,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 185,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "315:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -20731,7 +20476,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "319:10": {
+    "316:10": {
       "preRequisites:11": [
         157
       ],
@@ -20798,7 +20543,7 @@
         }
       }
     },
-    "320:10": {
+    "317:10": {
       "preRequisites:11": [
         920900798
       ],
@@ -20833,7 +20578,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "321:10": {
+    "318:10": {
       "preRequisites:11": [
         920900798
       ],
@@ -20868,7 +20613,97 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "322:10": {
+    "319:10": {
+      "preRequisites:11": [
+        958107144,
+        331768023
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Making an LV Circuit Assembler will make crafting Circuits and other various electronic components more easier\n\nCrafting this is a big step in overall progression, Making circuits easier is a must have!",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 635,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Avengers Circuit Assemble I",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 469189542,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 635,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "320:10": {
+      "preRequisites:11": [
+        346365387
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Centrifuging Oilsands will yeild Heavy Oil. Which can then be sent through a Distillery to produce Sulfuric Heavy Fuel. Then sending the resulting Sulfuric Heavy Fuel through a chemical reactor with a bit of hydrogen will produce Heavy Fuel.\n§6\nYou\u0027ll need Heavy Fuel to produce Phenol for the next tier of Circuit!",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:nether_star"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Heavy Black Gold",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 489974731,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "321:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -20901,7 +20736,281 @@
       "rewards:9": {},
       "tasks:9": {}
     },
+    "322:10": {
+      "preRequisites:11": [
+        64439755,
+        583416945,
+        331768023
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Time to make an Assembling Machine. This one is used to make more complex components. \n\nThis is also used to make the LV Emitter and LV Field Generator",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 110,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Avengers Assemble I",
+          "questlogic:8": "OR",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 533084212,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 110,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
     "323:10": {
+      "preRequisites:11": [
+        64439755,
+        331768023
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Electrolyser Is used to split complex compounds into there Elemental Components, Like Salt Into Sodium and Chlorine.\n\n",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 275,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Electrolyser, I barly know her I",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 575095592,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "pamsbreadcraft:obwarzanekkrakowski"
+            }
+          }
+        },
+        "1:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 312,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 309,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "2:10": {
+              "Count:3": 32,
+              "Damage:2": 313,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 1,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 275,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "324:10": {
+      "preRequisites:11": [
+        64439755,
+        575095592
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Storing energy is useful for runing machines for longer, Especially when you have more than 1 machine on a 4 amp cable.\nThere are 3 types of battery buffer you can make 4, 8 and 16 amps. (Either one will work for this quest)\n\nYou\u0027ll also need some batteries for this, the easier one to craft is the Sodium Battery.\n§6\nHint : Electrolyse Salt for Sodium and Chlorine!",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 732,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Charge:4": 80000
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Storing Energy",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 583416945,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        },
+        "1:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 101,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 16,
+              "Damage:2": 56,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "2:10": {
+              "Count:3": 16,
+              "Damage:2": 19,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 1,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "OR",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1316,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 1330,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 1344,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "325:10": {
       "preRequisites:11": [
         171
       ],
@@ -20968,7 +21077,7 @@
         }
       }
     },
-    "324:10": {
+    "326:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -21001,7 +21110,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "325:10": {
+    "327:10": {
       "preRequisites:11": [
         1211804775
       ],
@@ -21068,7 +21177,7 @@
         }
       }
     },
-    "326:10": {
+    "328:10": {
       "preRequisites:11": [
         1302356596
       ],
@@ -21103,7 +21212,93 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "327:10": {
+    "329:10": {
+      "preRequisiteTypes:7": [
+        0,
+        1,
+        0
+      ],
+      "preRequisites:11": [
+        1095347171,
+        76787104,
+        489974731
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Phenol Is required for Phenolic Circuit Boards.\n\nTo make Phenol you will need to distil Heavy Fuel in a Distillery.\n",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "phenol"
+              }
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Liquid Phenol",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 810918214,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "phenol"
+                }
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "330:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -21184,7 +21379,7 @@
         }
       }
     },
-    "328:10": {
+    "331:10": {
       "preRequisites:11": [
         158
       ],
@@ -21269,7 +21464,226 @@
         }
       }
     },
-    "329:10": {
+    "332:10": {
+      "preRequisites:11": [
+        533084212
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Now you have an LV Assembling Machine, you can now make LV Field Generators and LV Sensors. \nThese are used in many recipes and will be required to make an LV Circuit Assembler.",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 217,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Advanced LV Components",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 958107144,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 217,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 202,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "333:10": {
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The LV Machine Hull will be your gate in making Low Voltage Machines.\n§6\nAll LV Machines and generators will consume/produce 1 Amp of LV power, Thats 32 Eu/t per generator.\n\nMachine Recipes sometimes don\u0027t use 32 Eu/T but will still need 1 amp to charge.\n§f\nMaking a machine hull and i\u0027ll unlock the 3 Chapter LV (Low Voltage)",
+          "frame:8": "PRICKLE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 986,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "LV (Low Voltage)",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1049586506,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 986,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "2:10": {
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "harvestcraft:butteredpotatoitem"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 986,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "334:10": {
+      "preRequisites:11": [
+        64439755
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Using a Distillery, you can refine many fluids into more useful fluids.\n\nOne in particular is refining Heavy Oil into Sulfuric Heavy Fuel.\n\nIf you every get stuck with somthing use Jei to search for recipes :)",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 260,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "LV Distillery",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1095347171,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 260,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "335:10": {
       "preRequisiteTypes:7": [
         0,
         1
@@ -21365,7 +21779,74 @@
         }
       }
     },
-    "330:10": {
+    "336:10": {
+      "preRequisites:11": [
+        1049586506
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Using a combustable liquid like diesel in this generator will produce power.\n\nHigher tier fuels will yeild more energy per Mb.",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 935,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Combustion Generator",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1242750732,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 935,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "337:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -21430,7 +21911,7 @@
         }
       }
     },
-    "331:10": {
+    "338:10": {
       "preRequisites:11": [
         1818147186
       ],
@@ -21465,7 +21946,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "332:10": {
+    "339:10": {
       "preRequisites:11": [
         22
       ],
@@ -21532,7 +22013,7 @@
         }
       }
     },
-    "333:10": {
+    "340:10": {
       "preRequisites:11": [
         920900798
       ],
@@ -21567,7 +22048,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "334:10": {
+    "341:10": {
       "preRequisites:11": [
         665430070
       ],
@@ -21602,7 +22083,74 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "335:10": {
+    "342:10": {
+      "preRequisites:11": [
+        64439755
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "The Bending machine is useful if you want the most efficent recipe to produce Plates, Requiring only Ingot to make 1 Plate!",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 140,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Booo, We want Bender! I",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1562845289,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 1,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 140,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "343:10": {
       "preRequisites:11": [
         920900798
       ],
@@ -21637,7 +22185,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "336:10": {
+    "344:10": {
       "preRequisites:11": [
         920900798
       ],
@@ -21672,7 +22220,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "337:10": {
+    "345:10": {
       "preRequisites:11": [
         395986738
       ],
@@ -21707,7 +22255,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "338:10": {
+    "346:10": {
       "preRequisites:11": [
         22
       ],
@@ -21774,7 +22322,7 @@
         }
       }
     },
-    "339:10": {
+    "347:10": {
       "preRequisites:11": [
         1881147616
       ],
@@ -21809,7 +22357,7 @@
       "rewards:9": {},
       "tasks:9": {}
     },
-    "340:10": {
+    "348:10": {
       "preRequisites:11": [
         159
       ],
@@ -21876,7 +22424,7 @@
         }
       }
     },
-    "341:10": {
+    "349:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -21935,6 +22483,73 @@
               "Damage:2": 0,
               "OreDict:8": "",
               "id:8": "forestry:apiarist_bag"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "350:10": {
+      "preRequisites:11": [
+        1049586506
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "Generating energy though spinning a turbine.\nBasic but need for early power generation.\n\nUsing Super Heated Steam will result in more energy.",
+          "frame:8": "ROUNDED_SQUARE",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 950,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "Steam Turbine",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 2055066303,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 950,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -22219,6 +22834,13 @@
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": 60
+        },
+        "34:10": {
+          "id:3": 1049586506,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -120
         }
       }
     },
@@ -22240,7 +22862,92 @@
           "visibility:8": "ALWAYS"
         }
       },
-      "quests:9": {}
+      "quests:9": {
+        "0:10": {
+          "id:3": 64439755,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        },
+        "1:10": {
+          "id:3": 76787104,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": 84
+        },
+        "2:10": {
+          "id:3": 346365387,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 469189542,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 228,
+          "y:3": -60
+        },
+        "4:10": {
+          "id:3": 489974731,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": -108
+        },
+        "5:10": {
+          "id:3": 533084212,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -12
+        },
+        "6:10": {
+          "id:3": 575095592,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 36
+        },
+        "7:10": {
+          "id:3": 583416945,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -60
+        },
+        "8:10": {
+          "id:3": 810918214,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -204
+        },
+        "9:10": {
+          "id:3": 958107144,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 132,
+          "y:3": -60
+        },
+        "10:10": {
+          "id:3": 1095347171,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -108
+        },
+        "11:10": {
+          "id:3": 1562845289,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": 84
+        }
+      }
     },
     "3:10": {
       "lineID:3": 3,
@@ -22348,7 +23055,7 @@
     },
     "5:10": {
       "lineID:3": 5,
-      "order:3": 19,
+      "order:3": 20,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -22470,7 +23177,7 @@
     },
     "6:10": {
       "lineID:3": 6,
-      "order:3": 20,
+      "order:3": 21,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -22827,7 +23534,7 @@
     },
     "8:10": {
       "lineID:3": 8,
-      "order:3": 21,
+      "order:3": 22,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -23157,7 +23864,7 @@
     },
     "22:10": {
       "lineID:3": 22,
-      "order:3": 22,
+      "order:3": 23,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -23174,6 +23881,55 @@
         }
       },
       "quests:9": {}
+    },
+    "23:10": {
+      "lineID:3": 23,
+      "order:3": 19,
+      "properties:10": {
+        "betterquesting:10": {
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Come here to learn all the ways to generate Eu (Energy Units)",
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 950,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "name:8": "Power Generation",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "quests:9": {
+        "0:10": {
+          "id:3": 106277886,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -12
+        },
+        "1:10": {
+          "id:3": 331768023,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 36,
+          "y:3": -60
+        },
+        "2:10": {
+          "id:3": 1242750732,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 84,
+          "y:3": -12
+        },
+        "3:10": {
+          "id:3": 2055066303,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -12,
+          "y:3": -12
+        }
+      }
     }
   },
   "questSettings:10": {

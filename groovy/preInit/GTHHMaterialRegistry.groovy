@@ -18,6 +18,5 @@ eventManager.listen(EventPriority.LOWEST) {
 
         log.infoMC("Modifying Material flags")
         GTHHMaterialFlags.init()
-
         
 }

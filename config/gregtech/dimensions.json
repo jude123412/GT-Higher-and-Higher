@@ -13,11 +13,19 @@
       "dimName": "Nether"
     },
     {
-      "dimID": -1007,
+      "dimID": 7,
+      "dimName": "Twilight Forest"
+    },
+    {
+      "dimID": -28,
+      "dimName": "Moon"
+    },
+    {
+      "dimID": -20,
       "dimName": "Ceres"
     },
     {
-      "dimID": -1008,
+      "dimID": -19,
       "dimName": "Pluto"
     }
   ]

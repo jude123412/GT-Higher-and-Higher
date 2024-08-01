@@ -1,13 +1,13 @@
 {
-  "name": "gregtech.veins.ore.olivine",
+  "name": "gregtech.veins.ore.mica",
   "weight": 20,
   "density": 0.25,
-  "dimension_filter": ["name:overworld"],
+  "dimension_filter": ["name:twilight_forest"],
   "max_height": 40,
-  "min_height": 10,
+  "min_height": 20,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "olivine"
+    "material": "mica"
   },
   "generator": {
     "type": "layered",
@@ -20,16 +20,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:bentonite"
+        "primary": "ore:kyanite"
       },
       {
-        "secondary": "ore:magnesite"
+        "secondary": "ore:mica"
       },
       {
-        "between": "ore:olivine"
+        "between": "ore:talc"
       },
       {
-        "sporadic": "ore:glauconite_sand"
+        "sporadic": "ore:pollucite"
       }
     ]
   }

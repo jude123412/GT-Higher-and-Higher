@@ -20,7 +20,7 @@ import gregtech.common.blocks.MetaBlocks
 import gregtech.core.sound.GTSoundEvents
 import gregtech.api.metatileentity.multiblock.MultiblockDisplayText
 import gregtech.api.pattern.PatternMatchContext
-import groovyjarjarantlr4.v4.runtime.misc.NotNull;
+import groovyjarjarantlr4.v4.runtime.misc.NotNull
 
 import net.minecraft.block.state.IBlockState
 import net.minecraft.util.ResourceLocation
@@ -28,8 +28,7 @@ import net.minecraft.util.SoundEvent
 import net.minecraftforge.fml.relauncher.Side
 import net.minecraftforge.fml.relauncher.SideOnly
 
-
-public class MetaTileEntityMacerationStack extends RecipeMapMultiblockController {
+class MetaTileEntityMacerationStack extends RecipeMapMultiblockController {
 
     MetaTileEntityMacerationStack(ResourceLocation metaTileEntityId) {
         super(metaTileEntityId, RecipeMaps.MACERATOR_RECIPES)
@@ -59,14 +58,12 @@ public class MetaTileEntityMacerationStack extends RecipeMapMultiblockController
     }
 
     protected IBlockState getCasingState() {
-        
-
         return MetaBlocks.METAL_CASING.getState(MetalCasingType.TITANIUM_STABLE)
     }
 
     @Override
     public SoundEvent getBreakdownSound() {
-        return GTSoundEvents.BREAKDOWN_ELECTRICAL;
+        return GTSoundEvents.BREAKDOWN_ELECTRICAL
     }
     
     @Override
@@ -84,10 +81,19 @@ public class MetaTileEntityMacerationStack extends RecipeMapMultiblockController
         public int getParallelLimit() {
 
             int voltageTier = Math.max(0, GTUtility.getTierByVoltage(this.getMaxVoltage()))
-            int baseParallels = 2
-            int overclockParallels = voltageTier * baseParallels
-                
-            return overclockParallels;
+            int baseParallels = 1
+
+            if (voltageTier >= GTValues.LV && voltageTier <= GTValues.EV) {
+                baseParallels = 2
+            } else if (voltageTier >= GTValues.IV && voltageTier <= GTValues.UV) {
+                baseParallels = 8
+            } else if (voltageTier >= GTValues.UHV && voltageTier <= GTValues.UXV) {
+                baseParallels = 32 
+            } else if (voltageTier >= GTValues.OpV) {
+                baseParallels = 128 
+            }
+
+            return voltageTier * baseParallels
         }
 
         @NotNull
@@ -97,3 +103,4 @@ public class MetaTileEntityMacerationStack extends RecipeMapMultiblockController
         }
     }
 }
+

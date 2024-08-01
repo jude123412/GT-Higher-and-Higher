@@ -9,7 +9,7 @@
     "material": "carbonate"
   },
   "dimension_filter": [
-    "dimension_id:-1007"
+    "dimension_id:-20"
   ],
   "generator": {
     "type": "layered",

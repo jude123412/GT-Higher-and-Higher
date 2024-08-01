@@ -31,7 +31,7 @@
         "between": "ore:banded_iron"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:precious_metals"
       }
     ]
   }

@@ -2,6 +2,7 @@
   "name": "gregtech.veins.ore.raw_oil_sphere",
   "weight": 50,
   "density": 1.0,
+  "dimension_filter": ["name:overworld"],
   "max_height": 40,
   "min_height": 10,
   "priority": -100,

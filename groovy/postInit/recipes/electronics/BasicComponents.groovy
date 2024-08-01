@@ -25,11 +25,27 @@ recipemap('assembler').recipeBuilder()
     .EUt(30)
     .buildAndRegister()
 
-// Recipe removal
+recipemap('chemical_reactor').recipeBuilder()
+    .inputs(metaitem('plateWood') * 1)
+    .fluidInputs(fluid('phenol') * 50)
+    .outputs(metaitem('board.phenolic') * 1)
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister()
 
+recipemap('chemical_reactor').recipeBuilder()
+    .inputs(metaitem('plateWood') * 4)
+    .fluidInputs(fluid('bisphenol_a') * 50)
+    .outputs(metaitem('board.phenolic') * 4)
+    .duration(100)
+    .EUt(120)
+    .buildAndRegister()
+
+// Recipe removal
 // Diode * 2
 mods.gregtech.assembler.removeByInput(30, [metaitem('wireFineCopper') * 4, metaitem('wafer.silicon')], [fluid('plastic') * 144])
 
 // Diode * 4
 mods.gregtech.assembler.removeByInput(30, [metaitem('wireFineAnnealedCopper') * 4, metaitem('wafer.silicon')], [fluid('plastic') * 144])
+mods.gregtech.assembler.removeByInput(30, [metaitem('dustWood') * 1, item('gregtech:meta_item_1', 461).withNbt(['Configuration': 1])], [fluid('glue') * 50])
 

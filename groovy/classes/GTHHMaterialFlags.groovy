@@ -21,7 +21,14 @@ import static gregtech.api.unification.material.Materials.*
 class GTHHMaterialFlags {
 
     static void init() { 
-        
+
+        RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidInputs(3);
+        RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidOutputs(3);
+        RecipeMaps.SIFTER_RECIPES.setMaxFluidInputs(3);
+        RecipeMaps.SIFTER_RECIPES.setMaxFluidOutputs(3);
+        RecipeMaps.FLUID_HEATER_RECIPES.setMaxFluidOutputs(3);
+
+
         BorosilicateGlass.addOre()
 
         CobaltOxide.setProperty(PropertyKey.ORE, new OreProperty())

@@ -1,35 +1,35 @@
 {
-  "name": "gregtech.veins.ore.olivine",
-  "weight": 20,
+  "name": "gregtech.veins.ore.cryolite",
+  "weight": 60,
   "density": 0.25,
-  "dimension_filter": ["name:overworld"],
+  "dimension_filter": ["name:twilight_forest"],
   "max_height": 40,
   "min_height": 10,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "olivine"
+    "material": "cryolite"
   },
   "generator": {
     "type": "layered",
     "radius": [
-      14,
-      16
+      18,
+      24
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:bentonite"
+        "primary": "ore:cryolite"
       },
       {
-        "secondary": "ore:magnesite"
+        "secondary": "ore:galena"
       },
       {
-        "between": "ore:olivine"
+        "between": "ore:cryolite"
       },
       {
-        "sporadic": "ore:glauconite_sand"
+        "sporadic": "ore:sapphire"
       }
     ]
   }

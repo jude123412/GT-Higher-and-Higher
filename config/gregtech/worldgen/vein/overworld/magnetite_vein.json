@@ -2,6 +2,7 @@
   "name": "gregtech.veins.ore.magnetite",
   "weight": 80,
   "density": 0.15,
+  "dimension_filter": ["name:overworld"],
   "max_height": 60,
   "min_height": 30,
   "vein_populator": {
@@ -28,7 +29,7 @@
         "between": "ore:vanadium_magnetite"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:precious_metals"
       }
     ]
   }

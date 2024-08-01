@@ -2,6 +2,7 @@
   "name": "gregtech.veins.ore.mica",
   "weight": 20,
   "density": 0.25,
+  "dimension_filter": ["name:overworld"],
   "max_height": 40,
   "min_height": 20,
   "vein_populator": {
@@ -25,7 +26,7 @@
         "secondary": "ore:mica"
       },
       {
-        "between": "ore:bauxite"
+        "between": "ore:talc"
       },
       {
         "sporadic": "ore:pollucite"
