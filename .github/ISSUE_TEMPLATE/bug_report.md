@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is. IE, Missing Recipe, Broken texture.
+A clear and concise description of what the bug is. Ex, Missing Recipe, Broken texture.
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -20,7 +20,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
-Modpack Version IE, v1.3 Beta.
+Modpack Version Ex, v1.3 Beta.
 
 **Additional context**
 Add any other context about the problem here.
