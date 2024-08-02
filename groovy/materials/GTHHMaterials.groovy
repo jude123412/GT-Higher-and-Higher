@@ -10,6 +10,7 @@ import static gregtech.api.unification.material.info.MaterialFlags.*
 import static gregtech.api.unification.material.Materials.*
 
 import static materials.GTHHSecondDegreeMaterials.*
+import static materials.GTHHFluidMaterials.*
 import static materials.GTHHOreMaterials.*
 import static materials.GTHHOreRecipeHandler.*
 
@@ -36,15 +37,19 @@ class GTHHMaterials {
     static Material Infinity
     
     //Second Degree Materials
+
+    //Fluid Materials
     static Material DirtyPreciousMetalSolution
     static Material DilutePreciousMetalSolution
     static Material CleanPreciousMetalSolution
     static Material ConcentratedPreciousMetalSolution
+    static Material CoalSlurry
 
     static void init() {
 
         GTHHSecondDegreeMaterials.register()
         GTHHFantasyMaterials.register()
+        GTHHFluidMaterials.register()
         GTHHOreMaterials.register()
         GTHHOreRecipeHandler.register()
         GTHHOrePrefix.init()

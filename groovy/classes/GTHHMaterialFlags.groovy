@@ -36,6 +36,58 @@ class GTHHMaterialFlags {
         CobaltOxide.setFormula("Co3O4", true)
         CobaltOxide.addFlags("disable_decomposition")
 
+
+        OreProperty orePropCopper = Copper.getProperty(PropertyKey.ORE)
+        orePropCopper.getOreByProducts().clear()
+        orePropCopper.setOreByProducts(Cobalt, PreciousMetals, Nickel, PreciousMetals)
+
+        OreProperty orePropGold = Gold.getProperty(PropertyKey.ORE)
+        orePropGold.getOreByProducts().clear()
+        orePropGold.setOreByProducts(PreciousMetals, Nickel, PreciousMetals)
+
+        OreProperty orePropIron = Iron.getProperty(PropertyKey.ORE)
+        orePropIron.getOreByProducts().clear()
+        orePropIron.setOreByProducts(Nickel, Tin, Tin, PreciousMetals)
+
+        OreProperty orePropSilver = Silver.getProperty(PropertyKey.ORE)
+        orePropSilver.getOreByProducts().clear()
+        orePropSilver.setOreByProducts(Lead, Sulfur, Sulfur, PreciousMetals)
+
+        OreProperty orePropChalcopyrite = Chalcopyrite.getProperty(PropertyKey.ORE)
+        orePropChalcopyrite.getOreByProducts().clear()
+        orePropChalcopyrite.setOreByProducts(Pyrite, Cobalt, Cadmium, PreciousMetals)
+
+        OreProperty orePropElectrum = Electrum.getProperty(PropertyKey.ORE)
+        orePropElectrum.getOreByProducts().clear()
+        orePropElectrum.setOreByProducts(PreciousMetals, PreciousMetals, PreciousMetals)
+
+        OreProperty orePropMagnetite = Magnetite.getProperty(PropertyKey.ORE)
+        orePropMagnetite.getOreByProducts().clear()
+        orePropMagnetite.getSeparatedInto().clear()
+        orePropMagnetite.setOreByProducts(Iron, PreciousMetals)
+
+        OreProperty orePropBornite = Bornite.getProperty(PropertyKey.ORE);
+        orePropBornite.getOreByProducts().clear()
+        orePropBornite.setOreByProducts(Pyrite, Cobalt, Cadmium, PreciousMetals);
+
+        OreProperty orePropVanadiumMagnetite = VanadiumMagnetite.getProperty(PropertyKey.ORE);
+        orePropVanadiumMagnetite.getOreByProducts().clear()
+        orePropVanadiumMagnetite.getSeparatedInto().clear()
+        orePropVanadiumMagnetite.setOreByProducts(Magnetite, Magnetite, Vanadium)
+        orePropVanadiumMagnetite.setSeparatedInto(PreciousMetals)
+
+        OreProperty orePropGraniticMineralSand = GraniticMineralSand.getProperty(PropertyKey.ORE);
+        orePropGraniticMineralSand.getOreByProducts().clear()
+        orePropGraniticMineralSand.getSeparatedInto().clear()
+        orePropGraniticMineralSand.setOreByProducts(GraniteBlack, Magnetite);
+        orePropGraniticMineralSand.setSeparatedInto(PreciousMetals);
+
+        OreProperty orePropBasalticMineralSand = BasalticMineralSand.getProperty(PropertyKey.ORE);
+        orePropBasalticMineralSand.getOreByProducts().clear()
+        orePropBasalticMineralSand.getSeparatedInto().clear()
+        orePropBasalticMineralSand.setOreByProducts(Basalt, Magnetite);
+        orePropBasalticMineralSand.setSeparatedInto(PreciousMetals)
+
     }
 
 }
