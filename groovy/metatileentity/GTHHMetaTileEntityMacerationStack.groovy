@@ -1,5 +1,5 @@
 //NO_RELOAD
-package classes
+package metatileentity
 
 import gregtech.api.capability.impl.MultiblockRecipeLogic
 import gregtech.api.metatileentity.multiblock.MultiblockAbility
@@ -28,16 +28,16 @@ import net.minecraft.util.SoundEvent
 import net.minecraftforge.fml.relauncher.Side
 import net.minecraftforge.fml.relauncher.SideOnly
 
-class MetaTileEntityMacerationStack extends RecipeMapMultiblockController {
+class GTHHMetaTileEntityMacerationStack extends RecipeMapMultiblockController {
 
-    MetaTileEntityMacerationStack(ResourceLocation metaTileEntityId) {
+    GTHHMetaTileEntityMacerationStack(ResourceLocation metaTileEntityId) {
         super(metaTileEntityId, RecipeMaps.MACERATOR_RECIPES)
         this.recipeMapWorkable = new MacerationStackLogic(this)
     }
 
     @Override
     MetaTileEntity createMetaTileEntity(IGregTechTileEntity tileEntity) {
-        return new MetaTileEntityMacerationStack(metaTileEntityId)
+        return new GTHHMetaTileEntityMacerationStack(metaTileEntityId)
     }
 
     @Override

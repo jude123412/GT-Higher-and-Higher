@@ -2,16 +2,11 @@ import net.minecraftforge.fml.common.eventhandler.EventPriority
 import gregtech.api.unification.material.event.MaterialEvent
 
 import materials.GTHHMaterials
-import materials.GTHHMaterialIconSet
-import classes.GTHHMaterialFlags
+import material.GTHHMaterialFlags
 
-log.infoMC("Adding new Material Event Manager")
+log.infoMC("Adding new Material Event")
 
-eventManager.listen(EventPriority.LOWEST) {
-    MaterialEvent event ->
-
-        log.infoMC("Registering new Icon Sets")
-        GTHHMaterialIconSet.init()
+eventManager.listen(EventPriority.LOWEST) { MaterialEvent event ->
 
         log.infoMC("Registering new Materials")
         GTHHMaterials.init()

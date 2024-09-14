@@ -1,3 +1,5 @@
+package classes
+
 import gregtech.api.unification.material.event.PostMaterialEvent
 import gregtech.api.unification.material.Materials
 import gregtech.api.unification.material.info.MaterialIconType
@@ -40,30 +42,40 @@ import net.minecraft.block.SoundType
 import net.minecraft.block.state.IBlockState
 import net.minecraft.init.Blocks
 
-import classes.GTHHOrePrefix
+import material.GTHHOrePrefix
 import materials.GTHHMaterials
+
+import classes.GTHHMetaItem
 
 import static gregtech.api.unification.ore.OrePrefix.Flags.ENABLE_UNIFICATION
 import static gregtech.api.unification.ore.OrePrefix.Conditions.hasOreProperty
 
-eventManager.listen {
-    PostMaterialEvent event ->
-        log.infoMC("Adding Stone Types...")
+class GTHHStoneTypes {
 
-            def MaterialMoon = material('moon')
-            def MaterialCeres = material('ceres')
-            def MaterialPluto = material('pluto')
+    private static int startId = 12
+    private static int endId = 512
 
-            final StoneType MOON = new StoneType(12, "moon", SoundType.STONE, GTHHOrePrefix.oreMoon, MaterialMoon,
+    static void register() {
+
+            final StoneType MOON = new StoneType(getMetaItemId(), "moon", SoundType.STONE, GTHHOrePrefix.oreMoon, GTHHMaterials.Moon,
                 () -> GCBlocks.blockMoon.getDefaultState().withProperty(BlockBasicMoon.BASIC_TYPE_MOON, BlockBasicMoon.EnumBlockBasicMoon.MOON_STONE),
                     (state) -> state.getBlock() instanceof BlockBasicMoon && state.getValue(BlockBasicMoon.BASIC_TYPE_MOON) == BlockBasicMoon.EnumBlockBasicMoon.MOON_STONE, true)
 
-            final StoneType CERES = new StoneType(13, "ceres", SoundType.STONE, GTHHOrePrefix.oreCeres, MaterialCeres,
+            final StoneType CERES = new StoneType(getMetaItemId(), "ceres", SoundType.STONE, GTHHOrePrefix.oreCeres, GTHHMaterials.Ceres,
                 () -> ExtraPlanets_Blocks.CERES_BLOCKS.getDefaultState().withProperty(BlockBasicCeres.BASIC_TYPE, BlockBasicCeres.EnumBlockBasic.STONE),
                     (state) -> state.getBlock() instanceof BlockBasicCeres && state.getValue(BlockBasicCeres.BASIC_TYPE) == BlockBasicCeres.EnumBlockBasic.STONE, true)
 
-            final StoneType PLUTO = new StoneType(14, "pluto", SoundType.STONE, GTHHOrePrefix.orePluto, MaterialPluto,
+            final StoneType PLUTO = new StoneType(getMetaItemId(), "pluto", SoundType.STONE, GTHHOrePrefix.orePluto, GTHHMaterials.Pluto,
                 () -> ExtraPlanets_Blocks.PLUTO_BLOCKS.getDefaultState().withProperty(BlockBasicPluto.BASIC_TYPE, BlockBasicPluto.EnumBlockBasic.STONE),
                     (state) -> state.getBlock() instanceof BlockBasicPluto && state.getValue(BlockBasicPluto.BASIC_TYPE) == BlockBasicPluto.EnumBlockBasic.STONE, true)
+
+    }
+
+    private static int getMetaItemId() {
+        if (startId < endId){
+        return startId++
+        }
+        throw new ArrayIndexOutOfBoundsException()
+    }
 
 }

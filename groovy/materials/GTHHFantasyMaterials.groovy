@@ -15,7 +15,7 @@ import static gregtech.api.util.GTUtility.gregtechId
 
 import net.minecraft.init.Enchantments
 
-import materials.GTHHMaterialIconSet.*
+import material.GTHHMaterialIconSet
 
 import static materials.GTHHMaterials.*
 
@@ -24,28 +24,28 @@ class GTHHFantasyMaterials {
 
     static void register() {
 
-        // CosmicNeutronium = new Material.Builder(9000, gregtechId('cosmic_neutronium'))
-        //     .dust()
-        //     .ingot()
-        //     .ore()
-        //     .flags(EXT2_METAL, GENERATE_SPRING, GENERATE_RING, GENERATE_ROTOR, GENERATE_SMALL_GEAR, GENERATE_FRAME, GENERATE_DENSE, GENERATE_FOIL, GENERATE_GEAR, GENERATE_DOUBLE_PLATE)
-        //     .iconSet(GTHHMaterialIconSet.COSMIC_NEUTRONIUM)
-        //     .build()
+        CosmicNeutronium = new Material.Builder(9000, gregtechId('cosmic_neutronium'))
+            .dust()
+            .ingot()
+            .ore()
+            .flags(EXT2_METAL, GENERATE_SPRING, GENERATE_RING, GENERATE_ROTOR, GENERATE_SMALL_GEAR, GENERATE_FRAME, GENERATE_DENSE, GENERATE_FOIL, GENERATE_GEAR, GENERATE_DOUBLE_PLATE)
+            .iconSet(GTHHMaterialIconSet.COSMICNEUTRONIUM)
+            .build()
 
-        // InfinityCatalyst = new Material.Builder(9001, gregtechId('infinity_catalyst'))
-        //     .dust()
-        //     .gem()
-        //     .ore()
-        //     .iconSet(RUBY)
-        //     .build()
+        InfinityCatalyst = new Material.Builder(9001, gregtechId('infinity_catalyst'))
+            .dust()
+            .gem()
+            .ore()
+            .iconSet(GTHHMaterialIconSet.INFINITYCATALYST)
+            .build()
 
-        // Infinity = new Material.Builder(9002, gregtechId('infinity'))
-        //     .dust()
-        //     .ingot()
-        //     .ore()
-        //     .flags(EXT2_METAL, GENERATE_SPRING, GENERATE_RING, GENERATE_ROTOR, GENERATE_SMALL_GEAR, GENERATE_FRAME, GENERATE_DENSE, GENERATE_FOIL, GENERATE_GEAR, GENERATE_DOUBLE_PLATE)
-        //     .iconSet(RUBY)
-        //     .build()
+        Infinity = new Material.Builder(9002, gregtechId('infinity'))
+            .dust()
+            .ingot()
+            .ore()
+            .flags(EXT2_METAL, GENERATE_SPRING, GENERATE_RING, GENERATE_ROTOR, GENERATE_SMALL_GEAR, GENERATE_FRAME, GENERATE_DENSE, GENERATE_FOIL, GENERATE_GEAR, GENERATE_DOUBLE_PLATE)
+            .iconSet(GTHHMaterialIconSet.INFINITY)
+            .build()
 
     }
 

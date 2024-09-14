@@ -1,4 +1,4 @@
-package classes
+package material
 
 import net.minecraftforge.fml.common.eventhandler.EventPriority
 
@@ -15,6 +15,7 @@ import gregtech.api.recipes.RecipeMap
 import gregtech.api.recipes.RecipeMaps
 
 import static materials.GTHHMaterials.*
+
 import static gregtech.api.unification.material.info.MaterialFlags.*
 import static gregtech.api.unification.material.Materials.*
 
@@ -22,19 +23,30 @@ class GTHHMaterialFlags {
 
     static void init() { 
 
-        RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidInputs(3);
-        RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidOutputs(3);
-        RecipeMaps.SIFTER_RECIPES.setMaxFluidInputs(3);
-        RecipeMaps.SIFTER_RECIPES.setMaxFluidOutputs(3);
-        RecipeMaps.FLUID_HEATER_RECIPES.setMaxFluidOutputs(3);
+        RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidInputs(3)
+        RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidOutputs(3)
+        RecipeMaps.SIFTER_RECIPES.setMaxFluidInputs(3)
+        RecipeMaps.SIFTER_RECIPES.setMaxFluidOutputs(3)
+        RecipeMaps.FLUID_HEATER_RECIPES.setMaxFluidOutputs(3)
+        RecipeMaps.MIXER_RECIPES.setMaxInputs(9)
+        RecipeMaps.FLUID_SOLIDFICATION_RECIPES.setMaxInputs(2)
+        RecipeMaps.IMPLOSION_RECIPES.setMaxInputs(6)
+        RecipeMaps.CHEMICAL_RECIPES.setMaxInputs(3)
 
 
         BorosilicateGlass.addOre()
+
+        Steel.setFormula("Fe99C", true)
 
         CobaltOxide.setProperty(PropertyKey.ORE, new OreProperty())
         CobaltOxide.setProperty(PropertyKey.INGOT, new IngotProperty())
         CobaltOxide.setFormula("Co3O4", true)
         CobaltOxide.addFlags("disable_decomposition")
+        BlueAlloy.addFlags("generate_foil", "generate_fine_wire")
+        RoseGold.addFlags("generate_foil", "generate_fine_wire")
+        BorosilicateGlass.addFlags("generate_plate", "no_smashing")
+        Glass.addFlags("generate_fine_wire")
+        Iron.addFlags("generate_fine_wire")
 
 
         OreProperty orePropCopper = Copper.getProperty(PropertyKey.ORE)
