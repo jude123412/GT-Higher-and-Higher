@@ -6,9 +6,7 @@ import gregtech.api.util.GTUtility
 import gregtech.client.renderer.texture.Textures
 import gregtech.api.recipes.RecipeMaps
 
-import metatileentity.GTHHMetaTileEntityMacerationStack
-import metatileentity.GTHHMetaTileEntitySteamForgeHammer
-import metatileentity.GTHHMetaTileEntitySteamCompressor
+import metatileentity.*
 
 import classes.GTHHRecipeMaps
 import classes.GTHHTextures
@@ -19,6 +17,8 @@ log.infoMC("Registering MetaTileEntities...")
 MetaTileEntities.registerMetaTileEntity(6000, new GTHHMetaTileEntityMacerationStack(new ResourceLocation("gregtech", "maceration_stack")) as MetaTileEntity)
 MetaTileEntities.registerMetaTileEntity(6001, new GTHHMetaTileEntitySteamForgeHammer(new ResourceLocation("gregtech", "steam_smasher")) as MetaTileEntity)
 MetaTileEntities.registerMetaTileEntity(6002, new GTHHMetaTileEntitySteamCompressor(new ResourceLocation("gregtech", "steam_squasher")) as MetaTileEntity)
+MetaTileEntities.registerMetaTileEntity(6003, new GTHHMetaTileEntityElectricBlastFurance(new ResourceLocation("gregtech", "gthh_electric_blast_furnace")) as MetaTileEntity)
+MetaTileEntities.registerMetaTileEntity(6004, new GTHHMetaTileEntityVacuumFreezer(new ResourceLocation("gregtech", "gthh_vacuum_freezer")) as MetaTileEntity)
 
 //Zombie Engine 4000-4014
 MetaTileEntities.registerMetaTileEntity(4001, new MetaTileEntitySingleCombustion(new ResourceLocation("gregtech", "zombie_engine.lv"), GTHHRecipeMaps.ZOMBIE_ENGINE_FUELS, Textures.COMBUSTION_GENERATOR_OVERLAY, 1, GTUtility.genericGeneratorTankSizeFunction) as MetaTileEntity)

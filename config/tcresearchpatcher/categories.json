@@ -1,0 +1,29 @@
+[
+    {
+        "key": "BOTANIA",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+        },
+        "icon": "botania:textures/items/terrasteel_ingot.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_8.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "BLOOD_MAGIC",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+        },
+        "icon": "bloodmagic:textures/items/archmagebloodorb.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_9.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "ASTRAL_SORCERY",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+        },
+        "icon": "astralsorcery:textures/items/aquamarine.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_10.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    }
+]

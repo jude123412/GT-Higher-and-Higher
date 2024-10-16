@@ -1,0 +1,26 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "bg_image:8": "",
+      "bg_size:3": 256,
+      "desc:8": "This Chapter is all about Food.\nHere you will find how to Cook, Craft and Farm all of the Foods you will need.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "harvestcraft:bltitem"
+      },
+      "name:8": "Food, Food and Food",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 920900798,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -12,
+      "y:3": -12
+    }
+  }
+}

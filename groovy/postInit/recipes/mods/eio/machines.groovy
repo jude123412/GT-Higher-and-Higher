@@ -1,3 +1,5 @@
+log.infoMC("Changing EnderIO Machine Recipes...")
+
 //Simple Machine Chassis
 crafting.removeByOutput(item('enderio:item_material'))
 crafting.addShaped(item('enderio:item_material'), [
@@ -51,11 +53,11 @@ crafting.addShaped(item('enderio:item_material', 66), [
 mods.extendedcrafting.TableCrafting.addShaped(0, item('enderio:block_cap_bank').withNbt(['enderio:energy': 50000000]), [
 [ore('plateDenseStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateDenseStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateDenseStellarAlloy')], 
 [ore('plateDoubleStellarAlloy'), item('enderio:block_cap_bank', 3), ore('plateDenseInfinity'), ore('capacitorInsane'), item('enderio:block_cap_bank', 3), ore('capacitorInsane'), ore('plateDenseInfinity'), item('enderio:block_cap_bank', 3), ore('plateDoubleStellarAlloy')], 
-[ore('plateStellarAlloy'), ore('plateDenseInfinity'), ore('plateDenseCosmicNeutronium'), ore('plateDenseCosmicNeutronium'), ore('batteryUhv'), ore('plateDenseCosmicNeutronium'), ore('plateDenseCosmicNeutronium'), ore('plateDenseInfinity'), ore('plateStellarAlloy')], 
+[ore('plateStellarAlloy'), ore('plateDenseInfinity'), ore('circuitUhv'), ore('plateDenseCosmicNeutronium'), ore('batteryUhv'), ore('plateDenseCosmicNeutronium'), ore('circuitUhv'), ore('plateDenseInfinity'), ore('plateStellarAlloy')], 
 [ore('plateDoubleStellarAlloy'), ore('capacitorInsane'), ore('plateDenseCosmicNeutronium'), item('enderio:block_cap_bank', 3), ore('capacitorInsane'), item('enderio:block_cap_bank', 3), ore('plateDenseCosmicNeutronium'), ore('capacitorInsane'), ore('plateDoubleStellarAlloy')], 
 [ore('plateDenseStellarAlloy'), item('enderio:block_cap_bank', 3), ore('batteryUhv'), ore('capacitorInsane'), ore('plateDenseStellarAlloy'), ore('capacitorInsane'), ore('batteryUhv'), item('enderio:block_cap_bank', 3), ore('plateDenseStellarAlloy')], 
 [ore('plateDoubleStellarAlloy'), ore('capacitorInsane'), ore('plateDenseCosmicNeutronium'), item('enderio:block_cap_bank', 3), ore('capacitorInsane'), item('enderio:block_cap_bank', 3), ore('plateDenseCosmicNeutronium'), ore('capacitorInsane'), ore('plateDoubleStellarAlloy')], 
-[ore('plateStellarAlloy'), ore('plateDenseInfinity'), ore('plateDenseCosmicNeutronium'), ore('plateDenseCosmicNeutronium'), ore('batteryUhv'), ore('plateDenseCosmicNeutronium'), ore('plateDenseCosmicNeutronium'), ore('plateDenseInfinity'), ore('plateStellarAlloy')], 
+[ore('plateStellarAlloy'), ore('plateDenseInfinity'), ore('circuitUhv'), ore('plateDenseCosmicNeutronium'), ore('batteryUhv'), ore('plateDenseCosmicNeutronium'), ore('circuitUhv'), ore('plateDenseInfinity'), ore('plateStellarAlloy')], 
 [ore('plateDoubleStellarAlloy'), item('enderio:block_cap_bank', 3), ore('plateDenseInfinity'), ore('capacitorInsane'), item('enderio:block_cap_bank', 3), ore('capacitorInsane'), ore('plateDenseInfinity'), item('enderio:block_cap_bank', 3), ore('plateDoubleStellarAlloy')], 
 [ore('plateDenseStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateDenseStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateStellarAlloy'), ore('plateDoubleStellarAlloy'), ore('plateDenseStellarAlloy')]
 ])
@@ -446,31 +448,76 @@ crafting.addShaped(item('enderio:block_transceiver'), [
 ])
 
 //Vacuum Chest
-
+crafting.removeByOutput(item('enderio:block_vacuum_chest'))
+crafting.addShaped(item('enderio:block_vacuum_chest'), [
+    [ore('plateDarkSteel'), metaitem('item_filter'), ore('plateDarkSteel')],
+    [ore('plateDarkSteel'), metaitem('crate.wood'), ore('plateDarkSteel')],
+    [ore('plateDarkSteel'), ore('itemPulsatingCrystal'), ore('plateDarkSteel')]
+])
 
 //XP Vacuum
-
+crafting.removeByOutput(item('enderio:block_xp_vacuum'))
+crafting.addShaped(item('enderio:block_xp_vacuum'), [
+    [ore('plateDarkSteel'), metaitem('fluid_filter'), ore('plateDarkSteel')],
+    [ore('plateDarkSteel'), item('enderio:item_xp_transfer'), ore('plateDarkSteel')],
+    [ore('plateDarkSteel'), ore('itemPulsatingCrystal'), ore('plateDarkSteel')]
+])
 
 //The Niard
-
+crafting.removeByOutput(item('enderio:block_niard'))
+crafting.addShaped(item('enderio:block_niard'), [
+    [ore('plateDarkSteel'), item('enderio:block_tank'), ore('plateDarkSteel')],
+    [metaitem('electric.pump.hv'), ore('itemMachineChassi'), metaitem('electric.pump.hv')],
+    [ore('plateDarkSteel'), ore('barsDarkSteel'), ore('plateDarkSteel')]
+])
 
 //Travel Anchor
-
+crafting.removeByOutput(item('enderio:block_travel_anchor'))
+crafting.addShaped(item('enderio:block_travel_anchor'), [
+    [ore('plateDarkSteel'), metaitem('emitter.hv'), ore('plateDarkSteel')],
+    [metaitem('sensor.hv'), ore('itemPulsatingCrystal'), metaitem('sensor.hv')],
+    [ore('plateDarkSteel'), metaitem('emitter.hv'), ore('plateDarkSteel')]
+])
 
 //Telepad Block
-
+crafting.removeByOutput(item('enderio:block_tele_pad'))
+crafting.addShaped(item('enderio:block_tele_pad'), [
+    [metaitem('sensor.iv'), ore('plateCrystallineAlloy'), metaitem('emitter.iv')],
+    [ore('plateDarkSteel'), item('enderio:block_travel_anchor'), ore('plateDarkSteel')],
+    [ore('plateDarkSteel'), ore('capacitorExtreme'), ore('plateDarkSteel')]
+])
 
 //Dialing Device
-
+crafting.removeByOutput(item('enderio:block_dialing_device'))
+crafting.addShaped(item('enderio:block_dialing_device'), [
+    [null, item('enderio:item_mod_item_filter'), null],
+    [ore('skullEnderResonator'), item('enderio:block_dark_steel_anvil'), ore('skullEnderResonator')],
+    [ore('plateDarkSteel'), ore('plateDarkSteel'), ore('plateDarkSteel')]
+])
 
 //Impulse Hopper
-
+crafting.removeByOutput(item('enderio:block_impulse_hopper'))
+crafting.addShaped(item('enderio:block_impulse_hopper'), [
+    [ore('plateElectricalSteel'), ore('blockHopper'), ore('plateElectricalSteel')],
+    [ore('gearEnergized'), ore('itemMachineChassi'), ore('gearEnergized')],
+    [ore('plateElectricalSteel'), ore('ringRedstoneAlloy'), ore('plateElectricalSteel')]
+])
 
 //Simple Crafter
-
+crafting.removeByOutput(item('enderio:block_simple_crafter'))
+crafting.addShaped(item('enderio:block_simple_crafter'), [
+    [ore('plateSolarGradeSilicon'), ore('plateSolarGradeSilicon'), ore('plateSolarGradeSilicon')],
+    [ore('plateElectricalSteel'), ore('itemSimpleMachineChassi'), ore('plateElectricalSteel')],
+    [ore('gearElectricalSteel'), ore('workbench'), ore('gearElectricalSteel')]
+])
 
 //Crafter
-
+crafting.removeByOutput(item('enderio:block_crafter'))
+crafting.addShaped(item('enderio:block_crafter'), [
+    [ore('plateSolarGradeSilicon'), ore('plateSolarGradeSilicon'), ore('plateSolarGradeSilicon')],
+    [ore('plateDarkSteel'), ore('itemMachineChassi'), ore('plateDarkSteel')],
+    [ore('gearDarkSteel'), item('enderio:block_simple_crafter'), ore('gearDarkSteel')]
+])
 
 // crafting.removeByOutput(null)
 // crafting.addShaped(null, [

@@ -1,3 +1,5 @@
+log.infoMC("Changing EnderIO Equipment Recipes...")
+
 //Conduit Probe
 crafting.removeByOutput(item('enderio:item_conduit_probe'))
 crafting.addShaped(item('enderio:item_conduit_probe') * 1, [

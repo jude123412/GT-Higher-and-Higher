@@ -1,3 +1,5 @@
+log.infoMC("Changing EnderIO Block Recipes...")
+
 //Infinity Dust Block
 crafting.removeByOutput(item('enderio:block_infinity'))
 recipemap('compressor').recipeBuilder()

@@ -1,3 +1,5 @@
+log.infoMC("Changing EnderIO Conduit Recipes...")
+
 //Item Conduit
 crafting.removeByOutput(item('enderio:item_item_conduit'))
 crafting.addShaped(item('enderio:item_item_conduit'), [
@@ -86,6 +88,12 @@ crafting.addShaped(item('enderio:item_liquid_conduit', 1), [
     [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')]
 ])
 
+crafting.addShaped(item('enderio:item_liquid_conduit', 1), [
+    [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')],
+    [ore('wireFineBorosilicateGlass'), item('enderio:item_liquid_conduit'), ore('wireFineBorosilicateGlass')],
+    [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')]
+])
+
 recipemap('assembler').recipeBuilder()
     .inputs(ore('itemConduitBinder') * 4, ore('wireFineBorosilicateGlass') * 1)
     .outputs(item('enderio:item_liquid_conduit', 1) * 1)
@@ -118,11 +126,24 @@ recipemap('assembler').recipeBuilder()
     .EUt(384)
     .buildAndRegister()
 
+recipemap('assembler').recipeBuilder()
+    .inputs(item('enderio:item_liquid_conduit') * 1, ore('wireFineBorosilicateGlass') * 1)
+    .outputs(item('enderio:item_liquid_conduit', 1) * 1)
+    .duration(50)
+    .EUt(384)
+    .buildAndRegister()
+
 //Ender Fluid Conduit
 crafting.removeByOutput(item('enderio:item_liquid_conduit', 2))
 crafting.addShaped(item('enderio:item_liquid_conduit', 2), [
     [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')],
     [ore('wireFineVibrantAlloy'), ore('wireFineVibrantAlloy'), ore('wireFineVibrantAlloy')],
+    [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')]
+])
+
+crafting.addShaped(item('enderio:item_liquid_conduit', 2), [
+    [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')],
+    [ore('wireFineVibrantAlloy'), item('enderio:item_liquid_conduit', 1), ore('wireFineVibrantAlloy')],
     [ore('itemConduitBinder'), ore('screwDarkSteel'), ore('itemConduitBinder')]
 ])
 
@@ -154,6 +175,13 @@ recipemap('assembler').recipeBuilder()
     .inputs(ore('itemConduitBinder') * 4, ore('wireFineVibrantAlloy') * 1)
     .outputs(item('enderio:item_liquid_conduit', 2) * 1)
     .fluidInputs(fluid('polybenzimidazole') * 36)
+    .duration(50)
+    .EUt(384)
+    .buildAndRegister()
+
+recipemap('assembler').recipeBuilder()
+    .inputs(item('enderio:item_liquid_conduit', 1) * 1, ore('wireFineVibrantAlloy') * 1)
+    .outputs(item('enderio:item_liquid_conduit', 2) * 1)
     .duration(50)
     .EUt(384)
     .buildAndRegister()

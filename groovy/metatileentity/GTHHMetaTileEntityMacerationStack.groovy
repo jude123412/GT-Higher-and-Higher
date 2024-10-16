@@ -1,4 +1,3 @@
-//NO_RELOAD
 package metatileentity
 
 import gregtech.api.capability.impl.MultiblockRecipeLogic
@@ -49,7 +48,7 @@ class GTHHMetaTileEntityMacerationStack extends RecipeMapMultiblockController {
                 .where('S' as char, selfPredicate())
                 .where('X' as char, states(getCasingState()).setMinGlobalLimited(14).or(autoAbilities(true, true, true, true, false, false, false)))
                 .where('#' as char, air())
-            .build()
+                .build()
     }
 
     @Override

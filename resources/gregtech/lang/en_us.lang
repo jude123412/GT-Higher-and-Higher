@@ -1,9 +1,22 @@
+//Primative Components/Circuits
+metaitem.circuit.electronic.name=Electronic Circuit
+metaitem.circuit.good_electronic.name=Electronic Assembly
+
+//Integrated Logic Components
+metaitem.circuit.basic_integrated.name=Integrated Logic Circuit
+metaitem.circuit.good_integrated.name=Integrated Logic Assembly
+metaitem.circuit.advanced_integrated.name=Integrated Logic Supercomputer
+
 //Integrated Components/Circuits
 metaitem.component.smd.diode.name=Integrated SMD Diode
 metaitem.component.smd.capacitor.name=Integrated SMD Capacitor
 metaitem.component.smd.transistor.name=Integrated SMD Transistor
 metaitem.component.smd.resistor.name=Integrated SMD Resistor
 metaitem.component.smd.inductor.name=Integrated SMD Inductor
+metaitem.circuit.processor.name=Integrated Processor
+metaitem.circuit.assembly.name=Integrated Assembly
+metaitem.circuit.workstation.name=Integrated Supercomputer
+metaitem.circuit.mainframe.name=Integrated Mainframe
 
 //Nano Components/Circuits
 metaitem.component.nano.smd.transistor.name=Nano SMD Resistor
@@ -11,6 +24,10 @@ metaitem.component.nano.smd.resistor.name=Nano SMD Transistor
 metaitem.component.nano.smd.capacitor.name=Nano SMD Capacitor
 metaitem.component.nano.smd.diode.name=Nano SMD Diode
 metaitem.component.nano.smd.inductor.name=Nano SMD Inductor
+metaitem.circuit.nano_processor.name=Nano Processor
+metaitem.circuit.nano_assembly.name=Nano Assembly
+metaitem.circuit.nano_computer.name=Nano Supercomputer
+metaitem.circuit.nano_mainframe.name=Nano Mainframe
 
 //Quantum Components/Circuits
 metaitem.component.quantum.smd.transistor.name=Quantum SMD Transistor
@@ -18,6 +35,10 @@ metaitem.component.quantum.smd.resistor.name=Quantum SMD Resistor
 metaitem.component.quantum.smd.capacitor.name=Quantum SMD Capacitor
 metaitem.component.quantum.smd.diode.name=Quantum SMD Diode
 metaitem.component.quantum.smd.inductor.name=Quantum SMD Inductor
+metaitem.circuit.quantum_processor.name=Quantum Processor
+metaitem.circuit.quantum_assembly.name=Quantum Assembly
+metaitem.circuit.quantum_computer.name=Quantum Supercomputer
+metaitem.circuit.quantum_mainframe.name=Quantum Mainframe
 
 //Crystal Components/Circuits
 metaitem.component.crystalline.smd.transistor.name=Crystalline SMD Transistor
@@ -35,6 +56,10 @@ metaitem.crystal.central_processing_unit.name=Green Crystal CPU
 metaitem.crystal.central_processing_unit.tooltip=Where Crystal Computing Comes To Life
 metaitem.crystal.system_on_chip.name=Green Crystal SoC
 metaitem.crystal.system_on_chip.tooltip=A Full System Grown From A Crystal
+metaitem.circuit.crystal_processor.name=Crystal Processor
+metaitem.circuit.crystal_assembly.name=Crystal Assembly
+metaitem.circuit.crystal_computer.name=Crystal Supercomputer
+metaitem.circuit.crystal_mainframe.name=Crystal Mainframe
 
 //Wetware Components/Circuits
 metaitem.component.advanced_smd.diode.name=Wetware SMD Diode
@@ -42,6 +67,10 @@ metaitem.component.advanced_smd.capacitor.name=Wetware SMD Capacitor
 metaitem.component.advanced_smd.transistor.name=Wetware SMD Transistor
 metaitem.component.advanced_smd.resistor.name=Wetware SMD Resistor
 metaitem.component.advanced_smd.inductor.name=Wetware SMD Inductor
+metaitem.circuit.wetware_processor.name=Wetware Processor
+metaitem.circuit.wetware_assembly.name=Wetware Assembly
+metaitem.circuit.wetware_computer.name=Wetware Supercomputer
+metaitem.circuit.wetware_mainframe.name=Wetware Mainframe
 
 //Slimeware Components|Circuits|Circuit Boards|Boards
 metaitem.component.slimeware.smd.transistor.name=Slimeware SMD Tranistor
@@ -81,32 +110,6 @@ metaitem.circuit.bohemian_processor.name=Bohemian Processor
 metaitem.circuit.bohemian_assembly.name=Bohemian Assembly
 metaitem.circuit.bohemian_supercomputer.name=Bohemian Supercomputer
 metaitem.circuit.bohemian_mainframe.name=Bohemian Mainframe
-
-//Anti Components|Circuits|Circuit Boards|Boards
-metaitem.component.antimatter.smd.transistor.name=Antimatter SMD Tranistor
-metaitem.component.antimatter.smd.resistor.name=Antimatter SMD Resistor
-metaitem.component.antimatter.smd.capacitor.name=Antimatter SMD Capacitor
-metaitem.component.antimatter.smd.diode.name=Antimatter SMD Diode
-metaitem.component.antimatter.smd.inductor.name=Antimatter SMD Inductor
-metaitem.board.antimatter.name=Antimatter Circuit Board
-metaitem.circuit_board.antimatter.name=Reverse Circuit Board
-metaitem.circuit.antimatter_processor.name=Antimatter Processor
-metaitem.circuit.antimatter_assembly.name=Antimatter Assembly
-metaitem.circuit.antimatter_supercomputer.name=Antimatter Supercomputer
-metaitem.circuit.antimatter_mainframe.name=Antimatter Mainframe
-
-//Temporally Woven Components|Circuits|Circuit Boards|Boards
-metaitem.component.temporal.smd.transistor.name=Temporal SMD Transistor
-metaitem.component.temporal.smd.resistor.name=Temporal SMD Resistor
-metaitem.component.temporal.smd.capacitor.name=Temporal SMD Capacitor
-metaitem.component.temporal.smd.diode.name=Temporal Woven SMD Diode
-metaitem.component.temporal.smd.inductor.name=Temporal SMD Inductor
-metaitem.board.temporal.name=Temporal Circuit Board
-metaitem.circuit_board.temporal.name=Temporal Woven Circuit Board
-metaitem.circuit.temporal.processor.name=Temporal Woven Processor
-metaitem.circuit.temporal.assembly.name=Temporal Woven Assembly
-metaitem.circuit.temporal.supercomputer.name=Temporal Woven Supercomputer
-metaitem.circuit.temporal.mainframe.name=Temporal Woven Mainframe
 
 //Meta Items
 metaitem.component.quick_and_dirty_portal_generator.name=Quick and Dirty Portal Generator
@@ -161,9 +164,13 @@ gregtech.veins.ore.cryolite=Cryolite
 gregtech.material.cosmic_neutronium=Cosmic Neutronium
 gregtech.material.infinity_catalyst=Infinity Catalyst
 gregtech.material.infinity=Infinity
+gregtech.material.multiversium=Multiversium
+gregtech.material.infernorite=Infernorite
+gregtech.material.crynorium=Crynorium
 
 //First Degree Materials
 gregtech.material.sand=Sand
+gregtech.material.rtm_alloy=Ruthubdenum
 
 //Fluid Materials
 gregtech.material.dirty_precious_metal_solution=Dirty Precious Metal Solution
@@ -209,12 +216,23 @@ gregtech.material.vivid_alloy=Vivid Alloy
 gregtech.material.stellar_alloy=Stellar Alloy
 gregtech.material.weather_crystal=Weather Crystal
 gregtech.material.sand_compound=Sand Compound
+gregtech.material.pyrotheum=Pyrotheum
+gregtech.material.cryotheum=Cryotheum
+
+//Wire Coils
+tile.wire_coil.rtm_alloy.name=Ruthubdenum Coil Block
 
 //Multiblocks
 gregtech.machine.steam_smasher.name=Steam Smasher
 gregtech.multiblock.steam_smasher.description=A better more Multi Steam Forge Hammer 
 gregtech.machine.steam_squasher.name=Steam Squasher
 gregtech.multiblock.steam_squasher.description=A better more Multi Steam Compressor
+gregtech.machine.gthh_electric_blast_furnace.name=Electric Blast Furnace
+gregtech.machine.gthh_electric_blast_furnace.tooltip=I can't believe its not a Smoker
+gregtech.multiblock.gthh_electric_blast_furnace.description=The Electric Blast Furnace (EBF) is a multiblock structure used for smelting alloys, cooking metals and refining ores. It is required for obtaining high-tier alloys and metals, such as aluminium, stainless steel, titanium and naquadah alloy.
+gregtech.machine.gthh_vacuum_freezer.name=Vacuum Freezer
+gregtech.machine.gthh_vacuum_freezer.tooltip=Blue means cold doesn't it?
+gregtech.multiblock.gthh_vacuum_freezer.description=The Vacuum Freezer is a multiblock structure mainly used for freezing Hot Ingots into regular Ingots. However, it can also freeze other substances, such as Water.
 
 //Machines
 gregtech.machine.zombie_engine.lv.name=Zombie Engine I
@@ -233,10 +251,14 @@ gregtech.machine.ender_engine.hv.description=A GregTech Generator that runs on D
 //Recipemaps
 recipemap.zombie_engine_fuels.name=Zombie Generator
 recipemap.ender_engine_fuels.name=Ender Generator
+recipemap.gthh_blast_recipes.name=Blast Recipes
+recipemap.gthh_vacuum_recipes.name=Vacuum Recipes
 
 //Ore Prefix Names, %s is a material name
 item.material.oreprefix.cluster=Native %s
+item.material.oreprefix.glob=%s Glob
+item.material.oreprefix.fragment=%s Fragment
+item.material.oreprefix.murky=Murky %s
 
-//Thaumcraft
-metaitem.catalyst.native.name=Native Catalyst
-metaitem.catalyst.native.tooltip=This catalyst can be used to boost ores using Thaumcraft! This is due to Thaumcraft not liking the registration of 300+ Crucible recipes
+//Superconductor Bases
+metaitem.base.manganese_phosphide.name=Base Manganese Phosphide wire

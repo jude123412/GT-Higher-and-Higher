@@ -1,3 +1,5 @@
+log.infoMC("Changing EnderIO Filter Recipes...")
+
 //Redstone Filter Base
 crafting.removeByOutput(item('enderio:item_material', 60))
 crafting.addShaped(item('enderio:item_material', 60), [

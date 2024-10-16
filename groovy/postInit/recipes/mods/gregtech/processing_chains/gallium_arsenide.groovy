@@ -1,7 +1,7 @@
 // Gallium Arsenide Dust * 2
 mods.gregtech.mixer.removeByInput(7, [metaitem('dustGallium'), metaitem('dustArsenic'), metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
 
-recipemap('electric_blast_furnace').recipeBuilder()
+recipemap('gthh_blast_recipes').recipeBuilder()
     .inputs(metaitem('dustGallium') * 1, metaitem('dustArsenic') * 1)
     .outputs(metaitem('raw.gallium_arsenide') * 1)
     .circuitMeta(1)
@@ -10,7 +10,7 @@ recipemap('electric_blast_furnace').recipeBuilder()
     .EUt(96)
     .buildAndRegister()
 
-recipemap('electric_blast_furnace').recipeBuilder()
+recipemap('gthh_blast_recipes').recipeBuilder()
     .inputs(metaitem('dustGallium') * 1, metaitem('dustArsenic') * 1)
     .outputs(metaitem('raw.gallium_arsenide') * 1)
     .fluidInputs(fluid('nitrogen') * 1000)

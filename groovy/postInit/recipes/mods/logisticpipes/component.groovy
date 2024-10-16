@@ -1,3 +1,4 @@
+log.infoMC("Changing Logipipes Component Recipes..")
 //Sand Compound Boule
 recipemap('electric_blast_furnace').recipeBuilder()
     .inputs(metaitem('dustSandCompound') * 32, metaitem('dustTinyGalliumArsenide') * 1)

@@ -3,13 +3,27 @@
   "packId": "gthh",
   "version": "1.0.0",
   "debug": false,
-  "classes": [
-      "materials/"
-    ],
+  "classes": {
+      "preInit": [
+        "catagories",
+        "classes/",
+        "handler/"
+        
+      ],
+      "init": [
+      ],
+      "postInit": [
+        "metatileentity/"
+      ],
+      "all": [
+        "material/",
+        "materials/"
+      ]
+    },
   "loaders": {
     "preInit": [
-      "preInit/",
-      "materials/"
+      "materials/",
+      "preInit/"
     ],
     "init":[
       "init/"

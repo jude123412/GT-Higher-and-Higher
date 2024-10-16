@@ -11,5 +11,7 @@ class GTHHMaterialIconSet {
     static final MaterialIconSet ALBITE = new MaterialIconSet("albite", MaterialIconSet.EMERALD)
     static final MaterialIconSet PLAGIOCLASE = new MaterialIconSet("plagioclase", MaterialIconSet.EMERALD)
     static final MaterialIconSet SANDCOMPOUND = new MaterialIconSet("sand_compound", MaterialIconSet.DULL)
-    
+    static final MaterialIconSet MULTIVERSIUM = new MaterialIconSet("multiversium", MaterialIconSet.SHINY)
+    static final MaterialIconSet INFERNORITE = new MaterialIconSet("infernorite", MaterialIconSet.SHINY)
+    static final MaterialIconSet CRYNORIUM = new MaterialIconSet("crynorium", MaterialIconSet.SHINY)
 }

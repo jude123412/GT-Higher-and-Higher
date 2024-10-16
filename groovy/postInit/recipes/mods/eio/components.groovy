@@ -1,3 +1,5 @@
+log.infoMC("Changing EnderIO Component Recipes...")
+
 //Basic Capacitor
 crafting.removeByOutput(item('enderio:item_basic_capacitor'))
 recipemap('assembler').recipeBuilder()

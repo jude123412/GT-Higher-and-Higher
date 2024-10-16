@@ -6,6 +6,7 @@ import gregtech.api.unification.material.Material
 import gregtech.api.GregTechAPI
 import gregtech.api.unification.ore.OrePrefix
 import gregtech.api.unification.material.info.MaterialFlag
+import gregtech.api.unification.material.info.MaterialFlags
 import gregtech.api.unification.material.properties.*
 import gregtech.api.unification.material.properties.OreProperty
 import gregtech.api.unification.material.properties.PropertyKey
@@ -69,9 +70,9 @@ class GTHHMaterialFlags {
         orePropChalcopyrite.getOreByProducts().clear()
         orePropChalcopyrite.setOreByProducts(Pyrite, Cobalt, Cadmium, PreciousMetals)
 
-        OreProperty orePropElectrum = Electrum.getProperty(PropertyKey.ORE)
-        orePropElectrum.getOreByProducts().clear()
-        orePropElectrum.setOreByProducts(PreciousMetals, PreciousMetals, PreciousMetals)
+        // OreProperty orePropElectrum = Electrum.getProperty(PropertyKey.ORE)
+        // orePropElectrum.getOreByProducts().clear()
+        // orePropElectrum.setOreByProducts(PreciousMetals, PreciousMetals, PreciousMetals)
 
         OreProperty orePropMagnetite = Magnetite.getProperty(PropertyKey.ORE)
         orePropMagnetite.getOreByProducts().clear()

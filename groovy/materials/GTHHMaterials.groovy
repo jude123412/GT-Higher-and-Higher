@@ -4,17 +4,17 @@ import gregtech.api.unification.material.properties.*
 import gregtech.api.unification.material.Material
 import gregtech.api.GregTechAPI
 
+import materials.GTHHFantasyMaterials
+import materials.GTHHFirstDegreeMaterials
+import materials.GTHHFluidMaterials
+import materials.GTHHOreMaterials
+import materials.GTHHSecondDegreeMaterials
+
 import material.GTHHOrePrefix
 
 import static gregtech.api.unification.material.info.MaterialIconSet.*
 import static gregtech.api.unification.material.info.MaterialFlags.*
 import static gregtech.api.unification.material.Materials.*
-
-import static materials.GTHHSecondDegreeMaterials.*
-import static materials.GTHHFluidMaterials.*
-import static materials.GTHHOreMaterials.*
-
-
 
 class GTHHMaterials {
     
@@ -22,6 +22,9 @@ class GTHHMaterials {
     static Material CosmicNeutronium
     static Material InfinityCatalyst
     static Material Infinity
+    static Material Multiversium
+    static Material Infernorite
+    static Material Crynorium
 
     //First Degree Materials
     static Material Sand
@@ -69,11 +72,13 @@ class GTHHMaterials {
     static Material ConductiveIron
     static Material WeatherCrystal
     static Material SandCompound
+    static Material Pyrotheum
+    static Material Cryotheum
 
     static void init() {
 
         GTHHFantasyMaterials.register()
-        GTHHFirstDegreeMaterials.register()
+        // GTHHFirstDegreeMaterials.register() Currently Empty
         GTHHFluidMaterials.register()
         GTHHOreMaterials.register()
         GTHHSecondDegreeMaterials.register()

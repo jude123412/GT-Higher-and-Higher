@@ -1,0 +1,101 @@
+{
+  "preRequisites:11": [
+    187
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "The Electric Blast Furnace smelts higher tier materials. Looking through jei you will find there are 8 Tiers of coils for the ebf.\nEach coil tier allows more materials to be smelted and the highest tier can smelt everything.\nFor now you only need the ebf to be running at MV tier and cupronickel coils.\n\nThe muffler hatch needs to be on the top of this multi in the middle of heat proof casings.\n\nmaintance, input/output bus and input/output hatch can replace any heatproof casing.",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1001,
+        "OreDict:8": "",
+        "id:8": "gregtech:machine"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Electric Blast Furnace",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1001,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 10,
+          "Damage:2": 2,
+          "OreDict:8": "",
+          "id:8": "gregtech:metal_casing"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "gregtech:wire_coil"
+        },
+        "3:10": {
+          "Count:3": 2,
+          "Damage:2": 1211,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 1151,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1166,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 1181,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 1657,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 1654,
+          "OreDict:8": "",
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

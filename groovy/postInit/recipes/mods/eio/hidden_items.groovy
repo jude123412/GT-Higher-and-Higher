@@ -1,4 +1,4 @@
-
+log.infoMC("Hiding EnderIO Items and Recipes...")
 def hiddenItems = [
     item('enderio:item_alloy_endergy_ball'),
     item('enderio:item_alloy_endergy_ball', 1),

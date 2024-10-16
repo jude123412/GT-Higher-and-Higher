@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    2055066303,
+    1242750732,
+    106277886
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "If you know how Gregtech energy works you can skip this quest without reading it, If you don\u0027t understand how it works you might want to read on.\n\nAs you Might have guessed, Gregtech energy is quite different if you aren\u0027t already familiar with it.\nSo Ill try to explain it to you, Each Voltage tier has a specific voltage.\n§8\nULV\u003d8§7\n LV\u003d32§b\n  MV\u003d128§6\n   HV\u003d512§5\n    EV\u003d2048§1\n     IV\u003d8192§d\n      LuV\u003d32768§c\n       ZPM\u003d131072§3\n        UV\u003d524288§4\n         UHV\u003d2097152§a\n          UEV\u003d8388608§2\n           UIV\u003d33554432§e\n            UXV\u003d134217728§9\n             OpV\u003d536870912§c\n              MAX\u003d2147483648§f\n\nAbove are all the voltage tiers and there coresponding colurs.\n\nAs you can see, the calculation for the next voltage tier is Voltage Tier * 4 \u003d Next Voltage Tier.\n\n\nThe next thing is about energy is cable Amps, I have mentioned them a few times but here I\u0027ll go into detail about them.\nAmps are very important since the more Amps a cable can carry, the more machines can run together.§l\n\nLong story short If you have a 1x cable run to 4 machines and each machine uses 32 eu/t, only 1 machine can run with a single amp, If you have more than one machine you need a bigger cable that can supply more Amps.\n\nOne more thing, if you plug a higher voltage cable into a lower voltage cable, the cable will burn up. Pluging a higher voltage cable into a machine however will result in the machine exploding!\n§r\nHopfully you understand How energy works in gregtech and won\u0027t burn or explode machines :)",
+      "frame:8": "ROUNDED_SQUARE",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 202,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_item_1"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Understanding Gregtech Energy",
+      "questlogic:8": "OR",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "OR",
+      "visibility:8": "NORMAL"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -114,25 +114,25 @@ oreDict.add("circuitUhv", metaitem('circuit.bohemian_processor'))
 oreDict.add("circuitUev", metaitem('circuit.slimeware_mainframe'))
 oreDict.add("circuitUev", metaitem('circuit.lasertronic_supercomputer'))
 oreDict.add("circuitUev", metaitem('circuit.bohemian_assembly'))
-oreDict.add("circuitUev", metaitem('circuit.antimatter_processor'))
+oreDict.add("circuitUev", item('avaritiaitem:circuit.antimatter_processor'))
 
 //UIV Circuit
 oreDict.add("circuitUiv", metaitem('circuit.lasertronic_mainframe'))
 oreDict.add("circuitUiv", metaitem('circuit.bohemian_supercomputer'))
-oreDict.add("circuitUiv", metaitem('circuit.antimatter_assembly'))
-oreDict.add("circuitUiv", metaitem('circuit.temporal_processor'))
+oreDict.add("circuitUiv", item('avaritiaitem:circuit.antimatter_assembly'))
+oreDict.add("circuitUiv", item('avaritiaitem:circuit.temporal_processor'))
 
 //UXV Circuit
 oreDict.add("circuitUxv", metaitem('circuit.bohemian_mainframe'))
-oreDict.add("circuitUxv", metaitem('circuit.antimatter_supercomputer'))
-oreDict.add("circuitUxv", metaitem('circuit.temporal_assembly'))
+oreDict.add("circuitUxv", item('avaritiaitem:circuit.antimatter_supercomputer'))
+oreDict.add("circuitUxv", item('avaritiaitem:circuit.temporal_assembly'))
 
 //OPV Circuit
-oreDict.add("circuitOpv", metaitem('circuit.temporal_supercomputer'))
-oreDict.add("circuitOpv", metaitem('circuit.antimatter_mainframe'))
+oreDict.add("circuitOpv", item('avaritiaitem:circuit.antimatter_mainframe'))
+oreDict.add("circuitOpv", item('avaritiaitem:circuit.temporal_supercomputer'))
 
 //MAX Circuit
-oreDict.add("circuitMax", metaitem('circuit.temporal_mainframe'))
+oreDict.add("circuitMax", item('avaritiaitem:circuit.temporal_mainframe'))
 
 //ME Fluix Cable
 oreDict.add("cableFluix", item('appliedenergistics2:part'))
@@ -191,6 +191,3 @@ oreDict.add("cableCoveredDense", item('appliedenergistics2:part', 513))
 oreDict.add("cableCoveredDense", item('appliedenergistics2:part', 514))
 oreDict.add("cableCoveredDense", item('appliedenergistics2:part', 515))
 oreDict.add("cableCoveredDense", item('appliedenergistics2:part', 516))
-
-//Native Catalyst
-oreDict.add("catalystNative", metaitem('catalyst.native'))

@@ -6,6 +6,7 @@ import gregtech.api.unification.material.Material
 import gregtech.api.unification.material.properties.BlastProperty.GasTier
 import gregtech.api.unification.material.properties.PropertyKey
 import gregtech.api.unification.material.properties.ToolProperty
+import gregtech.api.unification.material.info.MaterialIconSet
 
 import net.minecraft.init.Enchantments
 
@@ -21,9 +22,13 @@ import static materials.GTHHMaterials.*
 
 class GTHHSecondDegreeMaterials {
 
+    private static int startId = 11000
+    private static int endId = 11499
+
+
     static void register() {
 
-        ElectricalSteel = new Material.Builder(11000, gregtechId('electrical_steel'))
+        ElectricalSteel = new Material.Builder(getMetaItemId(), gregtechId('electrical_steel'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(1688))
@@ -36,7 +41,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         ElectricalSteel.setFormula("(Fe99C)Si", true)
 
-        EnergeticAlloy = new Material.Builder(11001, gregtechId('energetic_alloy'))
+        EnergeticAlloy = new Material.Builder(getMetaItemId(), gregtechId('energetic_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(2100))
@@ -48,7 +53,7 @@ class GTHHSecondDegreeMaterials {
             .cableProperties(2048, 16, 6, false)
             .build()
 
-        VibrantAlloy = new Material.Builder(11002, gregtechId('vibrant_alloy'))
+        VibrantAlloy = new Material.Builder(getMetaItemId(), gregtechId('vibrant_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(2950))
@@ -60,7 +65,7 @@ class GTHHSecondDegreeMaterials {
             .cableProperties(8192, 20, 8, false)
             .build()
 
-        RedstoneAlloy = new Material.Builder(11003, gregtechId('redstone_alloy'))
+        RedstoneAlloy = new Material.Builder(getMetaItemId(), gregtechId('redstone_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(1750))
@@ -72,7 +77,7 @@ class GTHHSecondDegreeMaterials {
             .cableProperties(128, 8, 2, false)
             .build()
 
-        ConductiveIron = new Material.Builder(11004, gregtechId('conductive_iron'))
+        ConductiveIron = new Material.Builder(getMetaItemId(), gregtechId('conductive_iron'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(1555))
@@ -85,7 +90,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         ConductiveIron.setFormula("(((Fe99C)Si)4(Si(FeS2)5(CrAl2O3)Hg3)Si)4(Fe99C)(Si(FeS2)5(CrAl2O3)Hg3)", true)
 
-        PulsatingIron = new Material.Builder(11005, gregtechId('pulsating_iron'))
+        PulsatingIron = new Material.Builder(getMetaItemId(), gregtechId('pulsating_iron'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(1720))
@@ -98,7 +103,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         PulsatingIron.setFormula("(Fe99C)(BeK4N5)", true)
 
-        DarkSteel = new Material.Builder(11006, gregtechId('dark_steel'))
+        DarkSteel = new Material.Builder(getMetaItemId(), gregtechId('dark_steel'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(1690))
@@ -110,7 +115,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         DarkSteel.setFormula("(Fe99C)(MgFeSi2O4)",true)
 
-        Soularium = new Material.Builder(11007, gregtechId('soularium'))
+        Soularium = new Material.Builder(getMetaItemId(), gregtechId('soularium'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(2280))
@@ -121,7 +126,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         Soularium.setFormula("(AgAu)?", true) // Electrum * 1, SoulSand * 1
 
-        EndSteel = new Material.Builder(11008, gregtechId('end_steel'))
+        EndSteel = new Material.Builder(getMetaItemId(), gregtechId('end_steel'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(3000))
@@ -133,7 +138,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         EndSteel.setFormula("((Fe99C)(MgFeSi2O4))?", true) // Steel * 1, Obsidian * 1
 
-        CrudeSteel = new Material.Builder(11009, gregtechId('crude_steel'))
+        CrudeSteel = new Material.Builder(getMetaItemId(), gregtechId('crude_steel'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(1300))
@@ -144,7 +149,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         CrudeSteel.setFormula("(Na2LiAl2Si2(H2O)6)??", true) //Clay * 1, Gravel * 4, Cobblestone * 1
 
-        CrystallineAlloy = new Material.Builder(11010, gregtechId('crystalline_alloy'))
+        CrystallineAlloy = new Material.Builder(getMetaItemId(), gregtechId('crystalline_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(3820))
@@ -156,7 +161,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         CrystallineAlloy.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?", true) // VibrantAlloy * 1, GrainsOfPiezallity * 1
 
-        MelodicAlloy = new Material.Builder(11011, gregtechId('melodic_alloy'))
+        MelodicAlloy = new Material.Builder(getMetaItemId(), gregtechId('melodic_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(3290))
@@ -168,7 +173,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         MelodicAlloy.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?", true) // EndSteel * 1, PopedChorusFruit * 1
 
-        CrystallinePinkSlime = new Material.Builder(11012, gregtechId('crystalline_pink_slime'))
+        CrystallinePinkSlime = new Material.Builder(getMetaItemId(), gregtechId('crystalline_pink_slime'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(3890))
@@ -180,7 +185,7 @@ class GTHHSecondDegreeMaterials {
             .build()
         CrystallinePinkSlime.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))(((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?)((Fe99C)(MgFeSi2O4)?)(((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?)", true) // VibrantAlloy * 1, MelodicAlloy * 1, EndSteel * 1, CrystallineAlloy * 1
 
-        EnergeticSilver = new Material.Builder(11013, gregtechId('energetic_silver'))
+        EnergeticSilver = new Material.Builder(getMetaItemId(), gregtechId('energetic_silver'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(2085))
@@ -191,7 +196,7 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
 
-        VividAlloy = new Material.Builder(11014, gregtechId('vivid_alloy'))
+        VividAlloy = new Material.Builder(getMetaItemId(), gregtechId('vivid_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(2925))
@@ -202,7 +207,7 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
 
-        StellarAlloy = new Material.Builder(11015, gregtechId('stellar_alloy'))
+        StellarAlloy = new Material.Builder(getMetaItemId(), gregtechId('stellar_alloy'))
             .dust()
             .ingot()
             .liquid(new FluidBuilder().temperature(5480))
@@ -214,17 +219,39 @@ class GTHHSecondDegreeMaterials {
             .cableProperties(2097152, 36, 256, false)
             .build()
         
-        WeatherCrystal = new Material.Builder(11016, gregtechId('weather_crystal'))
+        WeatherCrystal = new Material.Builder(getMetaItemId(), gregtechId('weather_crystal'))
             .dust()
             .color(0x793BAB)
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
         
-        SandCompound = new Material.Builder(11017, gregtechId('sand_compound'))
+        SandCompound = new Material.Builder(getMetaItemId(), gregtechId('sand_compound'))
             .dust()
             .color(0xB4B394)
             .iconSet(GTHHMaterialIconSet.SANDCOMPOUND)
             .build()
-            
+
+        Cryotheum = new Material.Builder(getMetaItemId(), gregtechId('cryotheum'))
+            .dust()
+            .liquid(new FluidBuilder().temperature(393))
+            .components(Blaze * 2, Redstone * 1, Saltpeter * 1)
+            .color(0x00AEFF)
+            .iconSet(MaterialIconSet.SHINY)
+            .build()
+        
+        Pyrotheum = new Material.Builder(getMetaItemId(), gregtechId('pyrotheum'))
+            .dust()
+            .liquid(new FluidBuilder().temperature(1473))
+            .components(Blaze * 2, Redstone * 1, Sulfur * 1)
+            .color(0xFF9000)
+            .iconSet(MaterialIconSet.SHINY)
+            .build()
+    }
+
+    private static int getMetaItemId() {
+        if (startId < endId){
+        return startId++
+        }
+        throw new ArrayIndexOutOfBoundsException()
     }
 }
