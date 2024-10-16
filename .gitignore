@@ -21,7 +21,7 @@ visualores/
 .idea/
 
 # Files to ignore
-.curseclient
+*.curseclient
 BotaniaVars.dat
 crafttweaker.log
 Gregtech Higher and Higher.iml
