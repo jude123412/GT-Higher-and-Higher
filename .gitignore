@@ -32,3 +32,7 @@ options.txt
 patchouli_data.json
 usercache.json
 usernamecache.json
+config\AppliedEnergistics2\VersionChecker.cfg
+config\jei\worldSettings.cfg
+config\splash.properties
+config\thaumicjei_itemstack_aspects.json
