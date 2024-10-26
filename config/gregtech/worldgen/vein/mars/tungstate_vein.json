@@ -6,10 +6,12 @@
   "max_height": 80,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "cosmic_carbon"
+    "material": "coal"
   },
   "dimension_filter": [
-    "dimension_id:-13"
+    "dimension_id:-13",
+    "dimension_id:-29",
+    "dimension_id:-31"
   ],
   "generator": {
     "type": "layered",
@@ -22,16 +24,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:cosmic_carbon"
+        "primary": "ore:tungstate"
       },
       {
-        "secondary": "ore:cosmic_carbon"
+        "secondary": "ore:tungstate"
       },
       {
-        "between": "ore:coal"
+        "between": "ore:scheelite"
       },
       {
-        "sporadic": "ore:diamond"
+        "sporadic": "ore:lithium"
       }
     ]
   }

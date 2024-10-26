@@ -19,6 +19,7 @@ shaderpacks/
 spectial textures/
 visualores/
 .idea/
+config/BlockDrops
 
 # Files to ignore
 *.curseclient
@@ -43,4 +44,5 @@ config/ichunutil.cfg
 config/AppliedEnergistics2
 config/dynamiclights_entityclasses.cfg
 config/jei/worldSettings.cfg
-
+config/astralsorcery.cfg
+config/Guide-API/Guide-API.cfg

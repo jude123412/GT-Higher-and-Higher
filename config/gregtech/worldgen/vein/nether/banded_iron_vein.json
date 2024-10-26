@@ -9,7 +9,8 @@
     "material": "banded_iron"
   },
   "dimension_filter": [
-    "is_nether"
+    "dimension_id:-1",
+    "dimension_id:-29"
   ],
   "generator": {
     "type": "layered",
