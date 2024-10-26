@@ -33,7 +33,6 @@ patchouli_data.json
 usercache.json
 usernamecache.json
 profileImage/GTHH Icon.png
-config/AppliedEnergistics2/VersionChecker.cfg
 config/jei/worldSettings.cfg
 config/splash.properties
 config/thaumicjei_itemstack_aspects.json
@@ -41,4 +40,7 @@ config/brandon3055/contributors.json
 config/astralsorcery.cfg
 config/Guide-API/Guide-API.cfg
 config/ichunutil.cfg
-/config/AppliedEnergistics2
+config/AppliedEnergistics2
+config/dynamiclights_entityclasses.cfg
+config/jei/worldSettings.cfg
+
