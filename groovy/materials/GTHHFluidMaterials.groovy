@@ -85,9 +85,6 @@ public class GTHHFluidMaterials {
             .color(0x313156)
             .iconSet(DULL)
             .build()
-        DirtyPreciousMetalSolution.setFormula('(Au?Ag?)((HNO3)(HCl))', true)
-        DilutePreciousMetalSolution.setFormula('(Au?Ag?)((HNO3)(HCl))(H2O)', true)
-        CleanPreciousMetalSolution.setFormula('(Au)(Ag)((HNO3)(HCl))(H2O)', true)
-        ConcentratedPreciousMetalSolution.setFormula('(Au)(Ag)((HNO3)(HCl))', true)
+
     }
 }

@@ -6,5 +6,6 @@ class GTHHMaterialIconType {
     static final MaterialIconType glob = new MaterialIconType("glob")
     static final MaterialIconType fragment = new MaterialIconType("fragment")
     static final MaterialIconType murky = new MaterialIconType("murky")
+    static final MaterialIconType raw = new MaterialIconType("raw")
 
 }

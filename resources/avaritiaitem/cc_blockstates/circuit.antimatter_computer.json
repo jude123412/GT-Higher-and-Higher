@@ -13,9 +13,9 @@
   ],
   "variants": {
     "type": {
-      "circuit.temporal_supercomputer": {
+      "circuit.antimatter_computer": {
         "textures": {
-          "layer0": "items/circuit.temporal_supercomputer"
+          "layer0": "items/circuit.antimatter_computer"
         }
       }
     }

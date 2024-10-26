@@ -22,6 +22,8 @@ import static gregtech.api.unification.material.Materials.*
 
 class GTHHMaterialFlags {
 
+    static final MaterialFlag GENERATE_RAW = new MaterialFlag.Builder("generate_raw").build()
+
     static void init() { 
 
         RecipeMaps.THERMAL_CENTRIFUGE_RECIPES.setMaxFluidInputs(3)
@@ -32,6 +34,7 @@ class GTHHMaterialFlags {
         RecipeMaps.MIXER_RECIPES.setMaxInputs(9)
         RecipeMaps.FLUID_SOLIDFICATION_RECIPES.setMaxInputs(2)
         RecipeMaps.IMPLOSION_RECIPES.setMaxInputs(6)
+        RecipeMaps.IMPLOSION_RECIPES.setMaxFluidInputs(3)
         RecipeMaps.CHEMICAL_RECIPES.setMaxInputs(3)
 
 
@@ -43,11 +46,23 @@ class GTHHMaterialFlags {
         CobaltOxide.setProperty(PropertyKey.INGOT, new IngotProperty())
         CobaltOxide.setFormula("Co3O4", true)
         CobaltOxide.addFlags("disable_decomposition")
+
         BlueAlloy.addFlags("generate_foil", "generate_fine_wire")
+
         RoseGold.addFlags("generate_foil", "generate_fine_wire")
+
         BorosilicateGlass.addFlags("generate_plate", "no_smashing")
+
         Glass.addFlags("generate_fine_wire")
+
         Iron.addFlags("generate_fine_wire")
+
+        Aluminium.addFlags("generate_raw")
+
+        GalliumArsenide.addFlags("generate_raw")
+
+        Neutronium.setProperty(PropertyKey.BLAST, new BlastProperty(6920, GasTier.LOW, 491520, 4800, -1, -1))
+        Neutronium.addFlags("generate_raw")
 
 
         OreProperty orePropCopper = Copper.getProperty(PropertyKey.ORE)

@@ -9,7 +9,8 @@
     "material": "molybdenite"
   },
   "dimension_filter": [
-    "is_nether"
+    "dimension_id:-1",
+    "dimension_id:-13"
   ],
   "generator": {
     "type": "layered",

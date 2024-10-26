@@ -7,28 +7,32 @@ AvaritiaItemBuilder.registerItem("circuit.antimatter_processor", 64, "circuit.an
     .shouldDrawHalo(true)
     .haloSize(8)
     .haloTextures("halo_noise")
-    .addTooltip("§AA Circuit made of pure Antimatter")
+    .addTooltip("A Circuit made of pure Antimatter")
+    .addTooltip("§8UEV-Tier Circuit")
     .create();
 
 AvaritiaItemBuilder.registerItem("circuit.antimatter_assembly", 64, "circuit.antimatter_assembly")
     .shouldDrawHalo(true)
     .haloSize(8)
     .haloTextures("halo_noise")
-    .addTooltip("§AA Circuit made of pure Antimatter")
+    .addTooltip("Just dont touch it on anything")
+    .addTooltip("§8UIV-Tier Circuit")
     .create();
 
-AvaritiaItemBuilder.registerItem("circuit.antimatter_supercomputer", 64, "circuit.antimatter_supercomputer")
+AvaritiaItemBuilder.registerItem("circuit.antimatter_computer", 64, "circuit.antimatter_computer")
     .shouldDrawHalo(true)
     .haloSize(8)
     .haloTextures("halo_noise")
-    .addTooltip("§AA Circuit made of pure Antimatter")
+    .addTooltip("How is this even possible?")
+    .addTooltip("§8UXV-Tier Circuit")
     .create();
 
 AvaritiaItemBuilder.registerItem("circuit.antimatter_mainframe", 64, "circuit.antimatter_mainframe")
     .shouldDrawHalo(true)
     .haloSize(8)
     .haloTextures("halo_noise")
-    .addTooltip("§AA Circuit made of pure Antimatter")
+    .addTooltip("Cosmic, Computation, Calculation")
+    .addTooltip("§8OPV-Tier Circuit")
     .create();
 
 AvaritiaItemBuilder.registerItem("board.antimatter", 64, "board.antimatter")
@@ -54,7 +58,8 @@ AvaritiaItemBuilder.registerItem("circuit.temporal_processor", 64, "circuit.temp
     .shouldDrawCosmic(true)
     .mask("circuit.temporal_processor_overlay")
     .maskOpacity(1.0f)
-    .addTooltip("Universe Simulation Device", true)
+    .addTooltip("Universe Simulation Device")
+    .addTooltip("UIV-Tier Circuit", true)
     .create();
 
 AvaritiaItemBuilder.registerItem("circuit.temporal_assembly", 64, "circuit.temporal_assembly")
@@ -66,19 +71,21 @@ AvaritiaItemBuilder.registerItem("circuit.temporal_assembly", 64, "circuit.tempo
     .shouldDrawCosmic(true)
     .mask("circuit.temporal_assembly_overlay")
     .maskOpacity(1.0f)
-    .addTooltip("Multiverse Simulation Device", true)
+    .addTooltip("Multiverse Simulation Device")
+    .addTooltip("UXV-Tier Circuit", true)
     .create();
 
-AvaritiaItemBuilder.registerItem("circuit.temporal_supercomputer", 64, "circuit.temporal_supercomputer")
+AvaritiaItemBuilder.registerItem("circuit.temporal_computer", 64, "circuit.temporal_computer")
     .shouldDrawHalo(true)
     .haloSize(10)
     .haloColour("000000")
     .haloTextures("halo")
     .shouldDrawPulse(true)
     .shouldDrawCosmic(true)
-    .mask("circuit.temporal_supercomputer_overlay")
+    .mask("circuit.temporal_computer_overlay")
     .maskOpacity(1.0f)
-    .addTooltip("Temporal Simulation Device", true)
+    .addTooltip("Temporal Simulation Device")
+    .addTooltip("OPV-Tier Circuit", true)
     .create();
 
 AvaritiaItemBuilder.registerItem("circuit.temporal_mainframe", 64, "circuit.temporal_mainframe")
@@ -90,8 +97,8 @@ AvaritiaItemBuilder.registerItem("circuit.temporal_mainframe", 64, "circuit.temp
     .shouldDrawCosmic(true)
     .mask("circuit.temporal_mainframe_overlay")
     .maskOpacity(1.0f)
-    .colorfulName(true)
-    .addTooltip("All is one and one is all", true)
+    .addTooltip("All is one and one is all")
+    .addTooltip("MAX-Tier Circuit", true)
     .create();
 
 AvaritiaItemBuilder.registerItem("board.temporal", 64, "board.temporal")

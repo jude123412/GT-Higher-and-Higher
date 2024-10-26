@@ -9,6 +9,7 @@ import gregtech.api.unification.stack.UnificationEntry
 
 import static gregtech.api.recipes.RecipeMaps.*
 
+log.infoMC("Adding More Component Recipes...")
 recipemap('assembler').recipeBuilder()
     .inputs(metaitem('wireFineCopper') * 4, metaitem('dustSmallCobaltOxide') * 1)
     .outputs(metaitem('component.diode') * 6)

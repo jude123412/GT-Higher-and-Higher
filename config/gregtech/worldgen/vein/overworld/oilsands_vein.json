@@ -2,7 +2,10 @@
   "name": "gregtech.veins.ore.oilsands",
   "weight": 40,
   "density": 0.3,
-  "dimension_filter": ["name:overworld"],
+  "dimension_filter": [
+    "dimension_id:0",
+    "dimension_id:7"
+  ],
   "max_height": 80,
   "min_height": 50,
   "vein_populator": {

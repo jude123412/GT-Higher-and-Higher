@@ -5,10 +5,10 @@ import gregtech.api.unification.material.Material
 import gregtech.api.GregTechAPI
 
 import materials.GTHHFantasyMaterials
-import materials.GTHHFirstDegreeMaterials
 import materials.GTHHFluidMaterials
 import materials.GTHHOreMaterials
 import materials.GTHHSecondDegreeMaterials
+import materials.GTHHThirdDegreeMaterials
 
 import material.GTHHOrePrefix
 
@@ -26,9 +26,6 @@ class GTHHMaterials {
     static Material Infernorite
     static Material Crynorium
 
-    //First Degree Materials
-    static Material Sand
-
     //Fluid Materials
     static Material DirtyPreciousMetalSolution
     static Material DilutePreciousMetalSolution
@@ -44,11 +41,8 @@ class GTHHMaterials {
     static Material Anorthite
     static Material Plagioclase
     static Material Pyroxene
-    static Material Moon
     static Material Carbonate
     static Material AmmoniatedSilicate
-    static Material Ceres
-    static Material Pluto
     static Material PreciousMetals
     static Material Cryolite
     static Material SolarGradeSilicon
@@ -74,15 +68,84 @@ class GTHHMaterials {
     static Material SandCompound
     static Material Pyrotheum
     static Material Cryotheum
+    static Material MoonStone
+    static Material MarsStone
+    static Material AsteroidStone
+    static Material VenusStone
+    static Material MercuryStone
+    static Material CeresStone
+    static Material JupiterStone
+    static Material SaturnStone
+    static Material UranusStone
+    static Material NeptuneStone
+    static Material PlutoStone
+    static Material ErisStone
+    static Material Kepler22bStone
+    static Material EuropaStone
+    static Material IoStone
+    static Material DeimosStone
+    static Material PhobosStone
+    static Material TritonStone
+    static Material CallistoStone
+    static Material GanymedeStone
+    static Material RheaStone
+    static Material TitanStone
+    static Material OberonStone
+    static Material TitaniaStone
+    static Material IapetusStone
 
+    //Third Degree Materials
+    static Material Sand
+    static Material SilverGallium
+    static Material Tantaloper
+    static Material Zinvar
+    static Material SterlingPlatinum
+    static Material Mytryl
+    static Material CosmicCarbon
+    static Material Tetrapech
+
+    static void changeFormula() {
+
+        log.infoMC("Changing Formulas!")
+        // Fantasy Material Formulas
+
+        // Fluid Material Formulas
+        DirtyPreciousMetalSolution.setFormula('(Au?Ag?)((HNO3)(HCl))', true)
+        DilutePreciousMetalSolution.setFormula('(Au?Ag?)((HNO3)(HCl))(H2O)', true)
+        CleanPreciousMetalSolution.setFormula('(Au)(Ag)((HNO3)(HCl))(H2O)', true)
+        ConcentratedPreciousMetalSolution.setFormula('(Au)(Ag)((HNO3)(HCl))', true)
+
+        // Ore Material Formulas
+        PreciousMetals.setFormula('Au?Ag?Cu?', true)
+        Plagioclase.setFormula('((NaAlSi3O8)(CaAl2Si2O8))', true)
+        SolarGradeSilicon.setFormula('*Si*', true)
+
+        // Second Degree Material Formulas
+        ElectricalSteel.setFormula("(Fe99C)Si", true)
+        ConductiveIron.setFormula("(((Fe99C)Si)4(Si(FeS2)5(CrAl2O3)Hg3)Si)4(Fe99C)(Si(FeS2)5(CrAl2O3)Hg3)", true)
+        PulsatingIron.setFormula("(Fe99C)(BeK4N5)", true)
+        DarkSteel.setFormula("(Fe99C)(MgFeSi2O4)",true)
+        Soularium.setFormula("(AgAu)?", true)
+        EndSteel.setFormula("((Fe99C)(MgFeSi2O4))?", true)
+        CrudeSteel.setFormula("(Na2LiAl2Si2(H2O)6)??", true)
+        CrystallineAlloy.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?", true)
+        MelodicAlloy.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?", true)
+        CrystallinePinkSlime.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))(((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?)((Fe99C)(MgFeSi2O4)?)(((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?)", true)
+
+        // Third Degree Material Formulas
+        Mytryl.setFormula("SpC9Cu4Ag3Ga", true)
+        CosmicCarbon.setFormula("SpC", true)
+
+    }
     static void init() {
 
         GTHHFantasyMaterials.register()
-        // GTHHFirstDegreeMaterials.register() Currently Empty
         GTHHFluidMaterials.register()
         GTHHOreMaterials.register()
         GTHHSecondDegreeMaterials.register()
+        GTHHThirdDegreeMaterials.register()
         GTHHOrePrefix.init()
+        changeFormula()
 
     }
 

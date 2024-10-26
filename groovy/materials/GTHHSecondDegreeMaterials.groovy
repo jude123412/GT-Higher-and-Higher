@@ -39,7 +39,6 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .cableProperties(32, 4, 1, false)
             .build()
-        ElectricalSteel.setFormula("(Fe99C)Si", true)
 
         EnergeticAlloy = new Material.Builder(getMetaItemId(), gregtechId('energetic_alloy'))
             .dust()
@@ -88,7 +87,6 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .cableProperties(512, 12, 4, false)
             .build()
-        ConductiveIron.setFormula("(((Fe99C)Si)4(Si(FeS2)5(CrAl2O3)Hg3)Si)4(Fe99C)(Si(FeS2)5(CrAl2O3)Hg3)", true)
 
         PulsatingIron = new Material.Builder(getMetaItemId(), gregtechId('pulsating_iron'))
             .dust()
@@ -101,7 +99,6 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .cableProperties(8, 1, 1, false)
             .build()
-        PulsatingIron.setFormula("(Fe99C)(BeK4N5)", true)
 
         DarkSteel = new Material.Builder(getMetaItemId(), gregtechId('dark_steel'))
             .dust()
@@ -113,7 +110,6 @@ class GTHHSecondDegreeMaterials {
             .color(0x4C4C4C)
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
-        DarkSteel.setFormula("(Fe99C)(MgFeSi2O4)",true)
 
         Soularium = new Material.Builder(getMetaItemId(), gregtechId('soularium'))
             .dust()
@@ -124,7 +120,6 @@ class GTHHSecondDegreeMaterials {
             .color(0x7A502E)
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
-        Soularium.setFormula("(AgAu)?", true) // Electrum * 1, SoulSand * 1
 
         EndSteel = new Material.Builder(getMetaItemId(), gregtechId('end_steel'))
             .dust()
@@ -136,7 +131,6 @@ class GTHHSecondDegreeMaterials {
             .color(0xE5DB8B)
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
-        EndSteel.setFormula("((Fe99C)(MgFeSi2O4))?", true) // Steel * 1, Obsidian * 1
 
         CrudeSteel = new Material.Builder(getMetaItemId(), gregtechId('crude_steel'))
             .dust()
@@ -147,7 +141,6 @@ class GTHHSecondDegreeMaterials {
             .color(0xCCC3B1)
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .build()
-        CrudeSteel.setFormula("(Na2LiAl2Si2(H2O)6)??", true) //Clay * 1, Gravel * 4, Cobblestone * 1
 
         CrystallineAlloy = new Material.Builder(getMetaItemId(), gregtechId('crystalline_alloy'))
             .dust()
@@ -159,7 +152,6 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .cableProperties(32768, 24, 4, false)
             .build()
-        CrystallineAlloy.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?", true) // VibrantAlloy * 1, GrainsOfPiezallity * 1
 
         MelodicAlloy = new Material.Builder(getMetaItemId(), gregtechId('melodic_alloy'))
             .dust()
@@ -171,7 +163,6 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .cableProperties(131072, 28, 16, false)
             .build()
-        MelodicAlloy.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?", true) // EndSteel * 1, PopedChorusFruit * 1
 
         CrystallinePinkSlime = new Material.Builder(getMetaItemId(), gregtechId('crystalline_pink_slime'))
             .dust()
@@ -183,7 +174,6 @@ class GTHHSecondDegreeMaterials {
             .iconSet(GTHHMaterialIconSet.ENDERIOINGOT)
             .cableProperties(524288, 32, 64, false)
             .build()
-        CrystallinePinkSlime.setFormula("((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))(((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?)((Fe99C)(MgFeSi2O4)?)(((Au(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))?)", true) // VibrantAlloy * 1, MelodicAlloy * 1, EndSteel * 1, CrystallineAlloy * 1
 
         EnergeticSilver = new Material.Builder(getMetaItemId(), gregtechId('energetic_silver'))
             .dust()
@@ -246,6 +236,157 @@ class GTHHSecondDegreeMaterials {
             .color(0xFF9000)
             .iconSet(MaterialIconSet.SHINY)
             .build()
+        
+        MoonStone = new Material.Builder(getMetaItemId(), gregtechId('moon_stone'))
+            .dust()
+            .color(0x6D6D6D)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+        
+        MarsStone = new Material.Builder(getMetaItemId(), gregtechId('mars_stone'))
+            .dust()
+            .color(0x841C02)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        AsteroidStone = new Material.Builder(getMetaItemId(), gregtechId('asteroid_stone'))
+            .dust()
+            .color(0x2D2C27)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+            
+        VenusStone = new Material.Builder(getMetaItemId(), gregtechId('venus_stone'))
+            .dust()
+            .color(0x634B44)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        MercuryStone = new Material.Builder(getMetaItemId(), gregtechId('mercury_stone'))
+            .dust()
+            .color(0x4E4D6B)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        CeresStone = new Material.Builder(getMetaItemId(), gregtechId('ceres_stone'))
+            .dust()
+            .color(0x65647F)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+        
+        JupiterStone = new Material.Builder(getMetaItemId(), gregtechId('jupiter_stone'))
+            .dust()
+            .color(0xDD9B68)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        SaturnStone = new Material.Builder(getMetaItemId(), gregtechId('saturn_stone'))
+            .dust()
+            .color(0xA5744F)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+            
+        UranusStone = new Material.Builder(getMetaItemId(), gregtechId('uranus_stone'))
+            .dust()
+            .color(0x88B4FC)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        NeptuneStone = new Material.Builder(getMetaItemId(), gregtechId('neptune_stone'))
+            .dust()
+            .color(0x166DF9)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+        
+        PlutoStone = new Material.Builder(getMetaItemId(), gregtechId('pluto_stone'))
+            .dust()
+            .color(0x5B5B5B)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        ErisStone = new Material.Builder(getMetaItemId(), gregtechId('eris_stone'))
+            .dust()
+            .color(0x979E91)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        Kepler22bStone = new Material.Builder(getMetaItemId(), gregtechId('kepler_twotwob_stone'))
+            .dust()
+            .color(0xA58359)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        EuropaStone = new Material.Builder(getMetaItemId(), gregtechId('europa_stone'))
+            .dust()
+            .color(0x847670)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+        
+        IoStone = new Material.Builder(getMetaItemId(), gregtechId('io_stone'))
+            .dust()
+            .color(0xD18F3E)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        DeimosStone = new Material.Builder(getMetaItemId(), gregtechId('deimos_stone'))
+            .dust()
+            .color(0xC1A58D)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+            
+        PhobosStone = new Material.Builder(getMetaItemId(), gregtechId('phobos_stone'))
+            .dust()
+            .color(0x846B57)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        TritonStone = new Material.Builder(getMetaItemId(), gregtechId('triton_stone'))
+            .dust()
+            .color(0x7C797C)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+        
+        CallistoStone = new Material.Builder(getMetaItemId(), gregtechId('callisto_stone'))
+            .dust()
+            .color(0x543A28)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        GanymedeStone = new Material.Builder(getMetaItemId(), gregtechId('ganymede_stone'))
+            .dust()
+            .color(0x4F4943)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        RheaStone = new Material.Builder(getMetaItemId(), gregtechId('rhea_stone'))
+            .dust()
+            .color(0x333333)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        TitanStone = new Material.Builder(getMetaItemId(), gregtechId('titan_stone'))
+            .dust()
+            .color(0x332B1F)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+        
+        OberonStone = new Material.Builder(getMetaItemId(), gregtechId('oberon_stone'))
+            .dust()
+            .color(0x897A88)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
+        TitaniaStone = new Material.Builder(getMetaItemId(), gregtechId('titania_stone'))
+            .dust()
+            .color(0x8B8F93)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+            
+        IapetusStone = new Material.Builder(getMetaItemId(), gregtechId('iapetus_stone'))
+            .dust()
+            .color(0x35230E)
+            .iconSet(MaterialIconSet.ROUGH)
+            .build()
+
     }
 
     private static int getMetaItemId() {
@@ -254,4 +395,5 @@ class GTHHSecondDegreeMaterials {
         }
         throw new ArrayIndexOutOfBoundsException()
     }
+
 }

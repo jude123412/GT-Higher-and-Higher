@@ -8,7 +8,7 @@ item.avaritiaitem.board.antimatter.name=Antimatter Circuit Board
 item.avaritiaitem.circuit_board.antimatter.name=Reverse Circuit Board
 item.avaritiaitem.circuit.antimatter_processor.name=Antimatter Processor
 item.avaritiaitem.circuit.antimatter_assembly.name=Antimatter Assembly
-item.avaritiaitem.circuit.antimatter_supercomputer.name=Antimatter Supercomputer
+item.avaritiaitem.circuit.antimatter_computer.name=Antimatter Supercomputer
 item.avaritiaitem.circuit.antimatter_mainframe.name=Antimatter Mainframe
 
 //Temporally Woven Components|Circuits|Circuit Boards|Boards
@@ -21,7 +21,7 @@ item.avaritiaitem.board.temporal.name=Temporal Circuit Board
 item.avaritiaitem.circuit_board.temporal.name=Temporally Woven Circuit Board
 item.avaritiaitem.circuit.temporal_processor.name=Temporal Processor
 item.avaritiaitem.circuit.temporal_assembly.name=Temporal Assembly
-item.avaritiaitem.circuit.temporal_supercomputer.name=Temporal Supercomputer
+item.avaritiaitem.circuit.temporal_computer.name=Temporal Supercomputer
 item.avaritiaitem.circuit.temporal_mainframe.name=Temporal Mainframe
 
 //Cosmic Neutronium Material

@@ -18,9 +18,12 @@ import static materials.GTHHMaterials.*
 
 class GTHHOreMaterials {
 
+    private static int startId = 8000
+    private static int endId = 8499
+
     static void register() {
 
-        Albite = new Material.Builder(8000, gregtechId('albite'))
+        Albite = new Material.Builder(getMetaItemId(), gregtechId('albite'))
             .dust()
             .gem()
             .ore()
@@ -29,7 +32,7 @@ class GTHHOreMaterials {
             .iconSet(GTHHMaterialIconSet.ALBITE)
             .build()
 
-        Anorthite = new Material.Builder(8001, gregtechId('Anorthite'))
+        Anorthite = new Material.Builder(getMetaItemId(), gregtechId('Anorthite'))
             .dust()
             .gem()
             .ore()
@@ -38,7 +41,7 @@ class GTHHOreMaterials {
             .iconSet(MaterialIconSet.RUBY)
             .build()
 
-        Plagioclase = new Material.Builder(8002, gregtechId('plagioclase'))
+        Plagioclase = new Material.Builder(getMetaItemId(), gregtechId('plagioclase'))
             .dust()
             .gem()
             .ore()
@@ -47,7 +50,7 @@ class GTHHOreMaterials {
             .iconSet(GTHHMaterialIconSet.PLAGIOCLASE)
             .build()
 
-        Pyroxene = new Material.Builder(8003, gregtechId('pyroxene'))
+        Pyroxene = new Material.Builder(getMetaItemId(), gregtechId('pyroxene'))
             .dust()
             .gem()
             .ore()
@@ -55,15 +58,8 @@ class GTHHOreMaterials {
             .color(0x334225)
             .iconSet(MaterialIconSet.EMERALD)
             .build()
-
-        Moon = new Material.Builder(8004, gregtechId('moon'))
-            .dust()
-            .components(Magnesium * 1, Lithium * 1, Calcium * 1, Sodium * 1, Aluminium * 3, Silicon * 7, Oxygen * 22)
-            .color(0x6D6D6D)
-            .iconSet(MaterialIconSet.DULL)
-            .build()
         
-        Carbonate = new Material.Builder(8005, gregtechId('carbonate'))
+        Carbonate = new Material.Builder(getMetaItemId(), gregtechId('carbonate'))
             .dust()
             .ore()
             .components(Hydrogen * 2, Carbon * 1, Oxygen * 3)
@@ -71,7 +67,7 @@ class GTHHOreMaterials {
             .iconSet(MaterialIconSet.SHINY)
             .build()
 
-        AmmoniatedSilicate = new Material.Builder(8006, gregtechId('ammoniated_silicate'))
+        AmmoniatedSilicate = new Material.Builder(getMetaItemId(), gregtechId('ammoniated_silicate'))
             .dust()
             .gem()
             .ore()
@@ -79,21 +75,8 @@ class GTHHOreMaterials {
             .color(0x9B70C1)
             .iconSet(MaterialIconSet.QUARTZ)
             .build()
-
-        Ceres = new Material.Builder(8007, gregtechId('ceres'))
-            .dust()
-            .color(0x709EBF)
-            .iconSet(MaterialIconSet.DULL)
-            .build()
-
-        Pluto = new Material.Builder(8008, gregtechId('pluto'))
-            .dust()
-            .components()
-            .color(0x7B6049)
-            .iconSet(MaterialIconSet.DULL)
-            .build()
         
-        PreciousMetals = new Material.Builder(8009, gregtechId('precious_metals'))
+        PreciousMetals = new Material.Builder(getMetaItemId(), gregtechId('precious_metals'))
             .dust()
             .ingot()
             .ore()
@@ -102,7 +85,7 @@ class GTHHOreMaterials {
             .iconSet(MaterialIconSet.SHINY)
             .build()
 
-        Cryolite = new Material.Builder(8010, gregtechId('cryolite'))
+        Cryolite = new Material.Builder(getMetaItemId(), gregtechId('cryolite'))
             .dust()
             .ore()
             .addOreByproducts(Sodium, Aluminium, PreciousMetals)
@@ -111,7 +94,7 @@ class GTHHOreMaterials {
             .iconSet(MaterialIconSet.SHINY)
             .build()
         
-        SolarGradeSilicon = new Material.Builder(8011, gregtechId('solar_grade_silicon'))
+        SolarGradeSilicon = new Material.Builder(getMetaItemId(), gregtechId('solar_grade_silicon'))
             .dust()
             .ingot()
             .ore()
@@ -121,13 +104,14 @@ class GTHHOreMaterials {
             .color(0x3C3C50)
             .iconSet(MaterialIconSet.SHINY)
             .build()
+            
+    }
 
-        PreciousMetals.setFormula('Au?Ag?Cu?', true)
-        Plagioclase.setFormula('((NaAlSi3O8)(CaAl2Si2O8))', true)
-        Moon.setFormula('((((NaAlSi3O8)(CaAl2Si2O8))(MgLiSi2O6)(Mg2Fe(SiO2)2)(FeTiO3)))', true)
-        Ceres.setFormula('(NH3SiO4)(H2CO3)(FeHO2)(Al2O3)', true)
-        Pluto.setFormula('(H2O)')
-        SolarGradeSilicon.setFormula('*Si*', true)
+    private static int getMetaItemId() {
+        if (startId < endId){
+        return startId++
+        }
+        throw new ArrayIndexOutOfBoundsException()
     }
 
 }
