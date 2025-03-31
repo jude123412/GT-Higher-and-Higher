@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    127
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you somehow haven\u0027t noticed but you can\u0027t break logs with your fist and you won\u0027t be able to until you make a flint axe.\n§6\nBreaking leaves on trees will yeild sticks and saplings.\n\nGravel will yeild some flint.\n\nHitting flint on stone will produce flint shards.§f\n\nTo complete this quest simply collect some Gravel, Flint and sticks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:gravel"
+      },
+      "name:8": "No Punching Trees"
+    }
+  },
+  "questID:3": 158,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "minecraft:gravel"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "minecraft:stick"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:flint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

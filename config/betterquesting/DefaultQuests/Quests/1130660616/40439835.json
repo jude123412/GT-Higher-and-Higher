@@ -1,0 +1,56 @@
+{
+  "preRequisites:11": [
+    771288376
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Upon entering the Twilight Forest you realise that this is no ordinary Dimention.\n§6\n\"Magical Whispers can be heard, They seem to be telling you to stop.\"",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "twilightforest:fiery_sword",
+        "tag:10": {
+          "ench:9": {
+            "0:10": {
+              "id:2": 20,
+              "lvl:2": 2
+            }
+          }
+        }
+      },
+      "name:8": "The Twilight Forest"
+    }
+  },
+  "questID:3": 40439835,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 8,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "dimension:3": 7,
+      "index:3": 0,
+      "name:8": "Enter The Twilight",
+      "taskID:8": "bq_standard:location"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 12,
+          "id:8": "gregtech:meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

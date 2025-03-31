@@ -1,0 +1,69 @@
+{
+  "preRequisites:11": [
+    64439755
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Electrolyser Is used to split complex compounds into there Elemental Components, Like Salt Into Sodium and Chlorine.\n\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 275,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Electrolyser, I barly know her I",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 575095592,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "pamsbreadcraft:obwarzanekkrakowski"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 312,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 309,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 32,
+          "Damage:2": 313,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 275,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

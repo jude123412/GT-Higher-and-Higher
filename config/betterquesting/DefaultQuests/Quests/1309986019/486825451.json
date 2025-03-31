@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    1643442657
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Cupronickel is the first type of heating Coil. Cupronickel is easily obtained by smelting Copper and Nickel in an Alloy Smelter.\n§6\nHint: You\u0027ll need 128 Cupronickel Ingots to make 16 Coils.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:wire_coil"
+      },
+      "name:8": "Cupronickel Heating Coils"
+    }
+  },
+  "questID:3": 486825451,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:wire_coil"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    1766401479,
+    1095347171
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Polyethylene is a useful Plastic. Being the first plastic you can make its not to difficult to produce and since you have Heavy Fuel from Oilsands making this should be easy.\n\nThere are quite a few recipes to produce Ethylene but the easiest one you can do, Unless you obtain oil from some other means is to send the Heavy Fuel in a Chemical Reactor with some steam on circuit 3, This will result in Severly Steam-Cracked Heavy Fuel.\n\nNext Send the Severly Steam-Cracked Heavy Fuel through a Chemical Reactor with Circuit 10 to produce Ethylene. Now that wasn\u0027t to hard was it?\n\nSending Ethylene Through a Chemical Reactor With some Oxygen or Air Produces Polyethylene!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1012,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "PolyWhatit?"
+    }
+  },
+  "questID:3": 1688859855,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 144,
+          "FluidName:8": "plastic"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    165,
+    239,
+    238,
+    169
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Bronze is a metal alloy with a ratio of 3 parts Copper 1 part Tin. \nIts also your gateway to making your first steam machines.",
+      "frame:8": "PRICKLE",
+      "icon:10": {
+        "Count:3": 16,
+        "Damage:2": 260,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "How to Bronze"
+    }
+  },
+  "questID:3": 171,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 3,
+          "Damage:2": 25,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

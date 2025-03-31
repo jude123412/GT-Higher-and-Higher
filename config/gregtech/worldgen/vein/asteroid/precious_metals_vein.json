@@ -1,0 +1,38 @@
+{
+  "name": "gregtech.veins.ore.asteroid_precious_metals",
+  "weight": 40,
+  "density": 0.25,
+  "dimension_filter": [
+    "dimension_id:-30"
+  ],
+  "max_height": 255,
+  "min_height": 1,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "precious_metals"
+  },
+  "generator": {
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:precious_metals"
+      },
+      {
+        "secondary": "ore:copper"
+      },
+      {
+        "between": "ore:precious_metals"
+      },
+      {
+        "sporadic": "ore:silver"
+      }
+    ]
+  }
+}

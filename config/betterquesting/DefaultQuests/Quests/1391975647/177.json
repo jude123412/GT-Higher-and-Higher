@@ -1,0 +1,64 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1,
+    1
+  ],
+  "preRequisites:11": [
+    23,
+    178,
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Glass is needed for certain Greg Tech machines incluiding the extractor. to make glass before you have a LV Mixer, it will have to be in a crafting table with quartz sand and tiny pile of flint dust.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:glass"
+      },
+      "name:8": "Glass"
+    }
+  },
+  "questID:3": 177,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:glass"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2000,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2023,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2049,
+          "id:8": "gregtech:meta_dust_tiny"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

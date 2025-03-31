@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    23,
+    22,
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Coated Circuit Boards are the First Circuit Board you can make, Requiring only some sticky resin and Wood Plank.\nThese are used for making your first Circuit.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 381,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Coated Circuit Board"
+    }
+  },
+  "questID:3": 174,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 381,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 438,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1648,
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

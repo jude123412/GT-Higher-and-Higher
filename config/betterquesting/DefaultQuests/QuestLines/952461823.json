@@ -1,0 +1,15 @@
+{
+  "lineID:3": 952461823,
+  "order:3": 22,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Botania is a \"magic\" mod that adds loads of flowers and the ability to craft using mana.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "botania:pool"
+      },
+      "name:8": "Botanical Adventures"
+    }
+  },
+  "quests:9": {}
+}

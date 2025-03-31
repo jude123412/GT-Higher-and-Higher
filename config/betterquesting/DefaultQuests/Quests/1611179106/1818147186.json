@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    22
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Foresting Backpack stores all them plant\u0027s you run around collecting.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:forester_bag"
+      },
+      "name:8": "Foresting Backpack"
+    }
+  },
+  "questID:3": 1818147186,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "forestry:forester_bag"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

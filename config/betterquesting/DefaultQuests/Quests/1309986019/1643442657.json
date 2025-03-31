@@ -1,0 +1,78 @@
+{
+  "preRequisites:11": [
+    408350905
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "If you have looked at the recipe for any Heating Coil, You wount be surprised that they use Mica Insulator Foil instead of a Metal Foil. To craft this dust you\u0027ll also need an Alloy Smelter, Forming Press, Bending Machine and Mixer.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "gregtech:meta_item_2"
+      },
+      "name:8": "Mica Insulator"
+    }
+  },
+  "questID:3": 1643442657,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 128,
+          "Damage:2": 3,
+          "id:8": "gregtech:meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 32,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_item_2"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_2"
+        },
+        "2:10": {
+          "Count:3": 128,
+          "id:8": "gregtech:meta_item_2"
+        },
+        "3:10": {
+          "Count:3": 32,
+          "Damage:2": 253,
+          "id:8": "gregtech:meta_dust"
+        },
+        "4:10": {
+          "Count:3": 48,
+          "Damage:2": 386,
+          "id:8": "gregtech:meta_dust"
+        },
+        "5:10": {
+          "Count:3": 48,
+          "Damage:2": 438,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "lineID:3": 652030600,
+  "order:3": 5,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 4,
+        "id:8": "gregtech:machine_casing"
+      },
+      "name:8": "EV (Extreme Voltage)"
+    }
+  },
+  "quests:9": {}
+}

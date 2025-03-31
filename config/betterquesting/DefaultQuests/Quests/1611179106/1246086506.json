@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    175448325,
+    395986738,
+    1881147616,
+    1818147186,
+    1302356596,
+    659122138,
+    665430070,
+    1968325377,
+    533084212
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "One you have reached LV and have some bees setup, You can now upgrade these backpacks to increase how much they can store by 3 times.\n§6\nProbably a worth while upgrade if your waiting to craft HV Miners",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 32767,
+        "id:8": "forestry:miner_bag_t2"
+      },
+      "name:8": "Backpack Upgrading",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1246086506,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {}
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 3,
+          "id:8": "forestry:crafting_material"
+        },
+        "2:10": {
+          "Count:3": 2,
+          "Damage:2": 276,
+          "id:8": "gregtech:meta_gem_exquisite"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

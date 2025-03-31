@@ -1,0 +1,120 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    64439755,
+    958107144
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Miners are important if you want to start mining ore veins without the need of a drill.\n\nLV Miner Requires 8 eu/t and mines 1 ore every 8 seconds.\nMV Miner Requires 32 eu/t and mines 1 ore every 4 seconds.\nHV Miner Requires 128 eu/t and mines 1 ore every 2 seconds.\n\nBased on the energy they require you can use a generator at the previous voltage tier to run one.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 920,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Automated Mining"
+    }
+  },
+  "questID:3": 661470433,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "bio_diesel"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "benzene"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Fluid:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "heavy_fuel"
+            }
+          }
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 21,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 920,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "2:10": {
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 921,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "3:10": {
+      "index:3": 3,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 922,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

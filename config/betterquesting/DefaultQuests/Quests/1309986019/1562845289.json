@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    64439755
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Bending machine is useful if you want the most efficent recipe to produce Plates, Requiring only Ingot to make 1 Plate!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 140,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Booo, We want Bender! I",
+      "questlogic:8": "OR"
+    }
+  },
+  "questID:3": 1562845289,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 140,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

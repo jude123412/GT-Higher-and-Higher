@@ -5,24 +5,17 @@
   "debug": false,
   "classes": {
       "preInit": [
-        "catagories",
-        "classes/",
-        "handler/"
         
       ],
       "init": [
       ],
       "postInit": [
-        "metatileentity/"
       ],
       "all": [
-        "material/",
-        "materials/"
       ]
     },
   "loaders": {
     "preInit": [
-      "materials/",
       "preInit/"
     ],
     "init":[

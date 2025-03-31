@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    399027287
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "You didn\u0027t think it would be that easy did you? I hope not.\nTo actually Produce Manganesse Phosphide Superconductors you\u0027ll need to combine them in an assembling machine along with an LV pump and Some Nitrogen gas.\n\n§6Don\u0027t bother looking into making them with liquid Nitrogen, Its gated behind the Vacuum Freezer.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "LV Superconductors"
+    }
+  },
+  "questID:3": 428328515,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 424,
+          "id:8": "gregtech:wire_single"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

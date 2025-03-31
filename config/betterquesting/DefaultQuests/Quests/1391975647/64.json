@@ -1,0 +1,40 @@
+{
+  "preRequisites:11": [
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Sugarcane can be crafted by droping a Hay Bale into the Manapool with some Mana. I hope you have a farm setup for wheat and I sugest setting up a farm for Sugar Cane.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:reeds"
+      },
+      "name:8": "Building Blocks of Paper"
+    }
+  },
+  "questID:3": 64,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:apple"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 15,
+          "id:8": "minecraft:reeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

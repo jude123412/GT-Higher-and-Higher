@@ -1,0 +1,16 @@
+{
+  "lineID:3": 1484388957,
+  "order:3": 4,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 3,
+        "id:8": "gregtech:machine_casing"
+      },
+      "name:8": "HV (High Voltage)"
+    }
+  },
+  "quests:9": {}
+}

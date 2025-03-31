@@ -1,0 +1,53 @@
+{
+  "preRequisites:11": [
+    158
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Flint axe is the gateway to collecting wood and making a Crafting Table.\nTo make one you\u0027ll need to collect some Plant Fiber from breaking Grass with a Flint Knife.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "notreepunching:axe/flint"
+      },
+      "name:8": "Flint Axe Time"
+    }
+  },
+  "questID:3": 941857624,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:flint"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "notreepunching:grass_string"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "OreDict:8": "listAllsmoothie",
+          "id:8": "harvestcraft:bananasmoothieitem"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "notreepunching:knife/flint"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "notreepunching:axe/flint"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

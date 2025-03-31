@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    771288376
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Medium Voltage, Now all machines require 4 times more Energy.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 987,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "MV (Medium Voltage)"
+    }
+  },
+  "questID:3": 1870851485,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 987,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

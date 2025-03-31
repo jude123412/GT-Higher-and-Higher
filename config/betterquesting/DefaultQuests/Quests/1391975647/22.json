@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1151691218
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Compressor will be used to make certain Plates from Dusts and more importently produce Firebricks From Firebrick Dust.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "20 Bar of pressure"
+    }
+  },
+  "questID:3": 22,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1617,
+          "id:8": "gregtech:meta_plate"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 11,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

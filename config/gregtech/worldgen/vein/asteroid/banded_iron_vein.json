@@ -1,0 +1,38 @@
+{
+  "name": "gregtech.veins.ore.asteroid_banded_iron",
+  "weight": 30,
+  "density": 0.2,
+  "min_height": 1,
+  "max_height": 255,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "banded_iron"
+  },
+  "dimension_filter": [
+    "dimension_id:-30"
+  ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      17,
+      24
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:brown_limonite"
+      },
+      {
+        "secondary": "ore:yellow_limonite"
+      },
+      {
+        "between": "ore:banded_iron"
+      },
+      {
+        "sporadic": "ore:precious_metals"
+      }
+    ]
+  }
+}

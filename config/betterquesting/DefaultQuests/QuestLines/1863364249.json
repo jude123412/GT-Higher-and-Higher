@@ -1,0 +1,16 @@
+{
+  "lineID:3": 1863364249,
+  "order:3": 13,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 12,
+        "id:8": "gregtech:machine_casing"
+      },
+      "name:8": "UXV (Ultra Extreme Voltage)"
+    }
+  },
+  "quests:9": {}
+}

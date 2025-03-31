@@ -1,0 +1,41 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This is the starting chapter. Your journey awaits.\nNights are very dangerous in early game.\nIf you find them to hard just dig a hole and hide till its day.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:dirt"
+      },
+      "ismain:1": 1,
+      "name:8": "A Brave new world"
+    }
+  },
+  "questID:3": 127,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:pumpkinbreaditem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 32767,
+          "OreDict:8": "dirt",
+          "id:8": "minecraft:dirt"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

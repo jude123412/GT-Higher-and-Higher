@@ -5,7 +5,8 @@
   "dimension_filter": [
     "dimension_id:0",
     "dimension_id:-28",
-    "dimension_id:-29"
+    "dimension_id:-29",
+    "dimension_id:-30"
   ],
   "max_height": 60,
   "min_height": 40,

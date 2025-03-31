@@ -1,0 +1,59 @@
+{
+  "preRequisites:11": [
+    941857624
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using the Flint axe you can finally make a crafting table.\n\nI hope you didn\u0027t die that much when making this :)",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:crafting_table"
+      },
+      "name:8": "Crafting Table, Finally!"
+    }
+  },
+  "questID:3": 157,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 64,
+          "id:8": "minecraft:log"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "harvestcraft:honeybreaditem"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:crafting_table"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "OreDict:8": "logWood",
+          "id:8": "minecraft:log"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

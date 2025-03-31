@@ -1,0 +1,60 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    1
+  ],
+  "preRequisites:11": [
+    159,
+    169
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making bricks requires you to compress clay in a Brick Wooden Form and then fire the resulting compressed clay in a furnace to make Bricks.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:brick"
+      },
+      "name:8": "Porcelain Molding"
+    }
+  },
+  "questID:3": 1211804775,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:clay_ball"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:brick"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 348,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

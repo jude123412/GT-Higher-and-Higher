@@ -1,0 +1,72 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    159,
+    168,
+    165,
+    124495380
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Spice of life is quite a fun mod, If you eat a food type over and over its food value will drop.\nTo keep food values at there best you need to eat different types of food.\nThe Lunch Bag will help you eat different types of food if you place them inside it.\nThere are hundreds of food types for you to choose from, At least that helps.\n",
+      "frame:8": "PRICKLE",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bread"
+      },
+      "name:8": "Baking Bread"
+    }
+  },
+  "questID:3": 166,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "spiceoflife:bookfoodjournal"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "spiceoflife:lunchbag"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:bread"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:bread"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:doughitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:mixingbowlitem"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

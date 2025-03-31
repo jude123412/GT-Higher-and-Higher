@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    1172651363,
+    408350905
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Mixing Manganese and Phosphorus in an LV Mixer will produce Manganese Phophide. \n\nThis material is the first of many Superconductors!\n\n§2If your having trouble finding Manganese and Phosphorus, \nCheck the output for these ores in JEI. They will produce what you need.\n\n§6Apatite or Tricalcium Phosphate for Phosphorus.\nOlivine, Wulfenite, Spessartine and Tantalite for Manganese.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 424,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Manganese Phosphide"
+    }
+  },
+  "questID:3": 399027287,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 424,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 424,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 61,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 8,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

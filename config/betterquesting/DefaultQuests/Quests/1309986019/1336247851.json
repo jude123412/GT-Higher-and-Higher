@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    1074940516
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Fianlly, Ender IO Conduits. These will be worth while to automate long processing chains.\n\nItem conduits instantly transfer an item to another inventory,\nthey can also be filtered and there channel changed .\n\nYou can\u0027t quite make Ender Fluid Conduits just yet but you can at least make Pressurized Fluid Conduits that arent affected by gravity.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "enderio:item_item_conduit"
+      },
+      "name:8": "Ender IO Conduits"
+    }
+  },
+  "questID:3": 1336247851,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "enderio:item_item_conduit"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "enderio:item_liquid_conduit"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

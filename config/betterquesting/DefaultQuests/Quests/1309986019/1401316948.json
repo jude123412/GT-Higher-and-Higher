@@ -1,0 +1,47 @@
+{
+  "preRequisites:11": [
+    1766401479
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The first Precious Metals, mainly Gold can only be obtained through this processing chain. At least until UEV.\n\nTo start this processing chain simply place some Aqua Regia into a chemical reactor with Precious Metal Dust.\nThis Will result in Precious Metal Solution.\n\nUnfortunately Precious Metal Solution is still quite acid so you can\u0027t use Fluid Cells to carry it. \n§6You can still use buckets though.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 8009,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "How to get Gold (and Silver)"
+    }
+  },
+  "questID:3": 1401316948,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 32,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1000,
+          "FluidName:8": "dirty_precious_metal_solution"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

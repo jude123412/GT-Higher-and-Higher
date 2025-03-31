@@ -1,0 +1,64 @@
+{
+  "preRequisites:11": [
+    1049586506,
+    331768023
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "All machines require crafting components for that voltage tier.\nThis tier is LV so all machines require LV Tier crafting components.\nFor this quest just make an LV Motor, Piston, Conveyer, Robot Arm and Pump. \n§6\nYou\u0027ll be using a lot of these so I suggest making a couple of them.",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 127,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Basic LV Components"
+    }
+  },
+  "questID:3": 64439755,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 32,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 127,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 172,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 157,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 187,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 142,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

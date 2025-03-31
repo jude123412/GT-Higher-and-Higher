@@ -1,0 +1,66 @@
+{
+  "preRequisites:11": [
+    159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Seeds are useful to grow Wheat. \nWheat is used in the production of dough which in turn is used for many pam\u0027s food items.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:wheat"
+      },
+      "name:8": "Plant Gathering"
+    }
+  },
+  "questID:3": 167,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:raspberryyogurtitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:wheat_seeds"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "gregtech:hoe",
+          "tag:10": {
+            "DisallowContainerItem:1": 0,
+            "GT.Behaviours:10": {},
+            "GT.Tool:10": {
+              "AttackDamage:5": 0.0,
+              "AttackSpeed:5": -1.0,
+              "Durability:3": 0,
+              "Material:8": "gregtech:flint",
+              "MaxDurability:3": 63
+            },
+            "HideFlags:3": 2
+          }
+        },
+        "1:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:wheat"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

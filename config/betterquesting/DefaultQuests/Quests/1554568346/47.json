@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The Primative Water pump generators Water. Combine with the fact you have Boilers that run off of water this might be a good idea, especially since water isn\u0027t infinite in this.\n\nYou can increase the water production based on what biome you build it in.\nOcean, River: 1000L/s \nSwamp: 800L/s\nJungle: 350L/s\nSnowy: 300L/s\nPlains, Forest: 250L/s\nTaiga: 175L/s\nBeach: 170L/s\nReplacing the Pump Output Hatch with either ULV or LV Output Hatch will also increase water output by either 2x or 4x.\n",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1648,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Primative Water Pump."
+    }
+  },
+  "questID:3": 47,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1648,
+          "id:8": "gregtech:fluid_pipe_large"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 1617,
+          "id:8": "gregtech:fluid_pipe_large"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:bubblywateritem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1648,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1649,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 10,
+          "Damage:2": 4,
+          "id:8": "gregtech:steam_casing"
+        },
+        "3:10": {
+          "Count:3": 10,
+          "id:8": "gregtech:meta_block_frame_103"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

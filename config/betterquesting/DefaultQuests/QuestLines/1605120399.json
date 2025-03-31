@@ -1,0 +1,16 @@
+{
+  "lineID:3": 1605120399,
+  "order:3": 15,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 14,
+        "id:8": "gregtech:machine_casing"
+      },
+      "name:8": "MAX (Maximum Voltage)"
+    }
+  },
+  "quests:9": {}
+}

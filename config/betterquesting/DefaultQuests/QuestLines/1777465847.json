@@ -1,0 +1,15 @@
+{
+  "lineID:3": 1777465847,
+  "order:3": 19,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:apiary"
+      },
+      "name:8": "Bee Breeding"
+    }
+  },
+  "quests:9": {}
+}

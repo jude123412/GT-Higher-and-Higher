@@ -1,0 +1,15 @@
+{
+  "lineID:3": 395959161,
+  "order:3": 18,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Chapter will guide you through forestry machines and farming.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "forestry:carpenter"
+      },
+      "name:8": "Forestry For Farming"
+    }
+  },
+  "quests:9": {}
+}

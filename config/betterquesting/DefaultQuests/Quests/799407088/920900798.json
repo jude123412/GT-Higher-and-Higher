@@ -1,0 +1,51 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are 6 types of Gardens :§6\n\nArid : §eFound in Desert type biomes§6\nFrost : §eFound in Taiga type biomes§6\nShaded : §eFound in Dark Oak Forest type biomes§6\nSoggy : §eFound in Swamp type biomes§6\nTropical : §eFound in Jungle type biomes§6\nWindy : §eFound in Mountain type biomes\n\n§f§aThese contain all crops the neccesary for making better food than bread.\n\n§fYou will need to search for these if you want to make any foods from Pam\u0027s Harvestcraft",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:windygarden"
+      },
+      "name:8": "Pam\u0027s Garden"
+    }
+  },
+  "questID:3": 920900798,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:aridgarden"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:frostgarden"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:shadedgarden"
+        },
+        "3:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:soggygarden"
+        },
+        "4:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:tropicalgarden"
+        },
+        "5:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:windygarden"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "preRequisites:11": [
+    167,
+    1211804775
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "There are 4 Basic Cooking Utensils you can make this early on.\n\nThey are :§6\nBakeware :§e Used for making bread without a furnace and many other recipes.§6\nMortar and Pestle : §eUsed to make ingredients like Flour, Cornmeal and. §6\nMixing Bowl : §eUsed to mix certain ingredients together to make more complex ingredients like Dough. §6\nJuicer : §eUsed to make juices and smoothies out of many fruits and vegetables, Also Mayonase Cooking oil and Mustard§f\n\nThese cooking utensils are very important for making better foods!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:mortarandpestleitem"
+      },
+      "name:8": "Basic Cooking Utensils"
+    }
+  },
+  "questID:3": 124495380,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:cuttingboarditem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:potitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:skilletitem"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:saucepanitem"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:mangosmoothieitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:bakewareitem"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:mortarandpestleitem"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:mixingbowlitem"
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "harvestcraft:juiceritem"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

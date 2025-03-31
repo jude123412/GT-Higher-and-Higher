@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    63,
+    55
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "The LV Machine Hull will be your gate in making Low Voltage Machines.\n§6\nAll LV Machines and generators will consume/produce 1 Amp of LV power, Thats 32 Eu/t per generator.\n\nMachine Recipes sometimes don\u0027t use 32 Eu/T but will still need 1 amp to charge.\n§f\nMaking a machine hull and i\u0027ll unlock the 3 Chapter LV (Low Voltage)\n\nIf your having trouble with the next quest Basic LV Components, Understanding GregTech Energy is in the Generating Power Chapter. ",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 986,
+        "id:8": "gregtech:machine"
+      },
+      "ismain:1": 1,
+      "name:8": "LV (Low Voltage)"
+    }
+  },
+  "questID:3": 1049586506,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 986,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:butteredpotatoitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 986,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

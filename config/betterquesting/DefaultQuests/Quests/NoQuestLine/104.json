@@ -4,34 +4,16 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "How do you create lava? \nwell to create lava you need an LV extractor but you don\u0027t have that yet so ill trade for it.\nIf you somehow loose the lava bucket ill trade another one in an hour.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "ForgeCaps:10": {
-          "astralsorcery:cap_item_amulet_holder:10": {}
-        },
-        "OreDict:8": "",
         "id:8": "minecraft:lava_bucket"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
       "name:8": "Melting Rocks",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -3600,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
-      "visibility:8": "NORMAL"
+      "repeattime:3": -3600
     }
   },
+  "questID:3": 104,
   "rewards:9": {
     "0:10": {
       "index:3": 0,
@@ -39,11 +21,6 @@
       "rewards:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
-          "ForgeCaps:10": {
-            "astralsorcery:cap_item_amulet_holder:10": {}
-          },
-          "OreDict:8": "",
           "id:8": "minecraft:lava_bucket"
         }
       }
@@ -51,24 +28,14 @@
   },
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 64,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:cobblestone"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:bucket"
         }
       },

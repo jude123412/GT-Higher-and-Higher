@@ -1,0 +1,16 @@
+{
+  "lineID:3": 1901919311,
+  "order:3": 10,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 9,
+        "id:8": "gregtech:machine_casing"
+      },
+      "name:8": "UHV (Ultra High Voltage)"
+    }
+  },
+  "quests:9": {}
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    157
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making a Furnace is essential in making lots of metals like Copper, Tin and Iron while also cooking any meat you have found.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:furnace"
+      },
+      "name:8": "Melting Metals \"Technically\""
+    }
+  },
+  "questID:3": 169,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:cooked_beef"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:furnace"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

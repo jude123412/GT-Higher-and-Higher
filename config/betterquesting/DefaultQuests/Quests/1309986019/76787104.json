@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1562845289
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Are you tired of using buckets to move fluids around, Well you have come to the right place.\n\nWith the Bending machine you just made you can make Fluid Cells in it. \n\nEach one stores 1000mb of any fluid you choose, They even stack to 64!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 78,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Basic Fluid Storage"
+    }
+  },
+  "questID:3": 76787104,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 78,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preRequisites:11": [
+    958107144,
+    331768023,
+    1570956174
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Making an LV Circuit Assembler will make crafting Circuits and other various electronic components more easier\n\nCrafting this is a big step in overall progression, Making circuits easier is a must have!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 635,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Avengers Circuit Assemble I"
+    }
+  },
+  "questID:3": 469189542,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 635,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

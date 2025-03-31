@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Wool is required to make a bed.\n§6\nHint :§e Killing a sheep will only yeild 1 wool where shearing a sheep yeilds up to 3!",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:wool"
+      },
+      "name:8": "Searching for sheep"
+    }
+  },
+  "questID:3": 161,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:rawtofuttonitem"
+        },
+        "1:10": {
+          "Count:3": 4,
+          "id:8": "gregtech:meta_item_1"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:shears"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 3,
+          "OreDict:8": "wool",
+          "id:8": "minecraft:wool"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

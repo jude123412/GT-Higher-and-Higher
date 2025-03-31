@@ -1,0 +1,16 @@
+{
+  "lineID:3": 17845567,
+  "order:3": 12,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "No Description",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 11,
+        "id:8": "gregtech:machine_casing"
+      },
+      "name:8": "UIV (Ultra Imense Voltage)"
+    }
+  },
+  "quests:9": {}
+}

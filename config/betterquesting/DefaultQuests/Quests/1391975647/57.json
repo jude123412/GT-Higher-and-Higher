@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    178,
+    177
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Glass Tubes are made in the Alloy Smelter with a Ball Mold and Glass dust.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 517,
+        "id:8": "gregtech:meta_item_1"
+      },
+      "name:8": "Glass Tubes"
+    }
+  },
+  "questID:3": 57,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:sand"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 517,
+          "id:8": "gregtech:meta_item_1"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

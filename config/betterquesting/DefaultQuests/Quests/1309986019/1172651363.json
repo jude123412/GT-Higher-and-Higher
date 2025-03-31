@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    486825451,
+    993699777
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To Smelt your first Aluminium you\u0027ll need an EBF. Check the Multiblock Maddness Chapter for more info on the EBF.\n\nYou only need to make the EBF Controller to complete this quest :)",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1001,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Electric Blast Furnace (EBF)"
+    }
+  },
+  "questID:3": 1172651363,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1001,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

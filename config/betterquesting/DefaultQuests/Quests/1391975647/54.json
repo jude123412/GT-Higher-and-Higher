@@ -1,0 +1,51 @@
+{
+  "preRequisiteTypes:7": [
+    0,
+    0,
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    24,
+    172,
+    178,
+    55
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now you have Steel from you PBF, Raw Rubber Dust from Sticky Resin and have Sulfer from the Nether, Combining them all in an alloy smelter will result in Rubber. Your gateway to Low Voltage Has begun.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Primative Polymer Processing"
+    }
+  },
+  "questID:3": 54,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "id:8": "gregtech:ore_sulfur_0"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1068,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

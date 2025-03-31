@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    159
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Ores spawn on all planets and moons with there corresponding stone type.\n§6\nOverworld Stone Types :§l\nStone, \nAndesite, \nGranite,\nDiorite,\nSandstone,\nRed Sandstone,\nBlack Granite, \nRed Granite,\nMarble,\nBasalt\n§f\nChecking Jei will help you searching for ores. \nOre veins also spawn tiny piles on the surface to make it easier to find them.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "gregtech:ore_iron_0"
+      },
+      "name:8": "Fantastical Ores and where to find them"
+    }
+  },
+  "questID:3": 303,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "gregtech:ore_iron_0"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "gregtech:ore_copper_0"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 32767,
+          "id:8": "gregtech:ore_tin_0"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

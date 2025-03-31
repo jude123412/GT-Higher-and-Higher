@@ -1,0 +1,93 @@
+{
+  "preRequisites:11": [
+    575095592
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Storing energy is useful for runing machines for longer, Especially when you have more than 1 machine on a 4 amp cable.\nThere are 3 types of battery buffer you can make 4, 8 and 16 amps. (Either one will work for this quest)\n\nYou\u0027ll also need some batteries for this, the easier one to craft is the Sodium Battery.\n§6\nHint : Electrolyse Salt for Sodium and Chlorine!",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 732,
+        "id:8": "gregtech:meta_item_1",
+        "tag:10": {
+          "Charge:4": 80000
+        }
+      },
+      "name:8": "Storing Energy"
+    }
+  },
+  "questID:3": 583416945,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 101,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 16,
+          "Damage:2": 56,
+          "id:8": "gregtech:meta_dust"
+        },
+        "2:10": {
+          "Count:3": 16,
+          "Damage:2": 19,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "entryLogic:8": "OR",
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1316,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 1330,
+          "id:8": "gregtech:machine"
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1344,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 732,
+          "OreDict:8": "batteryLv",
+          "id:8": "gregtech:meta_item_1",
+          "tag:10": {
+            "Charge:4": 80000
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "lineID:3": 589738621,
+  "order:3": 21,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "logisticspipes:pipe_transport_basic"
+      },
+      "name:8": "Transporing With Logistics"
+    }
+  },
+  "quests:9": {}
+}

@@ -1,0 +1,43 @@
+{
+  "preRequisites:11": [
+    1172651363
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To make the most desired conduit from Ender IO you\u0027ll need to make a couple alloys in the EBF.\nThere are many Alloys from Ender IO you can make in the EBF.\nThe first one you will probably want is Pulsating Iron since this will unlock Item Conduits.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 5,
+        "id:8": "enderio:item_alloy_ingot"
+      },
+      "name:8": "Ender IO Materials"
+    }
+  },
+  "questID:3": 1074940516,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 5,
+          "id:8": "enderio:item_alloy_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

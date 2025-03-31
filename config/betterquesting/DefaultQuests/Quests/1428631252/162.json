@@ -1,0 +1,41 @@
+{
+  "preRequisites:11": [
+    161
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Using the wool you have collected you can now make a bed.\nSleeping Is very important scince nights are darker and mobs are harder.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "minecraft:bed"
+      },
+      "name:8": "Sleepy Time"
+    }
+  },
+  "questID:3": 162,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "harvestcraft:peachesandcreamoatmealitem"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "OreDict:8": "bed",
+          "id:8": "minecraft:bed"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

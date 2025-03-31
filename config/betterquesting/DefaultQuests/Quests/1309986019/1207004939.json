@@ -1,0 +1,72 @@
+{
+  "preRequisites:11": [
+    645481622,
+    368259434,
+    1172651363
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Gallium Arsenide is produced by macerating Raw Gallium Arsenide. The Raw Gallium Arsenide is made in an EBF with Gallium and Arsenic Dust.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 20,
+        "id:8": "gregtech:meta_item_2"
+      },
+      "name:8": "Gallium Arsenide"
+    }
+  },
+  "questID:3": 1207004939,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    },
+    "1:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 39,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 6,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "index:3": 1,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 351,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20,
+          "id:8": "gregtech:meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

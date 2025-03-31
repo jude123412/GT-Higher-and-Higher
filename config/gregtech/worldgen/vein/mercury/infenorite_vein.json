@@ -9,7 +9,8 @@
     "material": "thorium"
   },
   "dimension_filter": [
-    "dimension_id:-13"
+    "dimension_id:-13",
+    "dimension_id:-30"
   ],
   "generator": {
     "type": "layered",

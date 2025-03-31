@@ -1,0 +1,23 @@
+{
+  "lineID:3": 799407088,
+  "order:3": 20,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "This Chapter is all about Food.\nHere you will find how to Cook, Craft and Farm all of the Foods you will need.",
+      "icon:10": {
+        "Count:3": 1,
+        "id:8": "harvestcraft:bltitem"
+      },
+      "name:8": "Food, Food and Food"
+    }
+  },
+  "quests:9": {
+    "0:10": {
+      "id:3": 920900798,
+      "sizeX:3": 24,
+      "sizeY:3": 24,
+      "x:3": -12,
+      "y:3": -12
+    }
+  }
+}

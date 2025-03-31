@@ -1,0 +1,42 @@
+{
+  "preRequisites:11": [
+    1766401479
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now you have a Chemical Reactor",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1068,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Better Rubber Production"
+    }
+  },
+  "questID:3": 1118646973,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredFluids:9": {
+        "0:10": {
+          "Amount:3": 1296,
+          "FluidName:8": "rubber"
+        }
+      },
+      "taskID:8": "bq_standard:fluid"
+    }
+  }
+}

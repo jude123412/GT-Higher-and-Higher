@@ -25,6 +25,10 @@
       "dimName": "Mars"
     },
     {
+      "dimID": -30,
+      "dimName": "Asteroid"
+    },
+    {
       "dimID": -31,
       "dimName": "Venus"
     },

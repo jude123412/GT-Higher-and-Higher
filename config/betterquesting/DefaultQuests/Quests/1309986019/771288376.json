@@ -1,0 +1,65 @@
+{
+  "preRequisiteTypes:7": [
+    1,
+    0
+  ],
+  "preRequisites:11": [
+    346365387,
+    1172651363
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Aluminium Is the base material used in all MV Machines and Components, Unfortunately obtaining aluminium is quite ineffcient until you take a trip to the Twilight Forest.\n\nThere are a couple methods of producing Aluminium Dust. One uses Sapphire Slurry, the other is Electrolysing Sapphire or Green Sapphire Dust. The Slurry Method is more effcient but I won\u0027t stop you from using the Electrolizer.",
+      "frame:8": "PRICKLE",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 2,
+        "id:8": "gregtech:meta_ingot"
+      },
+      "name:8": "Obtaining your first Aluminium"
+    }
+  },
+  "questID:3": 771288376,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "gregtech:meta_dust"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 102,
+          "id:8": "gregtech:meta_item_2"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

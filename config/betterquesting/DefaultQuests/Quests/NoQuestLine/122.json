@@ -4,64 +4,33 @@
   ],
   "properties:10": {
     "betterquesting:10": {
-      "autoclaim:1": 0,
       "desc:8": "A monster farm is probably a good idea since you\u0027ll need string for a few recipes including the Animal trap and crafting Bait.",
-      "frame:8": "ROUNDED_SQUARE",
-      "globalshare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
-        "OreDict:8": "",
         "id:8": "minecraft:rotten_flesh"
       },
-      "ignoresview:1": 0,
-      "ismain:1": 0,
-      "issilent:1": 0,
-      "lockedprogress:1": 0,
-      "name:8": "Mob Farming",
-      "questlogic:8": "AND",
-      "repeat_relative:1": 1,
-      "repeattime:3": -1,
-      "simultaneous:1": 0,
-      "snd_complete:8": "minecraft:entity.player.levelup",
-      "snd_update:8": "minecraft:entity.player.levelup",
-      "tasklogic:8": "AND",
-      "visibility:8": "NORMAL"
+      "name:8": "Mob Farming"
     }
   },
-  "rewards:9": {},
+  "questID:3": 122,
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "entryLogic:8": "AND",
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 0,
       "index:3": 0,
-      "partialMatch:1": 1,
       "requiredItems:9": {
         "0:10": {
           "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:rotten_flesh"
         },
         "1:10": {
           "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:bone"
         },
         "2:10": {
           "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:string"
         },
         "3:10": {
           "Count:3": 4,
-          "Damage:2": 0,
-          "OreDict:8": "",
           "id:8": "minecraft:gunpowder"
         }
       },

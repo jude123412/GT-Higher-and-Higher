@@ -1,0 +1,54 @@
+{
+  "preRequisites:11": [
+    346365387
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To obtain Arsenic You\u0027ll need to centrifuge Realgar Dust. The other method comes from electrolysing Cobaltite dust however you\u0027ll need an MV Electrolyzer to archive that.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 6,
+        "id:8": "gregtech:meta_dust"
+      },
+      "name:8": "Arsenic Production"
+    }
+  },
+  "questID:3": 368259434,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 1,
+          "id:8": "gregtech:meta_item_1"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 6,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 365,
+          "id:8": "gregtech:meta_dust"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

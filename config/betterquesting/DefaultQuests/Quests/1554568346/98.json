@@ -1,0 +1,35 @@
+{
+  "preRequisites:11": [
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To power 1 Large Bronze Boiler you will need 24 coke ovens.\n\nIf You build 1 Coke Oven Array with 24 Ovens Vertical or Horizontal and wall shared you will need 489 Coke Oven Bricks.\n\nIf you build 4 Coke Oven arrays, 6 Ovens Vertical or Horizontal and wall shared you will need 516 Coke Oven Bricks\n\nIf you Build 24 Coke Ovens With no wall sharing you will need 696 Coke Oven Bricks.\n\nHint: you can save a sizeable amount of coke oven bricks if you wall share these vertically or horizontally.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1018,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "24 Coke Ovens"
+    }
+  },
+  "questID:3": 98,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 24,
+          "Damage:2": 1017,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 72,
+          "Damage:2": 1018,
+          "id:8": "gregtech:machine"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

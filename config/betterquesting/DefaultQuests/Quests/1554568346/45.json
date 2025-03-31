@@ -1,0 +1,60 @@
+{
+  "preRequisites:11": [
+    23,
+    39
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "Now you have a Alloy Smelter its time to make some Charcoal. To do so you will need to build a multiblock, The coke oven.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 1017,
+        "id:8": "gregtech:machine"
+      },
+      "name:8": "Finaly a better fuel"
+    }
+  },
+  "questID:3": 45,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 1,
+          "id:8": "minecraft:coal"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1017,
+          "id:8": "gregtech:machine"
+        },
+        "1:10": {
+          "Count:3": 25,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 29,
+          "Damage:2": 8,
+          "id:8": "gregtech:metal_casing"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

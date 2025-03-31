@@ -9,7 +9,8 @@
     "material": "chalcocite"
   },
   "dimension_filter": [
-    "is_nether"
+    "dimension_id:-1",
+    "dimension_id:-30"
   ],
   "generator": {
     "type": "layered",

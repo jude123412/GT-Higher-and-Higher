@@ -1,0 +1,44 @@
+{
+  "preRequisites:11": [
+    171,
+    15
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "To transport steam this early on you\u0027ll have to use bronze fluid pipes. make sure you connect the fluid pipes to the target container with a gregtech wrench.",
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 260,
+        "id:8": "gregtech:fluid_pipe_huge"
+      },
+      "name:8": "Transporting Steam"
+    }
+  },
+  "questID:3": 35,
+  "rewards:9": {
+    "0:10": {
+      "index:3": 0,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "Damage:2": 260,
+          "id:8": "gregtech:meta_ingot"
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 260,
+          "id:8": "gregtech:fluid_pipe_normal"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
