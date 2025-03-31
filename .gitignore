@@ -47,3 +47,5 @@ config/jei/worldSettings.cfg
 config/astralsorcery.cfg
 config/Guide-API/Guide-API.cfg
 
+options.txt
+config/dynamiclights_onfire.cfg
